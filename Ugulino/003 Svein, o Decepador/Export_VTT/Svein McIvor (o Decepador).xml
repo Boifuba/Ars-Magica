@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<root release="Foundry" version="GCS-5">
+  <character>
+    <name type="string">Svein McIvor (o Decepador)</name>
+    <portrait>Svein+McIvor+%28o+Decepador%29.png</portrait>
+    <abilities>
+      <skilllist>
+        <id-55afc212-2697-4ad8-8458-f96f81029fd4>
+          <name type="string">Riding (Equine)</name>
+          <type type="string">DX/A</type>
+          <level type="number">11</level>
+          <relativelevel type="string">DX-1</relativelevel>
+          <points type="number">1</points>
+          <notes type="string"></notes>
+	    <pageref>B217</pageref>
+          <uuid>55afc212-2697-4ad8-8458-f96f81029fd4</uuid>
+          <parentuuid></parentuuid>
+        </id-55afc212-2697-4ad8-8458-f96f81029fd4>
+        <id-4a65d520-5d69-45e6-b3b4-afaa0be0bb99>
+          <name type="string">Per&#237;cias de Combate</name>
+          <type type="string"></type>
+          <level type="number"></level>
+          <relativelevel type="string"></relativelevel>
+          <points type="number">28</points>
+          <notes type="string"></notes>
+	    <pageref></pageref>
+          <uuid>4a65d520-5d69-45e6-b3b4-afaa0be0bb99</uuid>
+          <parentuuid></parentuuid>
+        </id-4a65d520-5d69-45e6-b3b4-afaa0be0bb99>
+        <id-e45e4f44-6e5d-459a-9ed0-d8b6af55a525>
+          <name type="string">Intimidation</name>
+          <type type="string">Will/A</type>
+          <level type="number">10</level>
+          <relativelevel type="string">Will-1</relativelevel>
+          <points type="number">1</points>
+          <notes type="string"></notes>
+	    <pageref>B202</pageref>
+          <uuid>e45e4f44-6e5d-459a-9ed0-d8b6af55a525</uuid>
+          <parentuuid>4a65d520-5d69-45e6-b3b4-afaa0be0bb99</parentuuid>
+        </id-e45e4f44-6e5d-459a-9ed0-d8b6af55a525>
+        <id-00cde691-41ad-45e2-849a-7668d2811210>
+          <name type="string">Acrobatics</name>
+          <type type="string">DX/H</type>
+          <level type="number">13</level>
+          <relativelevel type="string">DX+1</relativelevel>
+          <points type="number">8</points>
+          <notes type="string"></notes>
+	    <pageref>B174</pageref>
+          <uuid>00cde691-41ad-45e2-849a-7668d2811210</uuid>
+          <parentuuid>4a65d520-5d69-45e6-b3b4-afaa0be0bb99</parentuuid>
+        </id-00cde691-41ad-45e2-849a-7668d2811210>
+        <id-ede2ffb2-6570-4ca9-aa54-53df18aeb50e>
+          <name type="string">Axe/Mace</name>
+          <type type="string">DX/A</type>
+          <level type="number">14</level>
+          <relativelevel type="string">DX+2</relativelevel>
+          <points type="number">8</points>
+          <notes type="string"></notes>
+	    <pageref>B208</pageref>
+          <uuid>ede2ffb2-6570-4ca9-aa54-53df18aeb50e</uuid>
+          <parentuuid>4a65d520-5d69-45e6-b3b4-afaa0be0bb99</parentuuid>
+        </id-ede2ffb2-6570-4ca9-aa54-53df18aeb50e>
+        <id-7cf5670a-d71f-42df-8d8b-001aa90cc336>
+          <name type="string">Broadsword</name>
+          <type type="string">DX/A</type>
+          <level type="number">14</level>
+          <relativelevel type="string">DX+2</relativelevel>
+          <points type="number">8</points>
+          <notes type="string"></notes>
+	    <pageref>B208</pageref>
+          <uuid>7cf5670a-d71f-42df-8d8b-001aa90cc336</uuid>
+          <parentuuid>4a65d520-5d69-45e6-b3b4-afaa0be0bb99</parentuuid>
+        </id-7cf5670a-d71f-42df-8d8b-001aa90cc336>
+        <id-db781ba9-7a0b-4cf1-bcd4-25a8e6814687>
+          <name type="string">Brawling</name>
+          <type type="string">DX/E</type>
+          <level type="number">12</level>
+          <relativelevel type="string">DX+0</relativelevel>
+          <points type="number">1</points>
+          <notes type="string"></notes>
+	    <pageref>B182</pageref>
+          <uuid>db781ba9-7a0b-4cf1-bcd4-25a8e6814687</uuid>
+          <parentuuid>4a65d520-5d69-45e6-b3b4-afaa0be0bb99</parentuuid>
+        </id-db781ba9-7a0b-4cf1-bcd4-25a8e6814687>
+        <id-05fb9cc4-8613-4acb-863c-546f7c598c03>
+          <name type="string">Shield (Shield)</name>
+          <type type="string">DX/E</type>
+          <level type="number">12</level>
+          <relativelevel type="string">DX+0</relativelevel>
+          <points type="number">1</points>
+          <notes type="string"></notes>
+	    <pageref>B220</pageref>
+          <uuid>05fb9cc4-8613-4acb-863c-546f7c598c03</uuid>
+          <parentuuid>4a65d520-5d69-45e6-b3b4-afaa0be0bb99</parentuuid>
+        </id-05fb9cc4-8613-4acb-863c-546f7c598c03>
+        <id-8fdc036d-6f95-44d6-894f-8d05ae36ce96>
+          <name type="string">Cloak</name>
+          <type type="string">DX/A</type>
+          <level type="number">11</level>
+          <relativelevel type="string">DX-1</relativelevel>
+          <points type="number">1</points>
+          <notes type="string"></notes>
+	    <pageref>B184</pageref>
+          <uuid>8fdc036d-6f95-44d6-894f-8d05ae36ce96</uuid>
+          <parentuuid>4a65d520-5d69-45e6-b3b4-afaa0be0bb99</parentuuid>
+        </id-8fdc036d-6f95-44d6-894f-8d05ae36ce96>
+      </skilllist>
+
+      <spelllist>
+      </spelllist>
+
+     </abilities>
+
+    <attributes>
+      <strength type="number">12</strength>
+      <strength_points type="number">20</strength_points>
+      <dexterity type="number">12</dexterity>
+      <dexterity_points type="number">40</dexterity_points>
+      <intelligence type="number">8</intelligence>
+      <intelligence_points type="number">-40</intelligence_points>
+      <health type="number">10</health>
+      <health_points type="number">0</health_points>
+      <hitpoints type="number">12</hitpoints>
+      <hitpoints_points type="number">0</hitpoints_points>
+      <hps type="number">12</hps> 
+      <will type="number">11</will>
+      <will_points type="number">15</will_points>
+      <perception type="number">8</perception>
+      <perception_points type="number">0</perception_points>
+      <fatiguepoints type="number">10</fatiguepoints>
+      <fatiguepoints_points type="number">0</fatiguepoints_points>
+      <fps type="number">10</fps>
+      <basiclift type="string">29 lb</basiclift>
+      <thrust type="string">1d-1</thrust>
+      <swing type="string">1d+2</swing>
+      <basicspeed type="string">6</basicspeed>
+      <basicspeed_points type="number">10</basicspeed_points>
+      <basicmove type="string">6</basicmove>
+      <basicmove_points type="number">0</basicmove_points>
+      <move type="string">6</move>
+	<frightcheck type="number">12</frightcheck>
+ 	<carryonback type="number">435 lb</carryonback>
+	<onehandedlift type="number">58 lb</onehandedlift>
+	<runningshove type="number">696 lb</runningshove>
+	<shiftslightly type="number">1,450 lb</shiftslightly>
+	<shove type="number">348 lb</shove>
+	<twohandedlift type="number">232 lb</twohandedlift>
+	<hearing type="number">8</hearing>
+	<tastesmell type="number">8</tastesmell>
+	<touch type="number">8</touch>
+	<vision type="number">8</vision>
+
+   </attributes>
+
+    <combat>
+      
+      <enc0_dodge type="number">11</enc0_dodge>
+      <enc1_dodge type="number">10</enc1_dodge>
+      <enc2_dodge type="number">9</enc2_dodge>
+      <enc3_dodge type="number">8</enc3_dodge>
+      <enc4_dodge type="number">7</enc4_dodge>
+      <dodge type="number">11</dodge>
+      <parry type="number">11</parry>
+      <block type="number">10</block>
+      <dr type="string">1</dr>
+
+      <meleecombatlist>
+        <id-1>
+          <name type="string">Heavy Cloak</name>
+          <st type="string">-</st>
+          <weight type="string">5 lb</weight>
+          <tl type="string">1</tl>
+          <cost type="string">50</cost>
+          <meleemodelist>
+            <id-1>
+              <name type="string"></name>
+              <level type="number">10</level>
+              <damage type="string">-</damage>
+              <reach type="string">-</reach>
+              <parry type="string">No</parry>
+              <block type="string">10</block>
+          	  <notes type="string"></notes>
+            </id-1>          </meleemodelist>
+        </id-1>
+        <id-2>
+          <name type="string">Thrusting Bastard Sword</name>
+          <st type="string">11</st>
+          <weight type="string">5 lb</weight>
+          <tl type="string">3</tl>
+          <cost type="string">750</cost>
+          <meleemodelist>
+            <id-1>
+              <name type="string">Swung</name>
+              <level type="number">14</level>
+              <damage type="string">1d+3 cut</damage>
+              <reach type="string">1,2</reach>
+              <parry type="string">12U</parry>
+              <block type="string">No</block>
+          	  <notes type="string"></notes>
+            </id-1>
+            <id-2>
+              <name type="string">Thrust</name>
+              <level type="number">14</level>
+              <damage type="string">1d+1 imp</damage>
+              <reach type="string">2</reach>
+              <parry type="string">12U</parry>
+              <block type="string">No</block>
+          	  <notes type="string"></notes>
+            </id-2>          </meleemodelist>
+        </id-2>
+        <id-3>
+          <name type="string">Natural Attacks</name>
+          <st type="string"></st>
+          <weight type="string"></weight>
+          <tl type="string"></tl>
+          <cost type="string"></cost>
+          <meleemodelist>
+            <id-1>
+              <name type="string">Bite</name>
+              <level type="number">12</level>
+              <damage type="string">1d-2 cr</damage>
+              <reach type="string">C</reach>
+              <parry type="string">No</parry>
+              <block type="string">No</block>
+          	  <notes type="string"></notes>
+            </id-1>
+            <id-2>
+              <name type="string">Kick with Boots</name>
+              <level type="number">10</level>
+              <damage type="string">1d cr</damage>
+              <reach type="string">C,1</reach>
+              <parry type="string">No</parry>
+              <block type="string"></block>
+          	  <notes type="string"></notes>
+            </id-2>
+            <id-3>
+              <name type="string">Punch</name>
+              <level type="number">12</level>
+              <damage type="string">1d-2 cr</damage>
+              <reach type="string">C</reach>
+              <parry type="string">11</parry>
+              <block type="string"></block>
+          	  <notes type="string"></notes>
+            </id-3>          </meleemodelist>
+        </id-3>
+        <id-4>
+          <name type="string">Axe</name>
+          <st type="string">11</st>
+          <weight type="string">4 lb</weight>
+          <tl type="string">0</tl>
+          <cost type="string">50</cost>
+          <meleemodelist>
+            <id-1>
+              <name type="string">Swung</name>
+              <level type="number">14</level>
+              <damage type="string">1d+4 cut</damage>
+              <reach type="string">1</reach>
+              <parry type="string">12U</parry>
+              <block type="string">No</block>
+          	  <notes type="string"></notes>
+            </id-1>          </meleemodelist>
+        </id-4>
+	</meleecombatlist>
+
+      <rangedcombatlist>
+        <id-1>
+          <name type="string">Heavy Cloak</name>
+          <st type="string">8</st>
+          <bulk type="number">-6</bulk>
+          <lc type="string">4</lc>
+          <ammo type="number">0</ammo>
+          <rangedmodelist>
+            <id-1>
+              <name type="string">Thrown</name>
+              <level type="number">11</level>
+              <damage type="string">Special</damage>
+              <acc type="number">+1</acc>
+              <range type="string">2</range>
+              <rof type="string">1</rof>
+              <shots type="string">T(1)</shots>
+              <rcl type="number"></rcl>
+          	  <notes type="string"></notes>
+            </id-1>          </rangedmodelist>
+        </id-1>
+	</rangedcombatlist>
+
+      <protectionlist>
+	  <bodyplan type="string">Humanoid</bodyplan>
+        
+        <id-1>
+          <location type="string">Eyes</location>   
+          <dr type="string">0</dr>
+          <db type="string">-9</db>
+          <name type="string"></name>
+  	    <text type="formattedtext"></text>
+        </id-1>
+        <id-2>
+          <location type="string">Skull</location>   
+          <dr type="string">2</dr>
+          <db type="string">-7</db>
+          <name type="string"></name>
+  	    <text type="formattedtext"></text>
+        </id-2>
+        <id-3>
+          <location type="string">Face</location>   
+          <dr type="string">0</dr>
+          <db type="string">-5</db>
+          <name type="string"></name>
+  	    <text type="formattedtext"></text>
+        </id-3>
+        <id-4>
+          <location type="string">Right Leg</location>   
+          <dr type="string">1</dr>
+          <db type="string">-2</db>
+          <name type="string">Leather Pants</name>
+  	    <text type="formattedtext">&lt;p&gt;Leather Pants&lt;/p&gt;</text>
+        </id-4>
+        <id-5>
+          <location type="string">Right Arm</location>   
+          <dr type="string">1</dr>
+          <db type="string">-2</db>
+          <name type="string">Cloth Sleeves</name>
+  	    <text type="formattedtext">&lt;p&gt;Cloth Sleeves&lt;/p&gt;</text>
+        </id-5>
+        <id-6>
+          <location type="string">Torso</location>   
+          <dr type="string">1</dr>
+          <db type="string">0</db>
+          <name type="string">Fur Tunic</name>
+  	    <text type="formattedtext">&lt;p&gt;Fur Tunic&lt;/p&gt;</text>
+        </id-6>
+        <id-7>
+          <location type="string">Groin</location>   
+          <dr type="string">2</dr>
+          <db type="string">-3</db>
+          <name type="string">Fur Loincloth, Leather Pants</name>
+  	    <text type="formattedtext">&lt;p&gt;Fur Loincloth&lt;/p&gt;<br>&lt;p&gt;Leather Pants&lt;/p&gt;</text>
+        </id-7>
+        <id-8>
+          <location type="string">Left Arm</location>   
+          <dr type="string">1</dr>
+          <db type="string">-2</db>
+          <name type="string">Cloth Sleeves</name>
+  	    <text type="formattedtext">&lt;p&gt;Cloth Sleeves&lt;/p&gt;</text>
+        </id-8>
+        <id-9>
+          <location type="string">Left Leg</location>   
+          <dr type="string">1</dr>
+          <db type="string">-2</db>
+          <name type="string">Leather Pants</name>
+  	    <text type="formattedtext">&lt;p&gt;Leather Pants&lt;/p&gt;</text>
+        </id-9>
+        <id-10>
+          <location type="string">Hand</location>   
+          <dr type="string">2</dr>
+          <db type="string">-4</db>
+          <name type="string">Leather Gloves</name>
+  	    <text type="formattedtext">&lt;p&gt;Leather Gloves&lt;/p&gt;</text>
+        </id-10>
+        <id-11>
+          <location type="string">Foot</location>   
+          <dr type="string">2</dr>
+          <db type="string">-4</db>
+          <name type="string">Boots</name>
+  	    <text type="formattedtext">&lt;p&gt;Boots&lt;/p&gt;</text>
+        </id-11>
+        <id-12>
+          <location type="string">Neck</location>   
+          <dr type="string">0</dr>
+          <db type="string">-5</db>
+          <name type="string"></name>
+  	    <text type="formattedtext"></text>
+        </id-12>
+        <id-13>
+          <location type="string">Vitals</location>   
+          <dr type="string">1</dr>
+          <db type="string">-3</db>
+          <name type="string">Fur Tunic</name>
+  	    <text type="formattedtext">&lt;p&gt;Fur Tunic&lt;/p&gt;</text>
+        </id-13>
+      </protectionlist>
+    </combat>
+
+    
+    <enc0dodge type="number">11</enc0dodge>
+    <enc1dodge type="number">10</enc1dodge>
+    <enc2dodge type="number">9</enc2dodge>
+    <enc3dodge type="number">8</enc3dodge>
+    <enc4dodge type="number">7</enc4dodge>
+
+    <encumbrance>
+      <enc_0 type="number">1</enc_0>
+      <enc_1 type="number"></enc_1>
+      <enc_2 type="number"></enc_2>
+      <enc_3 type="number"></enc_3>
+      <enc_4 type="number"></enc_4>
+      
+      <enc0_weight type="string">29 lb</enc0_weight>
+      <enc1_weight type="string">58 lb</enc1_weight>
+      <enc2_weight type="string">87 lb</enc2_weight>
+      <enc3_weight type="string">174 lb</enc3_weight>
+      <enc4_weight type="string">290 lb</enc4_weight>
+      
+      <enc0_move type="string">6</enc0_move>
+      <enc1_move type="string">4</enc1_move>
+      <enc2_move type="string">3</enc2_move>
+      <enc3_move type="string">2</enc3_move>
+      <enc4_move type="string">1</enc4_move>
+      
+      <enc0_dodge type="number">11</enc0_dodge>
+      <enc1_dodge type="number">10</enc1_dodge>
+      <enc2_dodge type="number">9</enc2_dodge>
+      <enc3_dodge type="number">8</enc3_dodge>
+      <enc4_dodge type="number">7</enc4_dodge>
+    </encumbrance>
+
+    <traits>
+      <height type="string">5' 8&quot;</height>
+      <weight type="string">151 lb</weight>
+      <age type="string">22</age>
+	<title type="string">Guerreiro Viking (Mercen&#225;rio)</title>
+      <appearance type="string">Male, Eyes: Brown, Hair: Brown, Straight, Short, Skin: Pale</appearance>
+      <sizemodifier type="string">+0</sizemodifier>
+	<player type="string">Rafael</player>
+	<createdon type="string">Jul 10, 2021 at 12:33 PM</createdon>
+	<modifiedon type="string">Jul 17, 2021 at 1:08 AM</modifiedon>
+	<religion type="string">Cat&#243;lico convertido</religion>
+	<birthday type="string">Mar 13</birthday>
+	<hand type="string">Right</hand>
+
+	<generaldr>1</generaldr>
+	<currentdodge>11</currentdodge>
+	<currentmove>6</currentmove>
+	<bestblock>10</bestblock>
+	<bestparry>10</bestparry>
+
+      <adslist>
+        <id-cd35fa56-ee8f-4649-b169-ad5a4219dbbd>
+          <name type="string">Natural Attacks</name>
+          <points type="number">0</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string"> </notes>
+	    <pageref>B271</pageref>
+	    <type>ITEM</type>
+          <uuid>cd35fa56-ee8f-4649-b169-ad5a4219dbbd</uuid>
+          <parentuuid></parentuuid>
+        </id-cd35fa56-ee8f-4649-b169-ad5a4219dbbd>
+        <id-25ce9de8-36ca-4de8-9dcc-c2a89cb0418b>
+          <name type="string">Vantagens</name>
+          <points type="number">40</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string"> </notes>
+	    <pageref></pageref>
+	    <type>GROUP</type>
+          <uuid>25ce9de8-36ca-4de8-9dcc-c2a89cb0418b</uuid>
+          <parentuuid></parentuuid>
+        </id-25ce9de8-36ca-4de8-9dcc-c2a89cb0418b>
+        <id-00eb0003-e159-4a38-9366-2b51900f9b12>
+          <name type="string">Ambidexterity</name>
+          <points type="number">5</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string"> </notes>
+	    <pageref>B39</pageref>
+	    <type>ITEM</type>
+          <uuid>00eb0003-e159-4a38-9366-2b51900f9b12</uuid>
+          <parentuuid>25ce9de8-36ca-4de8-9dcc-c2a89cb0418b</parentuuid>
+        </id-00eb0003-e159-4a38-9366-2b51900f9b12>
+        <id-bf13f940-99cc-46b1-863b-2ce0f98b785e>
+          <name type="string">Extra Attack 1</name>
+          <points type="number">25</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string"> </notes>
+	    <pageref>B53</pageref>
+	    <type>ITEM</type>
+          <uuid>bf13f940-99cc-46b1-863b-2ce0f98b785e</uuid>
+          <parentuuid>25ce9de8-36ca-4de8-9dcc-c2a89cb0418b</parentuuid>
+        </id-bf13f940-99cc-46b1-863b-2ce0f98b785e>
+        <id-f5da238b-df02-4df8-be13-631cf4237a63>
+          <name type="string">Patron</name>
+          <points type="number">10</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">  [Antonius de Jerbiton]</notes>
+	    <pageref>B72</pageref>
+	    <type>ITEM</type>
+          <uuid>f5da238b-df02-4df8-be13-631cf4237a63</uuid>
+          <parentuuid>25ce9de8-36ca-4de8-9dcc-c2a89cb0418b</parentuuid>
+        </id-f5da238b-df02-4df8-be13-631cf4237a63>
+        <id-747c68c9-21cd-4a38-a544-2799d413ad46>
+          <name type="string">Desvantagens</name>
+          <points type="number">-49</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string"> </notes>
+	    <pageref></pageref>
+	    <type>GROUP</type>
+          <uuid>747c68c9-21cd-4a38-a544-2799d413ad46</uuid>
+          <parentuuid></parentuuid>
+        </id-747c68c9-21cd-4a38-a544-2799d413ad46>
+        <id-5262188d-5e26-4816-b76c-a9f5e0fa3112>
+          <name type="string">Duty (Antonius de Jerbiton)</name>
+          <points type="number">-15</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">  [FR: 15]</notes>
+	    <pageref>B133</pageref>
+	    <type>ITEM</type>
+          <uuid>5262188d-5e26-4816-b76c-a9f5e0fa3112</uuid>
+          <parentuuid>747c68c9-21cd-4a38-a544-2799d413ad46</parentuuid>
+        </id-5262188d-5e26-4816-b76c-a9f5e0fa3112>
+        <id-a99eff59-d077-43ac-8cc0-3f94c6dee412>
+          <name type="string">Sense of Duty</name>
+          <points type="number">-2</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">  [Lewis, o Gentil]</notes>
+	    <pageref>B153</pageref>
+	    <type>ITEM</type>
+          <uuid>a99eff59-d077-43ac-8cc0-3f94c6dee412</uuid>
+          <parentuuid>747c68c9-21cd-4a38-a544-2799d413ad46</parentuuid>
+        </id-a99eff59-d077-43ac-8cc0-3f94c6dee412>
+        <id-8f7bec3f-ef4d-4a6f-94d5-93ecd96a46a8>
+          <name type="string">Appearance</name>
+          <points type="number">-4</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">  [Unattractive]</notes>
+	    <pageref>B21</pageref>
+	    <type>ITEM</type>
+          <uuid>8f7bec3f-ef4d-4a6f-94d5-93ecd96a46a8</uuid>
+          <parentuuid>747c68c9-21cd-4a38-a544-2799d413ad46</parentuuid>
+        </id-8f7bec3f-ef4d-4a6f-94d5-93ecd96a46a8>
+        <id-f92260e9-d921-4a0d-aef8-e123b4f7eaab>
+          <name type="string">No Sense of Humor</name>
+          <points type="number">-10</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string"> </notes>
+	    <pageref>B146</pageref>
+	    <type>ITEM</type>
+          <uuid>f92260e9-d921-4a0d-aef8-e123b4f7eaab</uuid>
+          <parentuuid>747c68c9-21cd-4a38-a544-2799d413ad46</parentuuid>
+        </id-f92260e9-d921-4a0d-aef8-e123b4f7eaab>
+        <id-04ce9ff7-dcc6-4091-b095-fa95ef008a45>
+          <name type="string">Bad Temper</name>
+          <points type="number">-5</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">  [CR: 15 (Resist Almost All The Time)]</notes>
+	    <pageref>B124</pageref>
+	    <type>ITEM</type>
+          <uuid>04ce9ff7-dcc6-4091-b095-fa95ef008a45</uuid>
+          <parentuuid>747c68c9-21cd-4a38-a544-2799d413ad46</parentuuid>
+        </id-04ce9ff7-dcc6-4091-b095-fa95ef008a45>
+        <id-70b42d9c-96c7-4d91-88fd-379b2b1add4a>
+          <name type="string">Clueless</name>
+          <points type="number">-10</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">+4 to resist Sex Appeal </notes>
+	    <pageref>B126</pageref>
+	    <type>ITEM</type>
+          <uuid>70b42d9c-96c7-4d91-88fd-379b2b1add4a</uuid>
+          <parentuuid>747c68c9-21cd-4a38-a544-2799d413ad46</parentuuid>
+        </id-70b42d9c-96c7-4d91-88fd-379b2b1add4a>
+        <id-e319aa37-8c1c-409d-a95d-b68e81062031>
+          <name type="string">Peculiaridades</name>
+          <points type="number">-3</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string"> </notes>
+	    <pageref></pageref>
+	    <type>GROUP</type>
+          <uuid>e319aa37-8c1c-409d-a95d-b68e81062031</uuid>
+          <parentuuid>747c68c9-21cd-4a38-a544-2799d413ad46</parentuuid>
+        </id-e319aa37-8c1c-409d-a95d-b68e81062031>
+        <id-9a797a50-6433-4fe2-adeb-0ca43804d2c9>
+          <name type="string">Dislikes (Corvos)</name>
+          <points type="number">-1</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">Considera mau agouro </notes>
+	    <pageref>B164</pageref>
+	    <type>ITEM</type>
+          <uuid>9a797a50-6433-4fe2-adeb-0ca43804d2c9</uuid>
+          <parentuuid>e319aa37-8c1c-409d-a95d-b68e81062031</parentuuid>
+        </id-9a797a50-6433-4fe2-adeb-0ca43804d2c9>
+        <id-5a9f5ae8-d40e-4a99-bc41-bf818f1e6f6f>
+          <name type="string">Dull</name>
+          <points type="number">-1</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">Embotado </notes>
+	    <pageref>B164</pageref>
+	    <type>ITEM</type>
+          <uuid>5a9f5ae8-d40e-4a99-bc41-bf818f1e6f6f</uuid>
+          <parentuuid>e319aa37-8c1c-409d-a95d-b68e81062031</parentuuid>
+        </id-5a9f5ae8-d40e-4a99-bc41-bf818f1e6f6f>
+        <id-8b7c9c35-699b-4dee-86c7-63f88999a3c3>
+          <name type="string">Supersticioso</name>
+          <points type="number">-1</points>
+          <userdesc type="string"></userdesc>
+	    <notes type="string">carrega sempre uma pedra no bolso </notes>
+	    <pageref>B164</pageref>
+	    <type>ITEM</type>
+          <uuid>8b7c9c35-699b-4dee-86c7-63f88999a3c3</uuid>
+          <parentuuid>e319aa37-8c1c-409d-a95d-b68e81062031</parentuuid>
+        </id-8b7c9c35-699b-4dee-86c7-63f88999a3c3>
+      </adslist>
+
+      <tl type="string">3</tl>
+    </traits>
+
+    <inventorylist>
+      <id-4174b199-2195-41cd-8e1e-716aec47fdd6>
+        <name type="string">Equipamento carregado</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">0</cost>
+        <costsum type="string">1,080</costsum>
+        <weight type="number">0</weight>
+        <weightsum type="number">26 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string"></tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string"></type>
+        <notes type="string"></notes>
+	  <pageref type="string"></pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>4174b199-2195-41cd-8e1e-716aec47fdd6</uuid>
+        <parentuuid></parentuuid>
+      </id-4174b199-2195-41cd-8e1e-716aec47fdd6>
+      <id-6690c8bc-b59a-4a7c-8d4c-ebc5c924495a>
+        <name type="string">Armas</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">0</cost>
+        <costsum type="string">875</costsum>
+        <weight type="number">0</weight>
+        <weightsum type="number">16 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string"></tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string"></type>
+        <notes type="string"></notes>
+	  <pageref type="string"></pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>6690c8bc-b59a-4a7c-8d4c-ebc5c924495a</uuid>
+        <parentuuid>4174b199-2195-41cd-8e1e-716aec47fdd6</parentuuid>
+      </id-6690c8bc-b59a-4a7c-8d4c-ebc5c924495a>
+      <id-c1e6390f-441f-4ed6-a265-10230a29a6f2>
+        <name type="string">Axe</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">50</cost>
+        <costsum type="string">50</costsum>
+        <weight type="number">4</weight>
+        <weightsum type="number">4 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">0</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Melee Weapon</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B271</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>c1e6390f-441f-4ed6-a265-10230a29a6f2</uuid>
+        <parentuuid>6690c8bc-b59a-4a7c-8d4c-ebc5c924495a</parentuuid>
+      </id-c1e6390f-441f-4ed6-a265-10230a29a6f2>
+      <id-edf39105-0fb2-4aa0-965f-1ec9227b96b9>
+        <name type="string">Thrusting Bastard Sword</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">750</cost>
+        <costsum type="string">750</costsum>
+        <weight type="number">5</weight>
+        <weightsum type="number">5 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">3</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Melee Weapon</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B271</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>edf39105-0fb2-4aa0-965f-1ec9227b96b9</uuid>
+        <parentuuid>6690c8bc-b59a-4a7c-8d4c-ebc5c924495a</parentuuid>
+      </id-edf39105-0fb2-4aa0-965f-1ec9227b96b9>
+      <id-a5f1dbe4-d978-4e69-a505-b551a8c32629>
+        <name type="string">Heavy Cloak</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">50</cost>
+        <costsum type="string">50</costsum>
+        <weight type="number">5</weight>
+        <weightsum type="number">5 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">1</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Clothing</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B287</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>a5f1dbe4-d978-4e69-a505-b551a8c32629</uuid>
+        <parentuuid>6690c8bc-b59a-4a7c-8d4c-ebc5c924495a</parentuuid>
+      </id-a5f1dbe4-d978-4e69-a505-b551a8c32629>
+      <id-f725fca6-b10a-4d19-b109-f61219e2450c>
+        <name type="string">Light Shield</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">25</cost>
+        <costsum type="string">25</costsum>
+        <weight type="number">2</weight>
+        <weightsum type="number">2 lb</weightsum>
+        <carried type="number">1</carried>
+        <tl type="string">1</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Shield</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B287</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>f725fca6-b10a-4d19-b109-f61219e2450c</uuid>
+        <parentuuid>6690c8bc-b59a-4a7c-8d4c-ebc5c924495a</parentuuid>
+      </id-f725fca6-b10a-4d19-b109-f61219e2450c>
+      <id-16c79a6c-ec19-46f1-9cae-46415526c931>
+        <name type="string">Roupas</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">0</cost>
+        <costsum type="string">205</costsum>
+        <weight type="number">0</weight>
+        <weightsum type="number">10 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string"></tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string"></type>
+        <notes type="string"></notes>
+	  <pageref type="string"></pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>16c79a6c-ec19-46f1-9cae-46415526c931</uuid>
+        <parentuuid>4174b199-2195-41cd-8e1e-716aec47fdd6</parentuuid>
+      </id-16c79a6c-ec19-46f1-9cae-46415526c931>
+      <id-684ead60-d9cc-45d6-8f13-f6399865d969>
+        <name type="string">Fur Loincloth</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">10</cost>
+        <costsum type="string">10</costsum>
+        <weight type="number">0</weight>
+        <weightsum type="number">0 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">0</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Body Armor</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B283</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>684ead60-d9cc-45d6-8f13-f6399865d969</uuid>
+        <parentuuid>16c79a6c-ec19-46f1-9cae-46415526c931</parentuuid>
+      </id-684ead60-d9cc-45d6-8f13-f6399865d969>
+      <id-1829b189-05a7-41fb-9ce9-d9aec9970ce0>
+        <name type="string">Fur Tunic</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">25</cost>
+        <costsum type="string">25</costsum>
+        <weight type="number">2</weight>
+        <weightsum type="number">2 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">0</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Body Armor</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B283</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>1829b189-05a7-41fb-9ce9-d9aec9970ce0</uuid>
+        <parentuuid>16c79a6c-ec19-46f1-9cae-46415526c931</parentuuid>
+      </id-1829b189-05a7-41fb-9ce9-d9aec9970ce0>
+      <id-e53c44ba-93d3-4094-bf1e-1a7dc33380e3>
+        <name type="string">Boots</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">80</cost>
+        <costsum type="string">80</costsum>
+        <weight type="number">3</weight>
+        <weightsum type="number">3 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">2</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Footwear</type>
+        <notes type="string">Flexible; Concealable</notes>
+	  <pageref type="string">B284</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>e53c44ba-93d3-4094-bf1e-1a7dc33380e3</uuid>
+        <parentuuid>16c79a6c-ec19-46f1-9cae-46415526c931</parentuuid>
+      </id-e53c44ba-93d3-4094-bf1e-1a7dc33380e3>
+      <id-eec8ae90-3474-442f-a875-75b61454fdf6>
+        <name type="string">Cloth Sleeves</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">20</cost>
+        <costsum type="string">20</costsum>
+        <weight type="number">2</weight>
+        <weightsum type="number">2 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">1</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Limb Armor</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B283</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>eec8ae90-3474-442f-a875-75b61454fdf6</uuid>
+        <parentuuid>16c79a6c-ec19-46f1-9cae-46415526c931</parentuuid>
+      </id-eec8ae90-3474-442f-a875-75b61454fdf6>
+      <id-2251b8d4-55e3-4c79-b0a9-bd8d21165542>
+        <name type="string">Leather Pants</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">40</cost>
+        <costsum type="string">40</costsum>
+        <weight type="number">3</weight>
+        <weightsum type="number">3 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">1</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Limb Armor</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B283</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>2251b8d4-55e3-4c79-b0a9-bd8d21165542</uuid>
+        <parentuuid>16c79a6c-ec19-46f1-9cae-46415526c931</parentuuid>
+      </id-2251b8d4-55e3-4c79-b0a9-bd8d21165542>
+      <id-4d2c44bb-58ee-48d5-acee-6baba13a55b0>
+        <name type="string">Leather Gloves</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="number">30</cost>
+        <costsum type="string">30</costsum>
+        <weight type="number">0</weight>
+        <weightsum type="number">0 lb</weightsum>
+        <carried type="number">2</carried>
+        <tl type="string">1</tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string">Gloves</type>
+        <notes type="string"></notes>
+	  <pageref type="string">B284</pageref>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <uuid>4d2c44bb-58ee-48d5-acee-6baba13a55b0</uuid>
+        <parentuuid>16c79a6c-ec19-46f1-9cae-46415526c931</parentuuid>
+      </id-4d2c44bb-58ee-48d5-acee-6baba13a55b0>  
+      <id-ac25494e-8e62-40be-afe8-847037cb483b>
+        <name type="string">Outros Equipamentos</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">1</count>
+        <cost type="string">0</cost>
+        <costsum type="string">0</costsum>
+        <weight type="number">0</weight>
+        <weightsum type="number">0 lb</weightsum>
+        <carried type="number">0</carried>
+        <uses>0</uses>
+        <maxuses>0</maxuses>
+        <tl type="string"></tl>
+        <lc type="string">LC4: Open</lc>
+        <type type="string"></type>
+        <notes type="string"></notes>
+	  <pageref type="string"></pageref>
+        <uuid>ac25494e-8e62-40be-afe8-847037cb483b</uuid>
+        <parentuuid></parentuuid>
+      </id-ac25494e-8e62-40be-afe8-847037cb483b>
+
+    </inventorylist>
+
+    <pointtotals>
+      <attributes type="number">47</attributes>
+      <ads type="number">40</ads>
+      <disads type="number">-46</disads>
+      <quirks type="number">-3</quirks>
+      <skills type="number">29</skills>
+      <spells type="number">0</spells>
+      <race type="number">0</race>
+      <totalpoints type="number">62</totalpoints>
+      <unspentpoints type="number">-5</unspentpoints>
+    </pointtotals>
+
+    <notelist>
+      <id-6c052594-e6cc-46fe-94c4-5610ef9d5b75>
+        <name type="string">Hist&#243;ria do Personagem:<br>Foi encontrado  num campo de batalha por Lewis, o Gentil. Estava quase morto, e Lewis cuidou dele. Depois disso, por causa de d&#237;vida de gratid&#227;o, aceitou o convite de Lewis para trabalhar com Antonius de Jerbiton.</name>
+ 	  <pageref type="string"></pageref>
+        <uuid>6c052594-e6cc-46fe-94c4-5610ef9d5b75</uuid>
+        <parentuuid></parentuuid>
+      </id-6c052594-e6cc-46fe-94c4-5610ef9d5b75>
+      <id-bb6e8fee-3acd-484d-a404-46793f9cb80d>
+        <name type="string">Uso das Armas padr&#227;o (ambidestro):<br>- M&#227;o esqueda: Machado<br>- M&#227;o direita: Espada<br>- Escudo (n&#227;o equipado)</name>
+ 	  <pageref type="string"></pageref>
+        <uuid>bb6e8fee-3acd-484d-a404-46793f9cb80d</uuid>
+        <parentuuid></parentuuid>
+      </id-bb6e8fee-3acd-484d-a404-46793f9cb80d>
+    </notelist>
+
+    <reactions>
+      <id-1>
+        <modifier type="string">-2</modifier>
+        <situation type="string">from others in any situation where No Sense of Humor becomes evident</situation>
+       </id-1>
+      <id-2>
+        <modifier type="string">-3</modifier>
+        <situation type="string">from others</situation>
+       </id-2>
+    </reactions>
+
+  </character>
+</root>

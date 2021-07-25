@@ -1,5 +1,7 @@
 # Campanha Ars Magica em GURPS
 
+Essa campanha é uma conversão livre do sistema Ars Magica quinta edição para GURPS quarta edição. A conversão foi fundamentada no Ritual Path Magic com poucas inserções de regras da casa. Usando o sistema de verbo e substantivo foi relativamente fácil adaptar a técnica e arte do Ars Magica. Houve necessidade de criar uma tabela de conversão de custos e tempo de lançamento de magias para facilitar o jogo, caso não fosse feito o mago poderia demorar mais de 20 turnos para lançar uma simples magia em combate.
+
 ## Livros permitidos
 
 * Basic Set

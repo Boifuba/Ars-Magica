@@ -8,32 +8,27 @@
 Você pode aumentar uma Característica em +1 Certifique-se de descrever o que é tão especial em seu personagem para justificar este aumento (ombros extremamente largos, uma agilidade inata ou um carisma incrível). Esta Virtude pode ser escolhida duas
 vezes para a mesma Característica ou para mais de uma Característica. Essa é única forma de passar dos Valores estabelecidos de NH
 
-### Custo
-Valor da Habilidade em GURPS comprada.
+ * Valor da Habilidade em GURPS comprada. *
 
 ### ADEPTO DE LABORATÓRIOS
 
-Você tem facilidade em processar as instruções dos outros. Você recebe um bônus de +6 no Total de Laboratório quando estiver usando textos laboratoriais de outras pessoas, inclusive quando estiver reinventando magias formulaicas.
+Você tem facilidade em processar as instruções dos outros. Você recebe um bônus de +3 no Total de Laboratório quando estiver usando textos laboratoriais de outras pessoas, inclusive quando estiver reinventando magias formulaicas.
 
-### Custo 
-3 por ponto 
+* 5 Pontos * 
 
-AFINIDADE COM ARTE
-Hermética Pequena
-Todos os Totais de Estudo para uma Arte Hermética são multiplicados
-por 1,5, e arredondados para cima. Durante a criação de personagem,
-os pontos de experiência também são multiplicados e arredondados
-para cima e você pode exceder os limites recomendados. Esta
-Virtude pode ser escolhida duas vezes para duas Artes diferentes.
 
-APRENDER (HABILIDADE) COM OS ERROS
-Geral Pequena
-Você consegue aprender com os seus erros, quando se trata de
-uma Habilidade específica. A primeira vez que você sofrer uma
-Falha Crítica ou não for bem-sucedido por 1 ponto, você acumula
-5 pontos de experiência nesta Habilidade. A rolagem deve ter
-surgido naturalmente durante a história. Esta Virtude pode ser
+### AFINIDADE COM ARTE
+
+Todos os Totais de Estudo para uma Arte Hermética são multiplicados por 1,5, e arredondados para cima. Esta Virtude pode ser escolhida duas vezes para duas Artes diferentes.
+
+* 15 ppontos *
+
+### APRENDER (HABILIDADE) COM OS ERROS
+
+Você consegue aprender com os seus erros, quando se trata de uma Habilidade específica. A primeira vez que você sofrer uma Falha Crítica ou não for bem-sucedido por 1 ponto, você recebe +3 na segunda tentativa. A rolagem deve ter surgido naturalmente durante a história. Esta Virtude pode ser
 escolhida múltiplas vezes, mas para Habilidades diferentes.
+
+* 5 pontos *
 
 BOM ALUNO
 Geral Pequena

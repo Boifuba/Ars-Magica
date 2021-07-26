@@ -28,9 +28,9 @@ Outros livros não estão permitidos. Não é o intuito maximizar ou focar em co
 Para mergulhar melhor no cenário e aproveitar o máximo que ele tem a oferecer tivemos que abrir concessão sobre algumas regras no GURPS. A matemática é realmente muito simples e, ainda para ajudar mais você pode usar essa [calculadora](https://github.com/cefasheli/Ars-Magica/tree/main/Tabelas/Calculadora%20de%20Magia) que faz todo o trabalho bruto de calcular para você.
 
 ```DIFF
-- **********************************IMPORTANTE*****************************************
-- **Toda regra não citada aqui segue exatamente igual conforme apresentada no GURPS 4e**
-- **************************************************************************************
+- **********************************IMPORTANTE********************************************
+- ** Toda regra não citada aqui segue exatamente igual conforme apresentada no GURPS 4e **
+- ****************************************************************************************
 ```
 
 ### Lançamento de Magia 
@@ -146,8 +146,10 @@ NH da Forma + Modificador do laboratório + Aura + Professor + Biblioteca = Valo
 Exemplo: João quer criar uma magia formulaica de proteção contra a efeitos de água, o custo dessa magia seria 4. João tem NH 12 na Forma Aquam e seu laboratório tem bônus +1 e a aura auxilia bastante adicionando mais 1 ao processo e a tutoria de um mestre e sua ppequena biblioteca somam juntas +3 , o valor final seria 15 / 3 = 5. Logo João consegueria fazer essa magia durante uma estação facilmente com alguma sobra de tempo.
 
 ```diff
-+ Ignoramos o máximo que se pode aprender com um professor segundo a regra do ars magica para apenas adicionar bonus na criação de magia. O pró é que o jogador pode criar qualquer magia que desejar o contra é a falta de controle sobre magias muito poderosas ou de caráter duvidoso. 
-[] Conversar sobre isso com os jogadores
+! Ignoramos o máximo que se pode aprender com um professor segundo a regra do ars magica para apenas adicionar bonus na criação de magia. 
++ O pró é que o jogador pode criar qualquer magia que desejar 
+- o contra é a falta de controle sobre magias muito poderosas ou de caráter duvidoso. 
+- [ ] Conversar sobre isso com os jogadores
 ```
 
 

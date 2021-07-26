@@ -23,7 +23,7 @@ Exemplo: *João tem Parma Mágica 1 e Ignem 12, para todos os Efeitos sua Resist
 ## Penetração Mágica
 
 ```diff
-Forma/3 + Bônus de Penetração + Nível da Magia
+Forma + Bônus de Penetração - Nível da Magia
 ```
 Exemplo: *João que tem Resistência à Magia 13 para Forma Ignem .José se prepara com uma Magia de Ignem para atacar João. A Forma de José em Ignem é 15, como ele fez um mapa Astral do seu alvo ele recebe um bônus de +1 e sua Magia é de nível 5 o que resulta em uma penetração Mágica de 11. Os dois rolam contra seus valores, João de Resistência e José de penetração. João passa no teste por 1 enquanto José consegue passar por 4 então a Resistência Mágica de João foi trespassada e ele toma o efeito da magia normalmente.*
 

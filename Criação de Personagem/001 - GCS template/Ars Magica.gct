@@ -91,6 +91,19 @@
 			"calc": {
 				"points": 15
 			},
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "advantage_prereq",
+						"has": true,
+						"name": {
+							"compare": "is"
+						}
+					}
+				]
+			},
 			"features": [
 				{
 					"type": "spell_bonus",
@@ -105,7 +118,107 @@
 					"selection_type": "skills_with_name",
 					"name": {
 						"compare": "is",
-						"qualifier": "thaumatology"
+						"qualifier": "artes liberalis"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "aquam"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "auram"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "corpus"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "herbam"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "ignem"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "imaginem"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "terram"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "vim"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "animal"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "mentem"
 					}
 				}
 			],
@@ -343,7 +456,7 @@
 			"id": "7e2bc15b-b918-4657-a407-e0276c7ca44d",
 			"name": "Law",
 			"reference": "B204",
-			"specialization": "Peripheric Law",
+			"specialization": "Peripheral Law",
 			"difficulty": "iq/h",
 			"points": 1,
 			"defaults": [
@@ -386,7 +499,7 @@
 			"type": "skill_container",
 			"id": "86471049-e1f7-422d-9da3-e1644ee69eeb",
 			"name": "Substantivos",
-			"open": false,
+			"open": true,
 			"children": [
 				{
 					"type": "skill",
@@ -408,23 +521,15 @@
 					"type": "skill",
 					"id": "acfe39d0-342f-4b6a-a43c-6bc95855fbf2",
 					"name": "Corpus",
-					"difficulty": "dx/a",
+					"difficulty": "iq/vh",
 					"points": 1,
 					"notes": "Applies to the human body, making it crucial to longevity formulas."
 				},
 				{
 					"type": "skill",
-					"id": "8e6b5e33-f6f5-432f-a81e-c1e511ae5057",
-					"name": "Corpus",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "the incorrect declension Corporem was used in older editions) applies to the human body, making it crucial to longevity formulas"
-				},
-				{
-					"type": "skill",
 					"id": "6acfb80d-46e1-4533-bc4c-18a070ea58da",
 					"name": "Herbam",
-					"difficulty": "dx/a",
+					"difficulty": "iq/vh",
 					"points": 1,
 					"notes": "primarily involves plants, but applies equally to any organic matter, living or dead, that is not of animal origin."
 				},
@@ -467,6 +572,13 @@
 					"difficulty": "iq/vh",
 					"points": 1,
 					"notes": "involves magic itself, as well as demons (the overlap is not widely understood, but the fact that there is one is a significant obstacle to the Order's 'public relations', particularly concerning the Church)."
+				},
+				{
+					"type": "skill",
+					"id": "eb7cd839-cbc7-4aa4-a291-e1cf2c64ff99",
+					"name": "Aquam",
+					"difficulty": "iq/vh",
+					"points": 1
 				}
 			]
 		},
@@ -480,7 +592,7 @@
 			"defaults": [
 				{
 					"type": "iq",
-					"modifier": -7
+					"modifier": -6
 				}
 			],
 			"categories": [

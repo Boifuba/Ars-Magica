@@ -8,170 +8,97 @@
 Você pode aumentar uma Característica em +1 Certifique-se de descrever o que é tão especial em seu personagem para justificar este aumento (ombros extremamente largos, uma agilidade inata ou um carisma incrível). Esta Virtude pode ser escolhida duas
 vezes para a mesma Característica ou para mais de uma Característica. Essa é única forma de passar dos Valores estabelecidos de NH
 
- * Valor da Habilidade em GURPS comprada. *
+ *Valor da Habilidade em GURPS comprada x 1.5*
 
 ### ADEPTO DE LABORATÓRIOS
 
 Você tem facilidade em processar as instruções dos outros. Você recebe um bônus de +3 no Total de Laboratório quando estiver usando textos laboratoriais de outras pessoas, inclusive quando estiver reinventando magias formulaicas.
 
-* 5 Pontos * 
+*5 Pontos* 
 
 
 ### AFINIDADE COM ARTE
 
 Todos os Totais de Estudo para uma Arte Hermética são multiplicados por 1,5, e arredondados para cima. Esta Virtude pode ser escolhida duas vezes para duas Artes diferentes.
 
-* 15 ppontos *
+*15 pontos*
 
 ### APRENDER (HABILIDADE) COM OS ERROS
 
 Você consegue aprender com os seus erros, quando se trata de uma Habilidade específica. A primeira vez que você sofrer uma Falha Crítica ou não for bem-sucedido por 1 ponto, você recebe +3 na segunda tentativa. A rolagem deve ter surgido naturalmente durante a história. Esta Virtude pode ser
 escolhida múltiplas vezes, mas para Habilidades diferentes.
 
-* 5 pontos *
+*5 pontos*
 
-BOM ALUNO
-Geral Pequena
-Você é um aluno atento e esforçado. Quando alguém lhe ensina
-alguma coisa, adicione 5 ao Total de Avanço.
-BOM PROFESSOR
-Geral Pequena
-Você consegue explicar novos conceitos e conhecimentos com facilidade.
-Adicione 3 à Qualidade de todos os livros que escrever e 5
-ao Total de Avanço de qualquer pessoa que seja seu aluno.
+### BOM ALUNO
 
-BÔNUS DE ESTUDO
-Hermética Pequena
-Quando você consegue estudar uma Arte a partir de livros ou
-vis na presença da Forma ou Técnica Hermética que está estudando,
-seu arredor lhe oferece novos entendimentos e descobertas.
-Adicione 2 ao resultado das rolagens de estudo de vis e 2 à
-Qualidade de qualquer texto que você estiver lendo. O seu nível
-atual na Arte estudada determina a magnitude dos arredores necessários
-para que novos entendimentos sejam possíveis. Veja a
-tabela para alguns exemplos.
+Você é um aluno atento e esforçado. Quando alguém lhe ensina alguma coisa, adicione 3 aos testes de laboratório.
 
-CAPUZ VERMELHO
-Classe Social Grande
-Embora não tenha O Dom e a magia Hermética esteja além do
-seu alcance, você é um membro da Ordem de Hermes e da Casa
-Mercere (página 15). Há alguns membros da Casa Mercere com
-O Dom, mas eles não devem escolher esta Virtude e sim Magus
-Hermético.
-Você é um dos mensageiros da Ordem e possui alguns objetos
-encantados para facilitar o seu trabalho. Um Capuz Vermelho
-jovem, que acabou de jurar o Código de Hermes, tem o equivalente
-a 50 níveis de efeitos, com modificações para a quantidade
-de usos por dia e penetração inclusos (leia mais no Capítulo 8:
-Laboratório). Estes níveis de efeitos mágicos são invariavelmente
-divididos em dois ou mais encantos que auxiliam no trabalho
-de mensageiros. Jovens Capuzes Vermelhos nunca recebem
-itens capazes de matar, ferir ou enfeitiçar grandes quantidades
-de mundanos; o risco de causar problemas para a Ordem é
-grande demais. Os objetos encantados entregues aos Capuzes
-Vermelhos são aprimorados ou substituídos como recompensa
-por um bom serviço, e pode-se esperar 2 níveis a mais por ano.
-Você é treinado de maneira similar aos magi, e pode escolher
-Habilidades Acadêmicas, Arcanas e Marciais durante a criação
-de personagens. Você passou quinze anos como aprendiz e acumulou
-300 pontos de experiência durante este período. Além
-disso, você recebe automaticamente a Virtude Viajado, sem
-custo. Quando começa a envelhecer, um magus com um Total
-de Laboratório Creo Corpus 50 ou mais irá preparar um Ritual
-de Longevidade para você, sem custo, caso deseje. Dependendo
-dos contatos que consiga durante a saga, o ritual pode ser ainda
-mais forte.
-Você é sustentado pelo concílio e não pode escolher a
-Virtude Riqueza ou o Defeito Pobreza. Você não pode ter O
-Dom. Você precisa gastar duas estações por ano em serviço à
-Ordem, entregando mensagens entre concílios e magi. As outras
-duas estações do ano são legitimamente livres, no entanto,
-e você pode fazer o que quiser. Esta Virtude pode ser escolhida
-por homens e mulheres. Capuzes Vermelhos criados com alguns
-anos após A Provação recebem objetos encantados melhores,
-conforme descrito acima – e um Ritual de Longevidade,
-caso seja aplicável.
+*10 pontos*
 
-CIRCUNSTÂNCIAS ESPECIAIS
-Hermética Pequena
-Algumas circunstâncias incomuns (como durante uma tempestade,
-ou enquanto você estiver tocando o alvo) favorecem
-a sua magia, e você recebe um bônus de +3 tanto para resistir
-quanto para conjurar magias. Esta Virtude pode ser escolhida
-múltiplas vezes, para circunstâncias diferentes, mas os bônus
+### BOM PROFESSOR
+
+Você consegue explicar novos conceitos e conhecimentos com facilidade. Adicione 1 à Qualidade de todos os livros que escrever e 3 ao Total de testes de laboratório da pessoa que seja seu aluno.
+
+*10 pontos*
+
+### BÔNUS DE ESTUDO
+
+Quando você consegue estudar uma Arte a partir de livros ou vis na presença da Forma ou Técnica Hermética que está estudando, seu arredor lhe oferece novos entendimentos e descobertas. Adicione 2 ao resultado das rolagens de estudo de vis e 1 à Qualidade de qualquer texto que você estiver lendo. O seu nível atual na Arte estudada determina a magnitude dos arredores necessários para que novos entendimentos sejam possíveis. 
+
+*15 pontos*
+
+```diff
+! Bom mas confuso
+```
+
+### CAPUZ VERMELHO
+
+Embora não tenha O Dom e a magia Hermética esteja além do seu alcance, você é um membro da Ordem de Hermes e da Casa Mercere (página 15). Há alguns membros da Casa Mercere com O Dom, mas eles não devem escolher esta Virtude e sim Magus Hermético. Você é um dos mensageiros da Ordem e possui alguns objetos encantados para facilitar o seu trabalho. Um Capuz Vermelho jovem, que acabou de jurar o Código de Hermes, tem o equivalente a 50 níveis de efeitos, com modificações para a quantidade de usos por dia e penetração inclusos (leia mais no Capítulo 8: Laboratório). Estes níveis de efeitos mágicos são invariavelmente divididos em dois ou mais encantos que auxiliam no trabalho de mensageiros. Jovens Capuzes Vermelhos nunca recebem itens capazes de matar, ferir ou enfeitiçar grandes quantidades de mundanos; o risco de causar problemas para a Ordem é grande demais. Os objetos encantados entregues aos Capuzes Vermelhos são aprimorados ou substituídos como recompensa por um bom serviço, e pode-se esperar 2 níveis a mais por ano. Você é treinado de maneira similar aos magi, e pode escolher Habilidades Acadêmicas, Arcanas e Marciais durante a criação de personagens. Você passou quinze anos como aprendiz e acumulou 300 pontos de experiência durante este período. Além disso, você recebe automaticamente a Virtude Viajado, sem custo. Quando começa a envelhecer, um magus com um Total de Laboratório Creo Corpus 50 ou mais irá preparar um Ritual de Longevidade para você, sem custo, caso deseje. Dependendo dos contatos que consiga durante a saga, o ritual pode ser ainda mais forte. Você é sustentado pelo concílio e não pode escolher a Virtude Riqueza ou o Defeito Pobreza. Você não pode ter O Dom. Você precisa gastar duas estações por ano em serviço à Ordem,  entregando mensagens entre concílios e magi. As outras duas estações do ano são legitimamente livres, no entanto, e você pode fazer o que quiser. Esta Virtude pode ser escolhida por homens e mulheres. Capuzes Vermelhos criados com alguns anos após A Provação recebem objetos encantados melhores,
+conforme descrito acima – e um Ritual de Longevidade, caso seja aplicável.
+
+*15 pontos*
+
+```diff
+! Texto não formatado, está aqui somente para referência. Consultar o mestre se desejar comprar para um companheiro
+
+```
+
+### CIRCUNSTÂNCIAS ESPECIAIS
+
+Algumas circunstâncias incomuns (como durante uma tempestade, ou enquanto você estiver tocando o alvo) favorecem a sua magia, e você recebe um bônus de +3 tanto para resistir quanto para conjurar magias. Esta Virtude pode ser escolhida múltiplas vezes, para circunstâncias diferentes, mas os bônus
 não se acumulam.
 
-COMPREENSÃO COLATERAL
-Hermética Grande
-Seu método de estudo é extremamente versátil. Sempre
-que estudar uma das Técnicas mágicas a partir de um livro,
-professor ou vis, você recebe um ponto de experiência
-em quatro Formas de sua escolha. Quando estudar
-uma das Formas mágicas, você recebe um ponto de experiência
-em duas Técnicas de sua escolha. Não é possível
-alocar mais do que 1 ponto de experiência à mesma
-Arte a cada vez. Esta Virtude é particularmente útil para
-magi generalistas.
+*10 pontos*
 
-EFEITO COLATERAL
-Hermética Pequena
-A sua magia tem algum efeito incidental que é geralmente útil, embora
-ocasionalmente irritante. Alguns exemplos são uma presença de
-liderança, que se traduz em um bônus de +1 em Presença, ou um estado
-de calma profunda que lhe confere um bônus em Concentração.
-A intensidade do efeito aumenta com o nível da magia e dura por um
-curto período após a conjuração de qualquer magia.
+### COMPREENSÃO COLATERAL
 
-ENCANTAMENTO VERDITIUS
-Hermética Pequena
-Você foi iniciado no Mistério Exterior do Encantamento Verditius e é, portanto,
-um membro da Casa Verditius. Note que todos os magi Verditius
-recebem gratuitamente esta Virtude durante a criação de personagem.
+Seu método de estudo é extremamente versátil. Sempre que estudar uma das Técnicas mágicas a partir de um livro, professor ou vis, você recebe um bônus de experiência em quatro Formas de sua escolha. Quando estudar uma das Formas mágicas, você recebe um ponto de experiência em duas Técnicas de sua escolha. Não é possível alocar mais do que 1 ponto de experiência à mesma Arte a cada vez. Esta Virtude é particularmente útil para magi generalistas.
 
-ESPÍRITO PROTETOR
-Geral Grande
-Um espírito te protege. Talvez seja um de seus avós, um
-amigo de infância, ou qualquer pessoa que se preocupe suficiente para se manter próximo de você após a morte. O
-espírito é invisível e inaudível para todos, exceto para você
-e para aqueles com Percepção Mística (página 94). Ele consegue
-ver e ouvir tudo o que acontece ao seu redor, podendo
-se afastar de você uma vez por dia por até trinta minutos –
-o que o torna um espião excelente em potencial. A morte,
-no entanto, transforma as pessoas de maneiras inesperadas,
-tornando provável que o espírito tenha algumas manias que
-não o tornem muito confiável, não sendo tão incomum que
-eles encorajem seus protegidos a se juntarem a eles do outro
-lado. O espírito tem 300 pontos de experiência distribuídos
-entre várias Habilidades. Veja a página 272 para um exemplo
-de Espírito Protetor.
+```diff
+! à partir daqui está sem pontuação
+```
 
-ESTUDIOSO DO (REINO)
-Geral Pequena
-Você foi treinado acerca dos aspectos místicos de um dos
-quatro Reinos de Poder (Divino, Feérico, Infernal ou Mágico)
-e recebe um bônus de +2 em todas as rolagens usando a
-Habilidade relacionada. Você pode escolher Habilidades
-Arcanas durante a criação de personagem. Esta Virtude pode
-ser escolhida múltiplas vezes, para cada um dos reinos. Você
-não pode escolher Estudioso do (Reino) e Virtuoso para a
-mesma Habilidade.
+### EFEITO COLATERAL
 
-ESTUDO LIVRE
-Hermética Pequena
-Você consegue descobrir as coisas melhor sozinho do que lendo
-livros, e recebe um bônus de +3 quando estudar a partir de
-vis bruto.
+A sua magia tem algum efeito incidental que é geralmente útil, embora ocasionalmente irritante. Alguns exemplos são uma presença de liderança, que se traduz em um bônus de +1, ou um estado de calma profunda que lhe confere um bônus em Concentração. A intensidade do efeito aumenta com o nível da magia e dura por um curto período após a conjuração de qualquer magia.
 
-FONTE DE VIS PESSOAL
-Hermética Pequena
-Você tem acesso exclusivo a uma fonte de vis bruto. Determine a
-quantidade e o tipo do vis com a ajuda da trupe, uma boa medida
-sendo um décimo do que o concílio espera conseguir anualmente
-no começo da saga. A quantidade de vis colhido não costuma
-mudar com o tempo, mesmo que o concílio descubra ou adquira
-novas fontes.
 
-FÓRMULAS APERFEIÇOADAS
+### ESTUDIOSO DO (REINO)
+
+Você foi treinado acerca dos aspectos místicos de um dos quatro Reinos de Poder (Divino, Feérico, Infernal ou Mágico) e recebe um bônus de +2 em todas as rolagens usando a Habilidade relacionada. Você pode escolher Habilidades Arcanas durante a criação de personagem. Esta Virtude pode
+ser escolhida múltiplas vezes, para cada um dos reinos. Você não pode escolher Estudioso do (Reino) e Virtuoso para a mesma Habilidade.
+
+
+### ESTUDO LIVRE
+
+Você consegue descobrir as coisas melhor sozinho do que lendo livros, e recebe um bônus de +3 quando estudar a partir de vis bruto.
+
+### FONTE DE VIS PESSOAL
+
+Você tem acesso exclusivo a uma fonte de vis bruto. Determine a quantidade e o tipo do vis com a ajuda da trupe, uma boa medida sendo um décimo do que o concílio espera conseguir anualmente no começo da saga. A quantidade de vis colhido não costuma mudar com o tempo, mesmo que o concílio descubra ou adquira novas fontes.
+
+### FÓRMULAS APERFEIÇOADAS
 Hermética Pequena
 Você tem 50 pontos de experiência para comprar Aperfeiçoamentos
 para as magias formulaicas que você conhece (página 124). Você

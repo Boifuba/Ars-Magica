@@ -19,10 +19,4 @@ Considere fazer uma doação
 
 ### Quer entrar em contato? 
 
-<a href="cefasheli@gmail.com/"><img src="https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/gmail.png></img></a>
 
-<a href="https://discord.gg/73Bfq6K8"><img src="https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/discordia.png></img></a>
-
-<a href="facebook.com/cefasheli"><img src="https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/facebook.png></img></a>
-
-<a href="https://discord.gg/73Bfq6K8"><img src="RELATIVE_PATH_TO_IMAGE></img></a>

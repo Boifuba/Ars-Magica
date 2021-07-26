@@ -24,20 +24,21 @@ Além desse livro temos dispponível para uso:
 
 * Mago = 250 pontos com 50 de desvantagens
 * Companheiro = até 125 pontos com 35 de desvantagens
-* Grogs = até 63 pontos com 25 de desvantagens
+* Grogues = até 63 pontos com 25 de desvantagens
 
 Sendo NH máximo em espcialização entre 12 e 13 seguindo as informações dessa imagem: 
-## Adaptações
 
-Para mergulhar melhor no cenário e aproveitar o máximo que ele tem a oferecer tivemos que abrir concessão sobre algumas regras no GURPS. A matemática é realmente muito simples e, ainda para ajudar mais você pode usar essa [calculadora](https://github.com/cefasheli/Ars-Magica/tree/main/Tabelas/Calculadora%20de%20Magia) que faz todo o trabalho bruto de calcular para você.
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/220862541_5739428436132426_7953456147129271508_n.png">
+</p>
 
-```DIFF
-- **********************************IMPORTANTE********************************************
-- ** Toda regra não citada aqui segue exatamente igual conforme apresentada no GURPS 4e **
-- ****************************************************************************************
-```
+# Adaptações
 
+>O intuito inicial era ter zero Homebrews messe jogo que rapidamente caiu por terra nas primeiras tentativas de trazero conteúdo do Ars Magica para GURPS. Isso se tornou impossível de ser feito sem essas adaptações ou a gente iria perder a imersão do cenário do Ars Magica e como ele lida com a magia. Se houver conflito nas regras fica decidido essa ordem para a resolução:
 
-
+1. Usar regra descrita previamente
+2. Definir uma regra que atenda ao cenário de Ars Magica e não conflite com alguma regra descrita previamente.
+3. Usar Regras de GURPS.
+4. Criar uma nova regra da casa que atenda à necessidade.
 
 

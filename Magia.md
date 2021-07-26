@@ -20,13 +20,7 @@ Exemplo: *João tem Parma Mágica 1 e Ignem 12, para todos os Efeitos sua Resist
 
 ## Penetração Mágica
 
-
 ```diff
-! Toda essa mecânica é completamente arbitrária e carece de testes. Está realmente difícil adaptar isso para o GURPS,
-! acredito que os jogadores não gostarào nem um pouco dessa mecânica. Tentarei oferecer duas propostas para teste. 
+Forma/3 + Bônus de Penetração + Nível da Magia
 ```
-
-```diff
-Total de conjuração + Bônus de Penetração – Nível da Magia
-```
-94
+Exemplo: *João que tem Resistência à Magia 13 para Forma Ignem .José se prepara com uma Magia de Ignem para atacar João. A Forma de José em Ignem é 15, como ele fez um mapa Astral do seu alvo ele recebe um bônus de +1 e sua Magia é de nível 5 o que resulta em uma penetração Mágica de 11. Os dois rolam contra seus valores, João de Resistência e José de penetração. João passa no teste por 1 enquanto José consegue passar por 4 então a Resistência Mágica de João foi trespassada e ele toma o efeito da magia normalmente.*

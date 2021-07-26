@@ -17,11 +17,11 @@ Embora não seja muito do cenário, se quiser, eu fiz uma ferramenta que é um [
 
 Considere fazer uma doação!
 
-
+[!n[name](www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_111x69.jpg)](https://www.paypal.com/donate?business=NRPYPJ3G2S7YC&no_recurring=0&currency_code=BRL)
 
 ### Quer entrar em contato? 
 
 Só escolher o canal!
 
-[![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/gmail.png)](google.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/discordia.png)](google.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/facebook.png)](google.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/whatsapp.png)](google.com)
+[![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/gmail.png)](cefasheli@gmail.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/discordia.png)](https://discord.gg/73Bfq6K8)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/facebook.png)](facebook.com/cefasheli)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/whatsapp.png)](https://api.whatsapp.com/send?phone=5521972365528)
 

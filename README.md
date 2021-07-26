@@ -15,8 +15,13 @@ Embora não seja muito do cenário, se quiser, eu fiz uma ferramenta que é um [
 
 ### Gostou do projeto?
 
-Considere fazer uma doação 
+Considere fazer uma doação!
+
+
 
 ### Quer entrar em contato? 
 
+Só escolher o canal!
+
+[![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/gmail.png)](google.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/discordia.png)](google.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/facebook.png)](google.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/whatsapp.png)](google.com)
 

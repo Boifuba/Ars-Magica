@@ -9,4 +9,20 @@ E não deixe de ler claro o Ars Magica sabendo que todas as [Regras de Magia](ht
 
 E claro, a [calculadora de magia](https://github.com/Boifuba/Ars-Magica/tree/main/Tabelas/Calculadora%20de%20Magia) vai ser uma mão na roda para que você crie suas magias, encantamentos e itens mágicos facilmente através de uma tabela automatizada!
 Temos uma ferramenta para saber qual investimento é necessário fazer no seu [laboratório](https://github.com/Boifuba/Ars-Magica/tree/main/Tabelas/Laborat%C3%B3rio)
-para ganhar bônus diversos nas suas tarefas laboratoriais
+para ganhar bônus diversos nas suas tarefas laboratoriais.
+
+Embora não seja muito do cenário, se quiser, eu fiz uma ferramenta que é um [gerador de caos](https://github.com/Boifuba/Ars-Magica/tree/main/Tabelas/Gerenciador%20de%20cidades) que não é nada mais do quê um gerador de cidades baseados nos livros GURPS Realmings, GURPS City Build e os livros da Série GURPS Low Tech que podem gerar ganchos maravilhosos ou manter toda as trupes das suas mesas ocupadas.
+
+### Gostou do projeto?
+
+Considere fazer uma doação 
+
+### Quer entrar em contato? 
+
+<a href="cefasheli@gmail.com/"><img src="https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/gmail.png></img></a>
+
+<a href="https://discord.gg/73Bfq6K8"><img src="https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/discordia.png></img></a>
+
+<a href="facebook.com/cefasheli"><img src="https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/facebook.png></img></a>
+
+<a href="https://discord.gg/73Bfq6K8"><img src="RELATIVE_PATH_TO_IMAGE></img></a>

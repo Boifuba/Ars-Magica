@@ -37,6 +37,7 @@ Os conhecimento de Taumatologia e das Artes mágicas são importantes para os ma
 
 Um magus que tenha em mãos uma Conexão Arcana ativa  pode fixá-la de maneira permanente, utilizando uma estação de trabalho em seu laboratório e um peão de Vim Vis. A conexão tem que estar ativa ao começo da estação, mas não precisa durar até o fim dela.
 
+<<<<<<< HEAD
 ```diff
 - Definir como vai numericamente a conexão arcana, ler pág 121 AM.
 ```
@@ -63,6 +64,8 @@ A quantidade máxima de vis que o mago pode manipular é Forma / 2
 
 
 
+=======
+>>>>>>> d0389727fd2ebd15335f32e322228b3b9b7811b3
 
 
 

@@ -22,8 +22,11 @@ Exemplo: *João tem Parma Mágica 1 e Ignem 12, para todos os Efeitos sua Resist
 
 
 ```diff
-! Toda essa mecânica é completamente arbitrária e carece de testes. Está realmente difícil adaptar isso para o GURPS, acredito que os jogadores não gostarào nem um pouco dessa mecânica. Tentarei oferecer duas propostas para teste. 
+! Toda essa mecânica é completamente arbitrária e carece de testes. Está realmente difícil adaptar isso para o GURPS,
+! acredito que os jogadores não gostarào nem um pouco dessa mecânica. Tentarei oferecer duas propostas para teste. 
 ```
 
-
+```diff
+Total de conjuração + Bônus de Penetração – Nível da Magia
+```
 94

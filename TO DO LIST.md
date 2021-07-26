@@ -4,7 +4,7 @@
       - [ ] Ugulino
       - [ ] Bruno
       - [ ] Pablo
-- [ ] 
+- [ ] Criar Nível da Magia para fins de Penetração Mágica
 - [ ] 
 - [ ] 
 - [ ] 

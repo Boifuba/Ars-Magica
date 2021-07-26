@@ -1,0 +1,14 @@
+- [x] Trocar Taumatologia por Artes Liberales
+- [ ] Checar NH's e ver se os jogadores estão com skills adequadas ao cenário
+      - [ ] Lincoln
+      - [ ] Ugulino
+      - [ ] Bruno
+      - [ ] Pablo
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 

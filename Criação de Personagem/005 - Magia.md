@@ -18,6 +18,8 @@ Parma Magica + Forma
 ```
 Exemplo: *João tem Parma Mágica 1 e Ignem 12, para todos os Efeitos sua Resistência à Magia é 13 para a forma Ignem.*
 
+> Quando o jogador não tiver a Forma para calcular a resistência Mágica ele usará o pré definido de IQ-6 para fins de cálculo
+
 ## Penetração Mágica
 
 ```diff

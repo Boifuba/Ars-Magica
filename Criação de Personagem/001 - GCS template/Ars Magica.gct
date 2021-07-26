@@ -228,6 +228,57 @@
 		},
 		{
 			"type": "advantage",
+			"id": "c5162f56-0e43-4000-b1a9-3d1fec6f4c35",
+			"name": "Dom Gentil",
+			"supernatural": true,
+			"calc": {
+				"points": 0
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -3,
+					"situation": "contra qualquer ser mundano"
+				}
+			],
+			"notes": "Versão mais leve do Dom",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "f6ac985c-f1b8-4e67-9820-daa735463647",
+			"name": "Dom Desperto",
+			"mental": true,
+			"supernatural": true,
+			"reference": "B8",
+			"calc": {
+				"points": 0
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -6,
+					"situation": "contra todos os seres mundanos"
+				}
+			],
+			"notes": "versão mais pesada do Dom",
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "d3164db9-274d-4340-8d6d-bb50e49c39c2",
+			"name": "Advantage",
+			"physical": true,
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"type": "advantage",
 			"id": "7a5d918c-76ea-4fe2-8b54-dfe1d3b97e7a",
 			"name": "Language: @Language@",
 			"mental": true,

@@ -42,10 +42,7 @@ Teste simples contra NH da Forma somando ou subtraindo  os modificadores
 * Pessoal - O mago é o alvo
 * Toque - Onde o mago consegue tocar
 * Visão - Até onde a magia do mago consegue olhar que é diferente de Olhar
-* Olhar - gaze attack
-```diff
-! Preciso deixar isso mais claro
-```
+* Olhar - É necessário olhar nos olhos
 * Voz - Até onde a voz do mago  puder ser ouvida
 * Conexão Arcana - O mago tem algum link arcano com o seu alvo. (Mecânica do AM)
 

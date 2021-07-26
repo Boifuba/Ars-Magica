@@ -6,8 +6,8 @@
       - [ ] Pablo
 - [ ] Criar Nível da Magia para fins de Penetração Mágica
 - [ ] Definir Glossário
-- [ ] 
-- [ ] 
+- [ ] Adicionar outras técnicas em Ignem 
+- [ ] Ajustar Creo Mentem
 - [ ] 
 - [ ] 
 - [ ] 

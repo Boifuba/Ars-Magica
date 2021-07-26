@@ -21,9 +21,18 @@ Outros livros não estão permitidos. Não é o intuito maximizar ou focar em co
 
 ## Regras
 
-### Tempo de aprendizado de magias e confecção de itens.
+### Atividades de laboratório
+
+* Os jogadores deverão seguir o arquivo laboratório disponibilizado aqui para saber o quanto investir e e receber os bônus desse investimento. 
+* O laboratório demora 2 estações para estar em sua capacidade total, em sua primeira estação ele está pronto mais possui um modificador negativo de -3 que é retirado após a segunda estação.
+* 
+
+
+#### Tempo de aprendizado de magias e confecção de itens.
 ```diff
-@@ NH da Forma + Modificador do laboratório + Aura = Valor Resultante dividido por 3 @@
+NH da Forma + Modificador do laboratório + Aura = Valor Resultante dividido por 3
 ```
 
 Exemplo: João quer criar uma magia formulaica de proteção contra a efeitos de água, o custo dessa magia seria 4. João tem NH 12 na Forma Aquam e seu laboratório tem bônus +1 e a aura auxilia bastante adicionando mais 1 ao processo, o valor final seria 14 / 3 = 4. Logo João consegueria fazer essa magia durante uma estação facilmente.
+
+

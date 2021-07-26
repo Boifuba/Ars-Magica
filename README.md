@@ -19,9 +19,9 @@ Outros livros não estão permitidos. Não é o intuito maximizar ou focar em co
 * Grogs = até 63 pontos com 25 de desvantagens
 
 
-## Regras
+# Regras
 
-### Atividades de laboratório
+## Atividades de laboratório
 
 * Os jogadores deverão seguir a tabela [laboratório](https://github.com/cefasheli/Ars-Magica/tree/main/Tabelas/Laborat%C3%B3rio) disponibilizado aqui para saber o quanto investir e e receber os bônus desse investimento. 
 * O laboratório demora 2 estações para estar em sua capacidade total, em sua primeira estação ele está pronto mais possui um modificador negativo de -3 que é retirado após a segunda estação.
@@ -31,7 +31,11 @@ Outros livros não estão permitidos. Não é o intuito maximizar ou focar em co
 
 Os conhecimento de Taumatologia e das Artes mágicas são importantes para os magi – tão importantes, de fato, que muitos passam a vida toda enclausurados em seus laboratórios, estudando-os. É possível aumentar seu conhecimento das Artes mágicas de diversas maneiras, sendo o laboratório a principal delas.
 
-#### Fixar conexões arcanas
+### Fixar conexões arcanas
+
+Um magus que tenha em mãos uma Conexão Arcana ativa  pode fixá-la de maneira permanente, utilizando uma estação de trabalho em seu laboratório e um peão de Vim Vis. A conexão tem que estar ativa ao começo da estação, mas não precisa durar até o fim dela.
+
+
 
 
 

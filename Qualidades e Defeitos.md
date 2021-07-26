@@ -99,105 +99,44 @@ Você consegue descobrir as coisas melhor sozinho do que lendo livros, e recebe 
 Você tem acesso exclusivo a uma fonte de vis bruto. Determine a quantidade e o tipo do vis com a ajuda da trupe, uma boa medida sendo um décimo do que o concílio espera conseguir anualmente no começo da saga. A quantidade de vis colhido não costuma mudar com o tempo, mesmo que o concílio descubra ou adquira novas fontes.
 
 ### FÓRMULAS APERFEIÇOADAS
-Hermética Pequena
-Você tem 50 pontos de experiência para comprar Aperfeiçoamentos
-para as magias formulaicas que você conhece (página 124). Você
-pode escolher esta Virtude caso tenha Fórmulas Perfeitas, para
-obter mais pontos de experiência em Aperfeiçoamento. Esta
-Virtude pode ser escolhida múltiplas vezes.
 
-FÓRMULAS METÓDICAS
-Hermética Pequena
-Você é muito eficiente com suas magias, tendo desenvolvido um
-sistema metódico e preciso para a conjuração delas. Você recebe
-um bônus de +3 em todas as magias que conhece, mas caso altere
-qualquer coisa do seu método (como o volume de sua voz ou a
-velocidade de seus gestos), você não recebe este bônus.
+Você tem 5 pontos de experiência para comprar Aperfeiçoamentos para as magias formulaicas que você conhece (página 124). Você pode escolher esta Virtude caso tenha Fórmulas Perfeitas, para obter mais pontos de experiência em Aperfeiçoamento. Esta Virtude pode ser escolhida múltiplas vezes.
+```diff
+- DEFINIR O TERMO EXPERIÊNCIA
+```
 
-FÓRMULAS PERFEITAS
-Hermética Grande
-Você automaticamente aperfeiçoa todas as Magias que aprende.
-Todas as suas magias começam com um Aperfeiçoamento 1. Você
-pode escolher uma habilidade especial diferente para cada magia
-que conhece. Além disso, todos os pontos de experiência que você
-gasta em Aperfeiçoamento são dobrados.
+### FÓRMULAS METÓDICAS
 
-GÊNIO INVENTIVO
-Hermética Pequena
-Para você, novas ideias e conexões são algo natural. Você tem um
-bônus de +3 em Totais de Laboratório quando estiver inventando
-novas Magias formulaicas, encantando objetos e fazendo poções.
-Se você decidir usar experimentação, o bônus é de +6.
+Você é muito eficiente com suas magias, tendo desenvolvido um sistema metódico e preciso para a conjuração delas. Você recebe um bônus de +1 em todas as magias que conhece, mas caso altere qualquer coisa do seu método (como o volume de sua voz ou a velocidade de seus gestos), você não recebe este bônus.
 
-GRANDE FOCO MÁGICO
-Hermética Grande
-A sua magia é muito mais poderosa quando relacionada a algum
-aspecto limitado, como o clima, os pássaros, necromancia ou
-emoções. Este aspecto deve ser menos abrangente do que uma
-Arte individual, mas pode ser distribuído entre diversas Artes diferentes
-– necromancia, por exemplo, envolve o uso de Corpus
-e Mentem. Você não pode escolher Atividades de Laboratório
-como foco, mas os focos se aplicam às atividades de laboratório
-normalmente.
-Quando conjurar uma magia ou gerar um Total de
-Laboratório relacionado ao seu foco, dobre a menor Arte
-relevante. Caso o efeito tenha algum requisito, a menor
-Arte relevante pode ser o requisito, ao invés de uma das
-Artes primárias. Desta forma, se uma maga com um foco em
-pássaros estivesse conjurando uma magia para transformar
-um pássaro em fogo, MuAn (Ig), com Muto 14, Animal 18, e
-Ignem 10, a soma das Artes seria 34: 14 de Muto e 20 pelo
-dobro de Ignem. Se estivesse conjurando uma magia para
-transformar um pássaro em outro tipo de pássaro, MuAn
-sem requisitos, a soma das Artes seria 46: 18 de Animal e 28
-pelo dobro de Muto.
-Um personagem só pode ter um Foco Mágico, Grande ou
-Pequeno, independentemente de como o conseguiu.
+### FÓRMULAS PERFEITAS
 
-IMUNIDADE SUPERIOR
-Sobrenatural Grande
-Você é completamente imune a algum perigo que é comum e
-potencialmente mortal. Você pode ser imune a fogo, por exemplo,
-ou a armas de ferro (armas de outros materiais funcionariam
-normalmente). Você não pode ser imune à velhice, veja a Virtude
-Fonte da Juventude para este caso. Sua imunidade se aplica tanto
-às versões mundanas quanto às mágicas deste perigo; ou seja, se
-você for imune a fogo, você também é imune a fogo má
+Você automaticamente aperfeiçoa todas as Magias que aprende. Todas as suas magias começam com um Aperfeiçoamento 1. Você pode escolher uma habilidade especial diferente para cada magia que conhece. Além disso, todos os pontos de experiência que você gasta em Aperfeiçoamento são dobrados.
 
-INOFENSIVO PARA ANIMAIS
-Geral Pequena e Hermética
-O seu Dom não incomoda os animais, embora ainda tenha efeitos
-negativos nas pessoas. Os animais com algum nível de Potência
-Mística podem reagir de outras maneiras, dependendo do animal.
-De modo geral, se o animal reagia positivamente ao Dom
-na maior parte do tempo, provavelmente irá reagir positivamente
-a você, já que você tem o Dom. Caso ele reaja negativamente ao
-Dom, em geral, esta Virtude cancela este efeito. Personagens que
-não tenham O Dom podem escolher esta Virtude caso possuam o
-Defeito Ares Mágicos (página 77).
+### GÊNIO INVENTIVO
 
-LEITOR ATENTO
-Geral Pequena
-Você é um leitor atento, absorvendo livros como poucos.
-Quando estudar por livros, trate-os como sendo três níveis de
-Qualidade superior.
+Para você, novas ideias e conexões são algo natural. Você tem um bônus de +1 em Totais de Laboratório quando estiver inventando novas Magias formulaicas, encantando objetos e fazendo poções. Se você decidir usar experimentação, o bônus é de +3.  Mas os críticos são à partir de 15.
 
-MAGIA ATRELADA
-Hermética Pequena
-Você possui grande controle sobre sua magia e pode cancelar
-qualquer uma com alguns segundos de concentração. Você consegue
-até mesmo cancelar a magia nos objetos encantados que
-criou. O cancelamento de sua magia deve ser tratado como se
-você estivesse conjurando uma magia, para efeitos de iniciativa e
-concentração. Caso esteja distraído e falhar em uma rolagem de
-Concentração, você pode tentar novamente no turno seguinte.
-Magias e objetos encantados podem ser cancelados a qualquer
-distância, mas uma vez cancelados eles se vão para sempre – magias
-devem ser conjuradas novamente e objetos devem ser encantados
-mais uma vez para que os efeitos se restaurem. A principal
-desvantagem deste atrelamento é que quando você morrer, toda
-a sua magia vai se esvair; as magias deixarão de funcionar e os
-objetos encantados se esgotarão.
+### GRANDE FOCO MÁGICO
+
+A sua magia é muito mais poderosa quando relacionada a algum aspecto limitado, como o clima, os pássaros, necromancia ou emoções. Este aspecto deve ser menos abrangente do que uma Arte individual, mas pode ser distribuído entre diversas Artes diferentes– necromancia, por exemplo, envolve o uso de Corpus e Mentem. Você não pode escolher Atividades de Laboratório como foco, mas os focos se aplicam às atividades de laboratório normalmente. Quando conjurar uma magia ou gerar um Total de Laboratório relacionado ao seu foco, dobre a menor Arte relevante. Caso o efeito tenha algum requisito, a menor Arte relevante pode ser o requisito, ao invés de uma das Artes primárias. Desta forma, se uma maga com um foco em pássaros estivesse conjurando uma magia para transformar um pássaro em fogo, MuAn (Ig), com Muto 14, Animal 18, e Ignem 10, a soma das Artes seria 34: 14 de Muto e 20 pelo
+dobro de Ignem. Se estivesse conjurando uma magia para transformar um pássaro em outro tipo de pássaro, MuAn sem requisitos, a soma das Artes seria 46: 18 de Animal e 28 pelo dobro de Muto. Um personagem só pode ter um Foco Mágico, Grande ou Pequeno, independentemente de como o conseguiu.
+```diff
+! a ideia é excelente mas falta definir algumas coisas para isso ser viavel, se algum jogador se interessar poderemos viabilizar isso mais rapido
+```
+
+### INOFENSIVO PARA ANIMAIS
+
+O seu Dom não incomoda os animais, embora ainda tenha efeitos negativos nas pessoas. Os animais com algum nível de Potência Mística podem reagir de outras maneiras, dependendo do animal. De modo geral, se o animal reagia positivamente ao Dom na maior parte do tempo, provavelmente irá reagir positivamente a você, já que você tem o Dom. Caso ele reaja negativamente ao Dom, em geral, esta Virtude cancela este efeito. Personagens que não tenham O Dom podem escolher esta Virtude caso possuam o Defeito Ares Mágicos (página 77).
+
+### LEITOR ATENTO
+
+Você é um leitor atento, absorvendo livros como poucos. Quando estudar por livros, trate-os como sendo +1 em Bônus,
+
+###  MAGIA ATRELADA
+
+Você possui grande controle sobre sua magia e pode cancelar qualquer uma com alguns segundos de concentração. Você consegue até mesmo cancelar a magia nos objetos encantados que criou. O cancelamento de sua magia deve ser tratado como se você estivesse conjurando uma magia, para efeitos de iniciativa e concentração. Caso esteja distraído e falhar em uma rolagem de Concentração, você pode tentar novamente no turno seguinte. Magias e objetos encantados podem ser cancelados a qualquer distância, mas uma vez cancelados eles se vão para sempre – magias
+devem ser conjuradas novamente e objetos devem ser encantados mais uma vez para que os efeitos se restaurem. A principal desvantagem deste atrelamento é que quando você morrer, toda a sua magia vai se esvair; as magias deixarão de funcionar e os objetos encantados se esgotarão.
 
 MAGIA CÍCLICA (POSITIVA)
 Hermética Pequena

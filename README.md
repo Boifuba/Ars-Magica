@@ -23,9 +23,17 @@ Outros livros não estão permitidos. Não é o intuito maximizar ou focar em co
 
 ### Atividades de laboratório
 
-* Os jogadores deverão seguir o arquivo laboratório disponibilizado aqui para saber o quanto investir e e receber os bônus desse investimento. 
+* Os jogadores deverão seguir a tabela [laboratório](https://github.com/cefasheli/Ars-Magica/tree/main/Tabelas/Laborat%C3%B3rio) disponibilizado aqui para saber o quanto investir e e receber os bônus desse investimento. 
 * O laboratório demora 2 estações para estar em sua capacidade total, em sua primeira estação ele está pronto mais possui um modificador negativo de -3 que é retirado após a segunda estação.
-* 
+* Efeitos adicionais podem ser inclusos nesses bônus como obter um ajudante, um familiar, algo muito específico para a criação.
+
+### Estudos Arcanos 
+
+Os conhecimento de Taumatologia e das Artes mágicas são importantes para os magi – tão importantes, de fato, que muitos passam a vida toda enclausurados em seus laboratórios, estudando-os. É possível aumentar seu conhecimento das Artes mágicas de diversas maneiras, sendo o laboratório a principal delas.
+
+#### Fixar conexões arcanas
+
+
 
 
 #### Tempo de aprendizado de magias e confecção de itens.

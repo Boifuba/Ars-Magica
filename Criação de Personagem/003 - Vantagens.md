@@ -1,52 +1,50 @@
-#Qualidades e Defeitos 
+# Qualidades e Defeitos 
 
 
-## Virtudes
 
 ### CARACTERÍSTICA IMPRESSIONANTE
 
 Você pode aumentar uma Característica em +1 Certifique-se de descrever o que é tão especial em seu personagem para justificar este aumento (ombros extremamente largos, uma agilidade inata ou um carisma incrível). Esta Virtude pode ser escolhida duas
 vezes para a mesma Característica ou para mais de uma Característica. Essa é única forma de passar dos Valores estabelecidos de NH
 
- *Valor da Habilidade em GURPS comprada x 1.5*
+ >Valor da Habilidade em GURPS comprada x 1.5
 
 ### ADEPTO DE LABORATÓRIOS
 
 Você tem facilidade em processar as instruções dos outros. Você recebe um bônus de +3 no Total de Laboratório quando estiver usando textos laboratoriais de outras pessoas, inclusive quando estiver reinventando magias formulaicas.
 
-*5 Pontos* 
+>5 Pontos
 
 
 ### AFINIDADE COM ARTE
 
 Todos os Totais de Estudo para uma Arte Hermética são multiplicados por 1,5, e arredondados para cima. Esta Virtude pode ser escolhida duas vezes para duas Artes diferentes.
 
-*15 pontos*
+>15 pontos
 
 ### APRENDER (HABILIDADE) COM OS ERROS
 
-Você consegue aprender com os seus erros, quando se trata de uma Habilidade específica. A primeira vez que você sofrer uma Falha Crítica ou não for bem-sucedido por 1 ponto, você recebe +3 na segunda tentativa. A rolagem deve ter surgido naturalmente durante a história. Esta Virtude pode ser
-escolhida múltiplas vezes, mas para Habilidades diferentes.
+Você consegue aprender com os seus erros, quando se trata de uma Habilidade específica. A primeira vez que você sofrer uma Falha Crítica ou não for bem-sucedido por 1 ponto, você recebe +3 na segunda tentativa. A rolagem deve ter surgido naturalmente durante a história. Esta Virtude pode ser escolhida múltiplas vezes, mas para Habilidades diferentes.
 
-*5 pontos*
+>5 pontos
 
 ### BOM ALUNO
 
 Você é um aluno atento e esforçado. Quando alguém lhe ensina alguma coisa, adicione 3 aos testes de laboratório.
 
-*10 pontos*
+>10 pontos
 
 ### BOM PROFESSOR
 
 Você consegue explicar novos conceitos e conhecimentos com facilidade. Adicione 1 à Qualidade de todos os livros que escrever e 3 ao Total de testes de laboratório da pessoa que seja seu aluno.
 
-*10 pontos*
+>10 pontos
 
 ### BÔNUS DE ESTUDO
 
 Quando você consegue estudar uma Arte a partir de livros ou vis na presença da Forma ou Técnica Hermética que está estudando, seu arredor lhe oferece novos entendimentos e descobertas. Adicione 2 ao resultado das rolagens de estudo de vis e 1 à Qualidade de qualquer texto que você estiver lendo. O seu nível atual na Arte estudada determina a magnitude dos arredores necessários para que novos entendimentos sejam possíveis. 
 
-*15 pontos*
+>15 pontos
 
 ```diff
 ! Bom mas confuso

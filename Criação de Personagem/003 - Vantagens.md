@@ -42,7 +42,7 @@ Você consegue explicar novos conceitos e conhecimentos com facilidade. Adicione
 
 ### BÔNUS DE ESTUDO
 
-Quando você consegue estudar uma Arte a partir de livros ou vis na presença da Forma ou Técnica Hermética que está estudando, seu arredor lhe oferece novos entendimentos e descobertas. Adicione 2 ao resultado das rolagens de estudo de vis e 1 à Qualidade de qualquer texto que você estiver lendo. O seu nível atual na Arte estudada determina a magnitude dos arredores necessários para que novos entendimentos sejam possíveis. 
+Quando você consegue estudar uma Arte à partir de livros ou vis na presença da Forma ou Técnica Hermética que está estudando, seu arredor lhe oferece novos entendimentos e descobertas. Adicione 2 ao resultado das rolagens de estudo de vis e +1 de bônus de qualquer texto que você estiver lendo. 
 
 >15 pontos
 
@@ -52,68 +52,71 @@ Quando você consegue estudar uma Arte a partir de livros ou vis na presença da
 
 ### CAPUZ VERMELHO
 
-Embora não tenha O Dom e a magia Hermética esteja além do seu alcance, você é um membro da Ordem de Hermes e da Casa Mercere (página 15). Há alguns membros da Casa Mercere com O Dom, mas eles não devem escolher esta Virtude e sim Magus Hermético. Você é um dos mensageiros da Ordem e possui alguns objetos encantados para facilitar o seu trabalho. Um Capuz Vermelho jovem, que acabou de jurar o Código de Hermes, tem o equivalente a 50 níveis de efeitos, com modificações para a quantidade de usos por dia e penetração inclusos (leia mais no Capítulo 8: Laboratório). Estes níveis de efeitos mágicos são invariavelmente divididos em dois ou mais encantos que auxiliam no trabalho de mensageiros. Jovens Capuzes Vermelhos nunca recebem itens capazes de matar, ferir ou enfeitiçar grandes quantidades de mundanos; o risco de causar problemas para a Ordem é grande demais. Os objetos encantados entregues aos Capuzes Vermelhos são aprimorados ou substituídos como recompensa por um bom serviço, e pode-se esperar 2 níveis a mais por ano. Você é treinado de maneira similar aos magi, e pode escolher Habilidades Acadêmicas, Arcanas e Marciais durante a criação de personagens. Você passou quinze anos como aprendiz e acumulou 300 pontos de experiência durante este período. Além disso, você recebe automaticamente a Virtude Viajado, sem custo. Quando começa a envelhecer, um magus com um Total de Laboratório Creo Corpus 50 ou mais irá preparar um Ritual de Longevidade para você, sem custo, caso deseje. Dependendo dos contatos que consiga durante a saga, o ritual pode ser ainda mais forte. Você é sustentado pelo concílio e não pode escolher a Virtude Riqueza ou o Defeito Pobreza. Você não pode ter O Dom. Você precisa gastar duas estações por ano em serviço à Ordem,  entregando mensagens entre concílios e magi. As outras duas estações do ano são legitimamente livres, no entanto, e você pode fazer o que quiser. Esta Virtude pode ser escolhida por homens e mulheres. Capuzes Vermelhos criados com alguns anos após A Provação recebem objetos encantados melhores,
-conforme descrito acima – e um Ritual de Longevidade, caso seja aplicável.
+Embora não tenha O Dom e a magia Hermética esteja além do seu alcance, você é um membro da Ordem de Hermes e da Casa Mercere (página 15). Há alguns membros da Casa Mercere com O Dom, mas eles não devem escolher esta Virtude e sim Magus Hermético. Você é um dos mensageiros da Ordem e possui alguns objetos encantados para facilitar o seu trabalho. Um Capuz Vermelho jovem, que acabou de jurar o Código de Hermes, tem o equivalente a 50 níveis de efeitos, a penetração é definida pelo seu conhecimento de taumatologia . Estes níveis de efeitos mágicos são invariavelmente divididos em dois ou mais encantos que auxiliam no trabalho de mensageiros. Jovens Capuzes Vermelhos nunca recebem itens capazes de matar, ferir ou enfeitiçar grandes quantidades de mundanos; o risco de causar problemas para a Ordem é grande demais. Os objetos encantados entregues aos Capuzes Vermelhos são aprimorados ou substituídos como recompensa por um bom serviço, e pode-se esperar 2 níveis a mais por ano. Você é treinado de maneira similar aos magi, e pode escolher Habilidades Acadêmicas, Arcanas e Marciais durante a criação de personagens. Você passou quinze anos como aprendiz e acumulou 300 pontos de experiência durante este período. Além disso, você recebe automaticamente a Virtude Viajado, sem custo. Quando começa a envelhecer, um magus com um Total de Laboratório Creo Corpus 50 ou mais irá preparar um Ritual de Longevidade para você, sem custo, caso deseje. Dependendo dos contatos que consiga durante a saga, o ritual pode ser ainda mais forte. Você é sustentado pelo concílio e não pode escolher a Virtude Riqueza ou o Defeito Pobreza. Você não pode ter O Dom. Você precisa gastar duas estações por ano em serviço à Ordem,  entregando mensagens entre concílios e magi. As outras duas estações do ano são legitimamente livres, no entanto, e você pode fazer o que quiser. Esta Virtude pode ser escolhida por homens e mulheres. Capuzes Vermelhos criados com alguns anos após A Provação recebem objetos encantados melhores, conforme descrito acima – e um Ritual de Longevidade, caso seja aplicável.
 
-*15 pontos*
+>15 pontos por nível
 
-```diff
-! Texto não formatado, está aqui somente para referência. Consultar o mestre se desejar comprar para um companheiro
-
-```
 
 ### CIRCUNSTÂNCIAS ESPECIAIS
 
-Algumas circunstâncias incomuns (como durante uma tempestade, ou enquanto você estiver tocando o alvo) favorecem a sua magia, e você recebe um bônus de +3 tanto para resistir quanto para conjurar magias. Esta Virtude pode ser escolhida múltiplas vezes, para circunstâncias diferentes, mas os bônus
-não se acumulam.
+Algumas circunstâncias incomuns (como durante uma tempestade, ou enquanto você estiver tocando o alvo) favorecem a sua magia, e você recebe um bônus de +3 tanto para resistir quanto para conjurar magias. Esta Virtude pode ser escolhida múltiplas vezes, para circunstâncias diferentes, mas os bônus não se acumulam.
 
-*10 pontos*
+>15 pontos
 
 ### COMPREENSÃO COLATERAL
 
 Seu método de estudo é extremamente versátil. Sempre que estudar uma das Técnicas mágicas a partir de um livro, professor ou vis, você recebe um bônus de experiência em quatro Formas de sua escolha. Quando estudar uma das Formas mágicas, você recebe um ponto de experiência em duas Técnicas de sua escolha. Não é possível alocar mais do que 1 ponto de experiência à mesma Arte a cada vez. Esta Virtude é particularmente útil para magi generalistas.
 
-```diff
-! à partir daqui está sem pontuação
-```
+>10 pontos
 
 ### EFEITO COLATERAL
 
 A sua magia tem algum efeito incidental que é geralmente útil, embora ocasionalmente irritante. Alguns exemplos são uma presença de liderança, que se traduz em um bônus de +1, ou um estado de calma profunda que lhe confere um bônus em Concentração. A intensidade do efeito aumenta com o nível da magia e dura por um curto período após a conjuração de qualquer magia.
 
+>10 pontos 
 
 ### ESTUDIOSO DO (REINO)
 
-Você foi treinado acerca dos aspectos místicos de um dos quatro Reinos de Poder (Divino, Feérico, Infernal ou Mágico) e recebe um bônus de +2 em todas as rolagens usando a Habilidade relacionada. Você pode escolher Habilidades Arcanas durante a criação de personagem. Esta Virtude pode
-ser escolhida múltiplas vezes, para cada um dos reinos. Você não pode escolher Estudioso do (Reino) e Virtuoso para a mesma Habilidade.
+Você foi treinado acerca dos aspectos místicos de um dos quatro Reinos de Poder (Divino, Feérico, Infernal ou Mágico) e recebe um bônus de +2 em todas as rolagens usando a Habilidade relacionada. Você pode escolher Habilidades Arcanas durante a criação de personagem. Esta Virtude pode ser escolhida múltiplas vezes, para cada um dos reinos. Você não pode escolher Estudioso do (Reino) e Virtuoso para a mesma Habilidade.
+
+>10 pontos
 
 
 ### ESTUDO LIVRE
 
 Você consegue descobrir as coisas melhor sozinho do que lendo livros, e recebe um bônus de +3 quando estudar a partir de vis bruto.
 
+>10 pontos
+
 ### FONTE DE VIS PESSOAL
 
 Você tem acesso exclusivo a uma fonte de vis bruto. Determine a quantidade e o tipo do vis com a ajuda da trupe, uma boa medida sendo um décimo do que o concílio espera conseguir anualmente no começo da saga. A quantidade de vis colhido não costuma mudar com o tempo, mesmo que o concílio descubra ou adquira novas fontes.
 
+>25 pontos
+
 ### FÓRMULAS APERFEIÇOADAS
 
-Você tem 5 pontos de experiência para comprar Aperfeiçoamentos para as magias formulaicas que você conhece (página 124). Você pode escolher esta Virtude caso tenha Fórmulas Perfeitas, para obter mais pontos de experiência em Aperfeiçoamento. Esta Virtude pode ser escolhida múltiplas vezes.
-```diff
-- DEFINIR O TERMO EXPERIÊNCIA
-```
+Você tem 5 pontos  para comprar Aperfeiçoamentos para as magias formulaicas que você conhece (página 124). Você pode escolher esta Virtude caso tenha Fórmulas Perfeitas, para obter mais pontos de experiência em Aperfeiçoamento. Esta Virtude pode ser escolhida múltiplas vezes.
+
+>20 pontos
 
 ### FÓRMULAS METÓDICAS
 
 Você é muito eficiente com suas magias, tendo desenvolvido um sistema metódico e preciso para a conjuração delas. Você recebe um bônus de +1 em todas as magias que conhece, mas caso altere qualquer coisa do seu método (como o volume de sua voz ou a velocidade de seus gestos), você não recebe este bônus.
 
-### FÓRMULAS PERFEITAS
+>20 pontos
+
+## FÓRMULAS PERFEITAS
 
 Você automaticamente aperfeiçoa todas as Magias que aprende. Todas as suas magias começam com um Aperfeiçoamento 1. Você pode escolher uma habilidade especial diferente para cada magia que conhece. Além disso, todos os pontos de experiência que você gasta em Aperfeiçoamento são dobrados.
+
+>35 pontos
 
 ### GÊNIO INVENTIVO
 
 Para você, novas ideias e conexões são algo natural. Você tem um bônus de +1 em Totais de Laboratório quando estiver inventando novas Magias formulaicas, encantando objetos e fazendo poções. Se você decidir usar experimentação, o bônus é de +3.  Mas os críticos são à partir de 15.
+
+>15 pontos
 
 ### GRANDE FOCO MÁGICO
 

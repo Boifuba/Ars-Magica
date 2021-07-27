@@ -109,12 +109,12 @@ Forma + Bônus de Penetração - Nível da Magia
 ## Duração
 &nbsp;
 
->* Momentâneo - Acontece em uma fração pequena de tempo e termina
->* Concentração - Enquanto o mago estiver mantendo a concentração do item 
->* Diâmetro - 2 minutos (Uma área de 25 m² leva 1 Diâmetro para ser explorada)
->* Sol/Círculo - A magia dura até o próximo nascer ou pôr do sol.
->* Lua - A magia dura até que a próxima Lua Nova e Lua Cheia se ponham, independente de que ordem isso aconteça.
->* Ano - A magia dura até o nascer do sol do quarto equinócio ou solstício a partir de sua conjuração. Apenas Rituais Mágicos podem ter Duração: Sol.
+> * Momentâneo - Acontece em uma fração pequena de tempo e termina
+> * Concentração - Enquanto o mago estiver mantendo a concentração do item 
+> * Diâmetro - 2 minutos (Uma área de 25 m² leva 1 Diâmetro para ser explorada)
+> * Sol/Círculo - A magia dura até o próximo nascer ou pôr do sol.
+> * Lua - A magia dura até que a próxima Lua Nova e Lua Cheia se ponham, independente de que ordem isso aconteça.
+> * Ano - A magia dura até o nascer do sol do quarto equinócio ou solstício a partir de sua conjuração. Apenas Rituais Mágicos podem ter Duração: Sol.
 &nbsp;
 
 ## Atividades de laboratório

@@ -5,232 +5,10 @@
 	"advantages": [
 		{
 			"type": "advantage",
-			"id": "30e9f65d-0592-48ba-bf1a-58f0f7c029fa",
-			"name": "Dom",
-			"mental": true,
-			"supernatural": true,
-			"levels": "1",
-			"base_points": 5,
-			"points_per_level": 10,
-			"modifiers": [
-				{
-					"type": "modifier",
-					"id": "47848f7b-de46-458b-acf6-9c0a8b9c2a60",
-					"disabled": true,
-					"name": "Dance",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
-				},
-				{
-					"type": "modifier",
-					"id": "b8b69691-5a53-4d38-8475-0e54f676f5ab",
-					"disabled": true,
-					"name": "Dark-Aspected",
-					"cost_type": "percentage",
-					"cost": -50,
-					"affects": "levels_only"
-				},
-				{
-					"type": "modifier",
-					"id": "b356bc8d-96ae-4dee-a313-f930befb7f30",
-					"disabled": true,
-					"name": "Day-Aspected",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
-				},
-				{
-					"type": "modifier",
-					"id": "1a593df0-6d43-4ac8-b0d8-a8e09b285222",
-					"disabled": true,
-					"name": "Musical",
-					"cost_type": "percentage",
-					"cost": -50,
-					"affects": "levels_only"
-				},
-				{
-					"type": "modifier",
-					"id": "4a383dfb-486d-490d-ac5b-89fc79a1b5d1",
-					"disabled": true,
-					"name": "Night-Aspected",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
-				},
-				{
-					"type": "modifier",
-					"id": "accb1bb2-ad1e-4f2a-ac60-dd04397475e6",
-					"disabled": true,
-					"name": "One College",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only",
-					"notes": "@College@"
-				},
-				{
-					"type": "modifier",
-					"id": "7d0b6737-eb81-4dc0-b948-1d4e39b1097a",
-					"disabled": true,
-					"name": "Solitary",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
-				},
-				{
-					"type": "modifier",
-					"id": "e82d48aa-70b6-4738-bc82-2001151858db",
-					"disabled": true,
-					"name": "Song",
-					"cost_type": "percentage",
-					"cost": -40,
-					"affects": "levels_only"
-				}
-			],
-			"reference": "B66",
-			"calc": {
-				"points": 15
-			},
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "advantage_prereq",
-						"has": true,
-						"name": {
-							"compare": "is"
-						}
-					}
-				]
-			},
-			"features": [
-				{
-					"type": "spell_bonus",
-					"amount": 1,
-					"per_level": true,
-					"match": "all_colleges"
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "artes liberalis"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "aquam"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "auram"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "corpus"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "herbam"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "ignem"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "imaginem"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "terram"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "vim"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "animal"
-					}
-				},
-				{
-					"type": "skill_bonus",
-					"amount": 1,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "mentem"
-					}
-				}
-			],
-			"categories": [
-				"Advantage"
-			]
-		},
-		{
-			"type": "advantage",
 			"id": "c5162f56-0e43-4000-b1a9-3d1fec6f4c35",
 			"name": "Dom Gentil",
 			"supernatural": true,
+			"reference": "A",
 			"calc": {
 				"points": 0
 			},
@@ -241,7 +19,6 @@
 					"situation": "contra qualquer ser mundano"
 				}
 			],
-			"notes": "Versão mais leve do Dom",
 			"categories": [
 				"Advantage"
 			]
@@ -252,7 +29,7 @@
 			"name": "Dom Desperto",
 			"mental": true,
 			"supernatural": true,
-			"reference": "B8",
+			"reference": "A",
 			"calc": {
 				"points": 0
 			},
@@ -263,250 +40,111 @@
 					"situation": "contra todos os seres mundanos"
 				}
 			],
-			"notes": "versão mais pesada do Dom",
 			"categories": [
 				"Advantage"
 			]
 		},
 		{
-			"type": "advantage",
-			"id": "d3164db9-274d-4340-8d6d-bb50e49c39c2",
-			"name": "Advantage",
-			"physical": true,
+			"type": "advantage_container",
+			"id": "33766bfc-c09a-4feb-9463-fac701d6746f",
+			"name": "Forma",
+			"reference": "A",
 			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"type": "advantage",
-			"id": "7a5d918c-76ea-4fe2-8b54-dfe1d3b97e7a",
-			"name": "Language: @Language@",
-			"mental": true,
-			"modifiers": [
-				{
-					"type": "modifier",
-					"id": "cedd660c-d0ca-4ddc-952f-eb728684b94f",
-					"name": "Native",
-					"reference": "B23",
-					"cost_type": "points",
-					"cost": -6,
-					"affects": "total"
-				},
-				{
-					"type": "modifier",
-					"id": "c59b4ec7-ef66-455c-a60f-0b35627df9b1",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 0,
-					"affects": "total",
-					"notes": "None"
-				},
-				{
-					"type": "modifier",
-					"id": "9e5c3a8a-8220-4967-bbde-5e7dc8db8043",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 1,
-					"affects": "total",
-					"notes": "Broken"
-				},
-				{
-					"type": "modifier",
-					"id": "732334bf-73b0-4b51-b78d-f67b114c2a20",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 2,
-					"affects": "total",
-					"notes": "Accented"
-				},
-				{
-					"type": "modifier",
-					"id": "d77c3209-77ea-412b-806e-122ca4137b1b",
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 3,
-					"affects": "total",
-					"notes": "Native"
-				},
-				{
-					"type": "modifier",
-					"id": "2db9a150-9557-409e-9f2d-90ba817cf819",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 0,
-					"affects": "total",
-					"notes": "None"
-				},
-				{
-					"type": "modifier",
-					"id": "95ff56df-fe7a-4997-abe1-39fb120c93ff",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 1,
-					"affects": "total",
-					"notes": "Broken"
-				},
-				{
-					"type": "modifier",
-					"id": "1a73bad7-33c0-4e27-86f2-cedf0e78ca1e",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 2,
-					"affects": "total",
-					"notes": "Accented"
-				},
-				{
-					"type": "modifier",
-					"id": "4864a458-77b4-4941-97ff-6c909338ea41",
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 3,
-					"affects": "total",
-					"notes": "Native"
-				}
-			],
-			"reference": "B24",
-			"calc": {
-				"points": 0
+				"points": 25
 			},
-			"categories": [
-				"Advantage",
-				"Language"
-			]
-		},
-		{
-			"type": "advantage",
-			"id": "d4c6f73d-a9e0-4735-894c-f0663cea0a4e",
-			"name": "Language: Latim",
-			"mental": true,
-			"modifiers": [
+			"open": false,
+			"children": [
 				{
-					"type": "modifier",
-					"id": "4eaf01b0-31da-494d-af82-dc4eff66c3d4",
-					"disabled": true,
-					"name": "Native",
-					"reference": "B23",
-					"cost_type": "points",
-					"cost": -6,
-					"affects": "total"
+					"type": "advantage",
+					"id": "7d78d526-65af-42ab-9ad2-29d9635c79e4",
+					"name": "Creo",
+					"physical": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 10,
+					"reference": "A",
+					"calc": {
+						"points": 5
+					}
 				},
 				{
-					"type": "modifier",
-					"id": "5454a1c7-8a8c-48e6-8675-09e28023b1ce",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 0,
-					"affects": "total",
-					"notes": "None"
+					"type": "advantage",
+					"id": "9826c83f-9359-404d-a839-46f963e6a0bc",
+					"name": "Intellego",
+					"physical": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 10,
+					"reference": "A",
+					"calc": {
+						"points": 5
+					}
 				},
 				{
-					"type": "modifier",
-					"id": "9f596497-c709-47ae-9828-ffcae3c3fb74",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 1,
-					"affects": "total",
-					"notes": "Broken"
+					"type": "advantage",
+					"id": "fc6a55d0-8664-4993-8117-eeb61c9d7a54",
+					"name": "Rego",
+					"physical": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 10,
+					"reference": "A",
+					"calc": {
+						"points": 5
+					}
 				},
 				{
-					"type": "modifier",
-					"id": "42c92b43-282c-438c-a172-2716dbbaa639",
-					"disabled": true,
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 2,
-					"affects": "total",
-					"notes": "Accented"
+					"type": "advantage",
+					"id": "70ebfb76-9c5f-4f75-a347-59e2f25ed0d5",
+					"name": "Muto",
+					"physical": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 10,
+					"reference": "A",
+					"calc": {
+						"points": 5
+					}
 				},
 				{
-					"type": "modifier",
-					"id": "7ccb6b2a-edf7-4dd8-9a3a-8af91d2d89e5",
-					"name": "Spoken",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 3,
-					"affects": "total",
-					"notes": "Native"
-				},
-				{
-					"type": "modifier",
-					"id": "db0b1ee7-7a48-45f4-959e-ced8cb420779",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 0,
-					"affects": "total",
-					"notes": "None"
-				},
-				{
-					"type": "modifier",
-					"id": "2b10839f-2b2c-42e1-b107-a4744e48788f",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 1,
-					"affects": "total",
-					"notes": "Broken"
-				},
-				{
-					"type": "modifier",
-					"id": "c9d791c7-e740-483c-ae86-7ead636b5183",
-					"disabled": true,
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 2,
-					"affects": "total",
-					"notes": "Accented"
-				},
-				{
-					"type": "modifier",
-					"id": "2860399a-8283-445c-9bf7-0c0e9c9c2812",
-					"name": "Written",
-					"reference": "B24",
-					"cost_type": "points",
-					"cost": 3,
-					"affects": "total",
-					"notes": "Native"
+					"type": "advantage",
+					"id": "936a263a-c8dc-4a96-a8bf-65e06101cad5",
+					"name": "Perdo",
+					"physical": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 5,
+					"reference": "A",
+					"calc": {
+						"points": 5
+					}
 				}
-			],
-			"reference": "B24",
-			"calc": {
-				"points": 6
-			},
-			"categories": [
-				"Advantage",
-				"Language"
 			]
 		}
 	],
 	"skills": [
 		{
 			"type": "skill",
+			"id": "fd782ef5-f99e-410b-802c-20e82310e345",
+			"name": "Artes Liberalis",
+			"reference": "A",
+			"difficulty": "iq/vh",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Occult/Magical"
+			]
+		},
+		{
+			"type": "skill",
 			"id": "7e2bc15b-b918-4657-a407-e0276c7ca44d",
 			"name": "Law",
-			"reference": "B204",
+			"reference": "A",
 			"specialization": "Peripheral Law",
 			"difficulty": "iq/h",
 			"points": 1,
@@ -524,9 +162,74 @@
 		},
 		{
 			"type": "skill",
+			"id": "29ff8d74-1e13-4e22-b1b3-3d8566ef97f7",
+			"name": "Teaching",
+			"reference": "B224",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Scholarly",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "d14f34a6-9bff-4eff-a327-04c9d21610c5",
+			"name": "Mesmerismo",
+			"reference": "A",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "de89ba8a-8625-46f5-80a6-714acc4ba175",
+			"name": "Teoria Mágica",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "f96f9b2a-751d-4fef-9caf-bad2d21652e9",
+			"name": "Música Cativante",
+			"reference": "A",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "0746dbfe-16de-4a59-a77b-761d672772b9",
+			"name": "Sentir a Natureza",
+			"reference": "A",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "0ada0274-8aaa-47de-93c1-8a68641c2566",
+			"name": "Sentir o Sagrado e o Profano",
+			"reference": "A",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "374b32e0-b0b4-4550-92fe-147177b713ad",
+			"name": "Philosophiae",
+			"reference": "A",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
 			"id": "6f504a16-7d3f-47a4-bc57-1d0ac1a7d56f",
 			"name": "Savoir-Faire",
-			"reference": "B218",
+			"reference": "A",
 			"specialization": "Magi",
 			"difficulty": "iq/e",
 			"points": 1,
@@ -550,79 +253,15 @@
 			"type": "skill_container",
 			"id": "86471049-e1f7-422d-9da3-e1644ee69eeb",
 			"name": "Substantivos",
-			"open": true,
+			"reference": "A",
+			"open": false,
 			"children": [
 				{
 					"type": "skill",
 					"id": "f93d38c7-f416-4363-8010-47741c158e92",
 					"name": "Animal",
 					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "affects \"all natural living things that are not plants or humans, doing to animals what Mentem and Corpus spells do to people\" as well as \"things made with animal products\" such as leather, wool, cheese, silk, etc. Since bacteria were unknown in medieval times, illness (e.g.) was considered either a form of possession or an imbalance of 'bodily humors'; thus, magic dealing with disease is relegated variously to Creo, Mentem and/or Vim effects."
-				},
-				{
-					"type": "skill",
-					"id": "d6d5de63-df22-4a7a-aaf4-b6355d0e2571",
-					"name": "Auram",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "affects lightning, wind and gaseous substances; other weather effects typically require an Aquam requisite "
-				},
-				{
-					"type": "skill",
-					"id": "acfe39d0-342f-4b6a-a43c-6bc95855fbf2",
-					"name": "Corpus",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "Applies to the human body, making it crucial to longevity formulas."
-				},
-				{
-					"type": "skill",
-					"id": "6acfb80d-46e1-4533-bc4c-18a070ea58da",
-					"name": "Herbam",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "primarily involves plants, but applies equally to any organic matter, living or dead, that is not of animal origin."
-				},
-				{
-					"type": "skill",
-					"id": "77a82a20-3a9d-4da0-8e36-933855b64676",
-					"name": "Ignem",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "involves light and heat, and is heavily represented in the fire spells of House Flambeau"
-				},
-				{
-					"type": "skill",
-					"id": "dec30340-d176-4ecd-bbc2-c8466e2765d9",
-					"name": "Imaginem ",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "deals with images, sounds, and other sensory stimuli (thus is involved in most illusionary effects)."
-				},
-				{
-					"type": "skill",
-					"id": "d038ec38-b2e1-46ba-9314-10c1c9ffdd6c",
-					"name": "Mentem",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "deals with emotions, memories, thoughts and spirits."
-				},
-				{
-					"type": "skill",
-					"id": "ca9e1f2d-3106-4f67-8255-a9c99cf06200",
-					"name": "Terram",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "involves earth and minerals: mere soil is the simplest target, while stone, metal and gems require progressively greater investment of spell levels to achieve the same effect."
-				},
-				{
-					"type": "skill",
-					"id": "23d56108-b364-4ecd-9402-6faa0917d297",
-					"name": "Vim",
-					"difficulty": "iq/vh",
-					"points": 1,
-					"notes": "involves magic itself, as well as demons (the overlap is not widely understood, but the fact that there is one is a significant obstacle to the Order's 'public relations', particularly concerning the Church)."
+					"points": 1
 				},
 				{
 					"type": "skill",
@@ -630,25 +269,99 @@
 					"name": "Aquam",
 					"difficulty": "iq/vh",
 					"points": 1
+				},
+				{
+					"type": "skill",
+					"id": "d6d5de63-df22-4a7a-aaf4-b6355d0e2571",
+					"name": "Auram",
+					"difficulty": "iq/vh",
+					"points": 1
+				},
+				{
+					"type": "skill",
+					"id": "acfe39d0-342f-4b6a-a43c-6bc95855fbf2",
+					"name": "Corpus",
+					"difficulty": "iq/vh",
+					"points": 1
+				},
+				{
+					"type": "skill",
+					"id": "6acfb80d-46e1-4533-bc4c-18a070ea58da",
+					"name": "Herbam",
+					"difficulty": "iq/vh",
+					"points": 1
+				},
+				{
+					"type": "skill",
+					"id": "77a82a20-3a9d-4da0-8e36-933855b64676",
+					"name": "Ignem",
+					"difficulty": "iq/vh",
+					"points": 1
+				},
+				{
+					"type": "skill",
+					"id": "dec30340-d176-4ecd-bbc2-c8466e2765d9",
+					"name": "Imaginem ",
+					"difficulty": "iq/vh",
+					"points": 1
+				},
+				{
+					"type": "skill",
+					"id": "d038ec38-b2e1-46ba-9314-10c1c9ffdd6c",
+					"name": "Mentem",
+					"difficulty": "iq/vh",
+					"points": 1
+				},
+				{
+					"type": "skill",
+					"id": "ca9e1f2d-3106-4f67-8255-a9c99cf06200",
+					"name": "Terram",
+					"difficulty": "iq/vh",
+					"points": 1
+				},
+				{
+					"type": "skill",
+					"id": "23d56108-b364-4ecd-9402-6faa0917d297",
+					"name": "Vim",
+					"difficulty": "iq/vh",
+					"points": 1
 				}
 			]
 		},
 		{
 			"type": "skill",
-			"id": "fd782ef5-f99e-410b-802c-20e82310e345",
-			"name": "Artes Liberalis",
-			"reference": "B225",
+			"id": "4a687ae5-bf73-4fed-9cc4-c683d82a20c2",
+			"name": "Código de Hermes",
+			"reference": "A",
 			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "9df61dbd-3f9f-491a-968c-4e4905cefe57",
+			"name": "Skill",
+			"difficulty": "dx/a",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "249955c7-eef3-49bf-b5e4-5d24c036c9ac",
+			"name": "Hidden Lore",
+			"reference": "A",
+			"specialization": "Ordem Hermética",
+			"difficulty": "iq/a",
 			"points": 1,
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				}
-			],
 			"categories": [
-				"Occult/Magical"
+				"Knowledge"
 			]
+		},
+		{
+			"type": "skill",
+			"id": "61bcc23f-eea0-487d-8e1d-82a756aabae9",
+			"name": "Empatia com Animais",
+			"reference": "A",
+			"difficulty": "iq/vh",
+			"points": 1
 		}
 	]
 }

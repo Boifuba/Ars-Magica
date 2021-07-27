@@ -27,5 +27,5 @@ Considere fazer uma doação!
 
 Só escolher o canal!
 
-[![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/gmail.png)](cefasheli@gmail.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/discordia.png)](https://discord.gg/73Bfq6K8)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/facebook.png)](facebook.com/cefasheli)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/whatsapp.png)](https://api.whatsapp.com/send?phone=5521972365528)
+[![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/gmail.png)](cefasheli@gmail.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/discordia.png)](https://discord.gg/73Bfq6K8)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/facebook.png)](https://www.facebook.com/CefasHeli/)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/whatsapp.png)](https://api.whatsapp.com/send?phone=5521972365528)
 

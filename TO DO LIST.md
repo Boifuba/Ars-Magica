@@ -1,14 +1,14 @@
 - [x] Trocar Taumatologia por Artes Liberales
+- [x] Acertar o GCS Template
 - [ ] Checar NH's e ver se os jogadores estão com skills adequadas ao cenário
-      - [ ] Lincoln
-      - [ ] Ugulino
-      - [ ] Bruno
-      - [ ] Pablo
-- [ ] Criar Nível da Magia para fins de Penetração Mágica
+- [ ] Lincoln
+- [ ] Ugulino
+- [ ] Bruno
+- [x] Criar Nível da Magia para fins de Penetração Mágica
 - [ ] Definir Glossário
 - [ ] Adicionar outras técnicas em Ignem 
 - [ ] Ajustar Creo Mentem
-- [ ] 
-- [ ] 
-- [ ] 
-- [ ] 
+- [x] Skills
+- [ ] Vantagens do cenário
+- [ ] Desvantagens do cenário
+

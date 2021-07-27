@@ -5,11 +5,9 @@ Skills
 As sete Artes Liberales, ou Artes Liberais, são a base da educação superior medieval. Os alunos as estudam nas Universidades antes de partir para estudos variados. Seria bastante raro alguém com qualquer Habilidade Acadêmica sem ao menos um nível de Artes Liberales. As Artes Liberales são divididas em dois grupos: O Trivium
 (gramática, lógica e retórica) e o Quadrivium (aritmética, geometria, astronomia e música). A importância maior no período é atribuída ao Trivium, mas ambas são ensinadas. Note que Artes Liberales é uma Habilidade apenas e não sete. A Gramática se ocupa das questões teóricas da estrutura das línguas, ao invés da capacidade de uso de qualquer língua específica (veja as Habilidades Língua Viva e Língua Morta). As autoridades são Prisciano e Élio Donato. Lógica é o estudo dos silogismos e das outras formas de raciocínio debatidas por
 Aristóteles. É a arte mais importante neste período. A autoridade é Aristóteles, com suas Logica Vetus e Logica Nova. Retórica é o estudo da teoria das formas de retórica, os truques que um orador tem à sua disposição, mas não necessariamente a habilidade de usá-los. A autoridade é Cícero, principalmente em
-De Inventione. Aritmética é o conhecimento de somar, subtrair, multiplicar e dividir. A autoridade é Boécio, De Arithmetica. Geometria se ocupa do estudo dos planos e figuras sólidas e a autoridade é Euclides, m seu Elementa. Ela também se dedica ao estudo da luz, e Óptica, de Euclides, é a autoridade. Astronomia é o estudo dos movimentos das estrelas e planetas e a autoridade é Ptolomeu, com seu Libri Almagesti. Música é o estudo da Teoria Musical e suas proporções e não a capacidade de tocar um instrumento. A autoridade é Boécio, com De Musica. Artes Liberales também cobre a habilidade de ler e escrever. Para cada nível de Artes Liberales um personagem é capaz de utilizar um sistema de escrita diferente, contanto que também saiba falar um idioma que use este sistema de escrita, tal como o romano, o grego, o árabe etc. 
+De Inventione. Aritmética é o conhecimento de somar, subtrair, multiplicar e dividir. A autoridade é Boécio, De Arithmetica. Geometria se ocupa do estudo dos planos e figuras sólidas e a autoridade é Euclides, m seu Elementa. Ela também se dedica ao estudo da luz, e Óptica, de Euclides, é a autoridade. Astronomia é o estudo dos movimentos das estrelas e planetas e a autoridade é Ptolomeu, com seu Libri Almagesti. Música é o estudo da Teoria Musical e suas proporções e não a capacidade de tocar um instrumento. A autoridade é Boécio, com De Musica. Artes Liberales também cobre a habilidade de ler e escrever. Para 4 níveis de Artes Liberales um personagem é capaz de utilizar um sistema de escrita diferente, contanto que também saiba falar um idioma que use este sistema de escrita, tal como o romano, o grego, o árabe etc. 
 
-Especialidades: gramática, lógica,
-retórica, aritmética, geometria, música, magia Ritual, magia
-Cerimonial. (Acadêmica)
+Especialidades: gramática, lógica, retórica, aritmética, geometria, música, magia Ritual, magia Cerimonial. (Acadêmica)
 
 > IQ/VH
 
@@ -17,8 +15,11 @@ Cerimonial. (Acadêmica)
 A Habilidade de julgar eventos e ações tendo em vista o Código de Hermes e o Código Periférico, assim como um conhecimento de precedentes importantes. Esta Habilidade inclui o lado teórico e prático da manutenção da lei Hermética, como o melhor momento para sugerir uma votação ou a forma correta de apresentar um argumento. Especialidades: Marchas Herméticas, aprendizes, relações com mundanos, procedimentos de Tribunal, intriga política. 
 
 >IQ/VH
+
 ## CONHECER ORGANIZAÇÃO
 O conhecimento das lendas, história, estrutura, funcionamento e objetivos de uma organização. Organizações Podem ser grandes como a Igreja ou podem ser apenas uma guilda de artesãos locais. Quanto menor a organização, mais detalhado o seu conhecimento. Especializações: personalidades, história, política. (Geral)
+
+>IQ/E
 
 ## EMPATIA COM ANIMAIS
 Você pode se comunicar com os animais como se eles fossem humanos. Use o seu nível de Empatia com Animais como  Se fosse um idioma que o animal usa para determinar a qualidade da comunicação. Além disso, você pode usar Cuidar de Animais como substituta para qualquer Habilidade social relacionada a humanos. Esta Habilidade não afeta a atitude dos animais em relação a você ou a sua em relação a eles. As outras pessoas não entendem a
@@ -26,10 +27,8 @@ sua comunicação com os animais. Especialidades: um tipo de animal específico,
 >IQ/VH
 
 ### LECIONAR
-A arte de ensinar algo a outra pessoa, normalmente alguma
-Habilidade. Especializações: uma Habilidade específica, um tipo
-de aluno. (Geral)
->IQ/H
+A arte de ensinar algo a outra pessoa, normalmente alguma Habilidade. Especializações: uma Habilidade específica, um tipo de aluno. (Geral)
+>IQ/A
 
 ## MESMERISMO
 Você tem o poder de controlar outras pessoas com a sua força de vontade e olhar. Ao encarar fixamente uma pessoa, por alguns segundos – algo geralmente impossível durante um combate – você pode emitir comandos verbais que devem ser obedecidos. Faça uma rolagem de Mesmerismo contra uma rolagem de Força de Vontade do alvo. A pessoa que está sendo influenciada pode receber um bônus para resistir ao comando, a critério do narrador, de acordo com a tabela abaixo. Magi Herméticos mantêm sua Resistência Mágica a Mentem e têm o direito de fazer a rolagem de Força de Vontade caso ela seja penetrada. Pessoas cegas ou que estejam  com os olhos fechados são imunes. Veja a página 156 para mais detalhes sobre o estabelecimento de contato visual. Não é possível desviar o olhar quando um Mesmerismo está sendo realizado, a não ser que a rolagem de Força de Vontade seja vitoriosa.

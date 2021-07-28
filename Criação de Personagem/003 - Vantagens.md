@@ -2,45 +2,45 @@
 
 
 
-### CARACTERÍSTICA IMPRESSIONANTE
+## CARACTERÍSTICA IMPRESSIONANTE
 
 Você pode aumentar uma Característica em +1 Certifique-se de descrever o que é tão especial em seu personagem para justificar este aumento (ombros extremamente largos, uma agilidade inata ou um carisma incrível). Esta Virtude pode ser escolhida duas
 vezes para a mesma Característica ou para mais de uma Característica. Essa é única forma de passar dos Valores estabelecidos de NH
 
  >Valor da Habilidade em GURPS comprada x 1.5
 
-### ADEPTO DE LABORATÓRIOS
+## ADEPTO DE LABORATÓRIOS
 
 Você tem facilidade em processar as instruções dos outros. Você recebe um bônus de +3 no Total de Laboratório quando estiver usando textos laboratoriais de outras pessoas, inclusive quando estiver reinventando magias formulaicas.
 
 >5 Pontos
 
 
-### AFINIDADE COM ARTE
+## AFINIDADE COM ARTE
 
 Todos os Totais de Estudo para uma Arte Hermética são multiplicados por 1,5, e arredondados para cima. Esta Virtude pode ser escolhida duas vezes para duas Artes diferentes.
 
 >15 pontos
 
-### APRENDER (HABILIDADE) COM OS ERROS
+## APRENDER (HABILIDADE) COM OS ERROS
 
 Você consegue aprender com os seus erros, quando se trata de uma Habilidade específica. A primeira vez que você sofrer uma Falha Crítica ou não for bem-sucedido por 1 ponto, você recebe +3 na segunda tentativa. A rolagem deve ter surgido naturalmente durante a história. Esta Virtude pode ser escolhida múltiplas vezes, mas para Habilidades diferentes.
 
 >5 pontos
 
-### BOM ALUNO
+## BOM ALUNO
 
 Você é um aluno atento e esforçado. Quando alguém lhe ensina alguma coisa, adicione 3 aos testes de laboratório.
 
 >10 pontos
 
-### BOM PROFESSOR
+## BOM PROFESSOR
 
 Você consegue explicar novos conceitos e conhecimentos com facilidade. Adicione 1 à Qualidade de todos os livros que escrever e 3 ao Total de testes de laboratório da pessoa que seja seu aluno.
 
 >10 pontos
 
-### BÔNUS DE ESTUDO
+## BÔNUS DE ESTUDO
 
 Quando você consegue estudar uma Arte à partir de livros ou vis na presença da Forma ou Técnica Hermética que está estudando, seu arredor lhe oferece novos entendimentos e descobertas. Adicione 2 ao resultado das rolagens de estudo de vis e +1 de bônus de qualquer texto que você estiver lendo. 
 
@@ -50,57 +50,57 @@ Quando você consegue estudar uma Arte à partir de livros ou vis na presença d
 ! Bom mas confuso
 ```
 
-### CAPUZ VERMELHO
+## CAPUZ VERMELHO
 
 Embora não tenha O Dom e a magia Hermética esteja além do seu alcance, você é um membro da Ordem de Hermes e da Casa Mercere (página 15). Há alguns membros da Casa Mercere com O Dom, mas eles não devem escolher esta Virtude e sim Magus Hermético. Você é um dos mensageiros da Ordem e possui alguns objetos encantados para facilitar o seu trabalho. Um Capuz Vermelho jovem, que acabou de jurar o Código de Hermes, tem o equivalente a 50 níveis de efeitos, a penetração é definida pelo seu conhecimento de taumatologia . Estes níveis de efeitos mágicos são invariavelmente divididos em dois ou mais encantos que auxiliam no trabalho de mensageiros. Jovens Capuzes Vermelhos nunca recebem itens capazes de matar, ferir ou enfeitiçar grandes quantidades de mundanos; o risco de causar problemas para a Ordem é grande demais. Os objetos encantados entregues aos Capuzes Vermelhos são aprimorados ou substituídos como recompensa por um bom serviço, e pode-se esperar 2 níveis a mais por ano. Você é treinado de maneira similar aos magi, e pode escolher Habilidades Acadêmicas, Arcanas e Marciais durante a criação de personagens. Você passou quinze anos como aprendiz e acumulou 300 pontos de experiência durante este período. Além disso, você recebe automaticamente a Virtude Viajado, sem custo. Quando começa a envelhecer, um magus com um Total de Laboratório Creo Corpus 50 ou mais irá preparar um Ritual de Longevidade para você, sem custo, caso deseje. Dependendo dos contatos que consiga durante a saga, o ritual pode ser ainda mais forte. Você é sustentado pelo concílio e não pode escolher a Virtude Riqueza ou o Defeito Pobreza. Você não pode ter O Dom. Você precisa gastar duas estações por ano em serviço à Ordem,  entregando mensagens entre concílios e magi. As outras duas estações do ano são legitimamente livres, no entanto, e você pode fazer o que quiser. Esta Virtude pode ser escolhida por homens e mulheres. Capuzes Vermelhos criados com alguns anos após A Provação recebem objetos encantados melhores, conforme descrito acima – e um Ritual de Longevidade, caso seja aplicável.
 
 >15 pontos por nível
 
 
-### CIRCUNSTÂNCIAS ESPECIAIS
+## CIRCUNSTÂNCIAS ESPECIAIS
 
 Algumas circunstâncias incomuns (como durante uma tempestade, ou enquanto você estiver tocando o alvo) favorecem a sua magia, e você recebe um bônus de +3 tanto para resistir quanto para conjurar magias. Esta Virtude pode ser escolhida múltiplas vezes, para circunstâncias diferentes, mas os bônus não se acumulam.
 
 >15 pontos
 
-### COMPREENSÃO COLATERAL
+## COMPREENSÃO COLATERAL
 
 Seu método de estudo é extremamente versátil. Sempre que estudar uma das Técnicas mágicas a partir de um livro, professor ou vis, você recebe um bônus de experiência em quatro Formas de sua escolha. Quando estudar uma das Formas mágicas, você recebe um ponto de experiência em duas Técnicas de sua escolha. Não é possível alocar mais do que 1 ponto de experiência à mesma Arte a cada vez. Esta Virtude é particularmente útil para magi generalistas.
 
 >10 pontos
 
-### EFEITO COLATERAL
+## EFEITO COLATERAL
 
 A sua magia tem algum efeito incidental que é geralmente útil, embora ocasionalmente irritante. Alguns exemplos são uma presença de liderança, que se traduz em um bônus de +1, ou um estado de calma profunda que lhe confere um bônus em Concentração. A intensidade do efeito aumenta com o nível da magia e dura por um curto período após a conjuração de qualquer magia.
 
 >10 pontos 
 
-### ESTUDIOSO DO (REINO)
+## ESTUDIOSO DO (REINO)
 
 Você foi treinado acerca dos aspectos místicos de um dos quatro Reinos de Poder (Divino, Feérico, Infernal ou Mágico) e recebe um bônus de +2 em todas as rolagens usando a Habilidade relacionada. Você pode escolher Habilidades Arcanas durante a criação de personagem. Esta Virtude pode ser escolhida múltiplas vezes, para cada um dos reinos. Você não pode escolher Estudioso do (Reino) e Virtuoso para a mesma Habilidade.
 
 >10 pontos
 
 
-### ESTUDO LIVRE
+## ESTUDO LIVRE
 
 Você consegue descobrir as coisas melhor sozinho do que lendo livros, e recebe um bônus de +3 quando estudar a partir de vis bruto.
 
 >10 pontos
 
-### FONTE DE VIS PESSOAL
+## FONTE DE VIS PESSOAL
 
 Você tem acesso exclusivo a uma fonte de vis bruto. Determine a quantidade e o tipo do vis com a ajuda da trupe, uma boa medida sendo um décimo do que o concílio espera conseguir anualmente no começo da saga. A quantidade de vis colhido não costuma mudar com o tempo, mesmo que o concílio descubra ou adquira novas fontes.
 
 >25 pontos
 
-### FÓRMULAS APERFEIÇOADAS
+## FÓRMULAS APERFEIÇOADAS
 
 Você tem 5 pontos  para comprar Aperfeiçoamentos para as magias formulaicas que você conhece (página 124). Você pode escolher esta Virtude caso tenha Fórmulas Perfeitas, para obter mais pontos de experiência em Aperfeiçoamento. Esta Virtude pode ser escolhida múltiplas vezes.
 
 >20 pontos
 
-### FÓRMULAS METÓDICAS
+## FÓRMULAS METÓDICAS
 
 Você é muito eficiente com suas magias, tendo desenvolvido um sistema metódico e preciso para a conjuração delas. Você recebe um bônus de +1 em todas as magias que conhece, mas caso altere qualquer coisa do seu método (como o volume de sua voz ou a velocidade de seus gestos), você não recebe este bônus.
 
@@ -112,39 +112,50 @@ Você automaticamente aperfeiçoa todas as Magias que aprende. Todas as suas mag
 
 >35 pontos
 
-### GÊNIO INVENTIVO
+## GÊNIO INVENTIVO
 
 Para você, novas ideias e conexões são algo natural. Você tem um bônus de +1 em Totais de Laboratório quando estiver inventando novas Magias formulaicas, encantando objetos e fazendo poções. Se você decidir usar experimentação, o bônus é de +3.  Mas os críticos são à partir de 15.
 
 >15 pontos
 
-### GRANDE FOCO MÁGICO
+## GRANDE FOCO MÁGICO
 
-A sua magia é muito mais poderosa quando relacionada a algum aspecto limitado, como o clima, os pássaros, necromancia ou emoções. Este aspecto deve ser menos abrangente do que uma Arte individual, mas pode ser distribuído entre diversas Artes diferentes– necromancia, por exemplo, envolve o uso de Corpus e Mentem. Você não pode escolher Atividades de Laboratório como foco, mas os focos se aplicam às atividades de laboratório normalmente. Quando conjurar uma magia ou gerar um Total de Laboratório relacionado ao seu foco, dobre a menor Arte relevante. Caso o efeito tenha algum requisito, a menor Arte relevante pode ser o requisito, ao invés de uma das Artes primárias. Desta forma, se uma maga com um foco em pássaros estivesse conjurando uma magia para transformar um pássaro em fogo, MuAn (Ig), com Muto 14, Animal 18, e Ignem 10, a soma das Artes seria 34: 14 de Muto e 20 pelo
-dobro de Ignem. Se estivesse conjurando uma magia para transformar um pássaro em outro tipo de pássaro, MuAn sem requisitos, a soma das Artes seria 46: 18 de Animal e 28 pelo dobro de Muto. Um personagem só pode ter um Foco Mágico, Grande ou Pequeno, independentemente de como o conseguiu.
+A sua magia é muito mais poderosa quando relacionada a algum aspecto limitado, como o clima, os pássaros, necromancia ou emoções. Este aspecto deve ser menos abrangente do que uma Arte individual, mas pode ser distribuído entre diversas Artes diferentes– necromancia, por exemplo, envolve o uso de Corpus e Mentem. Você não pode escolher Atividades de Laboratório como foco, mas os focos se aplicam às atividades de laboratório normalmente. Quando conjurar uma magia ou gerar um Total de Laboratório relacionado ao seu foco, adicione +3 à menor Arte relevante. Caso o efeito tenha algum requisito, a menor Arte relevante pode ser o requisito, ao invés de uma das Artes primárias. Desta forma, se uma maga com um foco em pássaros estivesse conjurando uma magia para transformar um pássaro em fogo, MuAn (Ig), com Muto, Animal 14, e Ignem 12, a Arte seria Muto e 15 de Ignem. 
+
+>15 pontos
+
 ```diff
 ! a ideia é excelente mas falta definir algumas coisas para isso ser viavel, se algum jogador se interessar poderemos viabilizar isso mais rapido
 ```
 
-### INOFENSIVO PARA ANIMAIS
+## INOFENSIVO PARA ANIMAIS
 
 O seu Dom não incomoda os animais, embora ainda tenha efeitos negativos nas pessoas. Os animais com algum nível de Potência Mística podem reagir de outras maneiras, dependendo do animal. De modo geral, se o animal reagia positivamente ao Dom na maior parte do tempo, provavelmente irá reagir positivamente a você, já que você tem o Dom. Caso ele reaja negativamente ao Dom, em geral, esta Virtude cancela este efeito. Personagens que não tenham O Dom podem escolher esta Virtude caso possuam o Defeito Ares Mágicos (página 77).
 
-### LEITOR ATENTO
+>10 pontos
+
+## LEITOR ATENTO
 
 Você é um leitor atento, absorvendo livros como poucos. Quando estudar por livros, trate-os como sendo +1 em Bônus,
 
-###  MAGIA ATRELADA
+>5 pontos
 
-Você possui grande controle sobre sua magia e pode cancelar qualquer uma com alguns segundos de concentração. Você consegue até mesmo cancelar a magia nos objetos encantados que criou. O cancelamento de sua magia deve ser tratado como se você estivesse conjurando uma magia, para efeitos de iniciativa e concentração. Caso esteja distraído e falhar em uma rolagem de Concentração, você pode tentar novamente no turno seguinte. Magias e objetos encantados podem ser cancelados a qualquer distância, mas uma vez cancelados eles se vão para sempre – magias
-devem ser conjuradas novamente e objetos devem ser encantados mais uma vez para que os efeitos se restaurem. A principal desvantagem deste atrelamento é que quando você morrer, toda a sua magia vai se esvair; as magias deixarão de funcionar e os objetos encantados se esgotarão.
+##  MAGIA ATRELADA
 
-### MAGIA CÍCLICA (POSITIVA)
-Hermética Pequena
+Você possui grande controle sobre sua magia e pode cancelar qualquer uma com alguns segundos de concentração. Você consegue até mesmo cancelar a magia nos objetos encantados que criou. O cancelamento de sua magia deve ser tratado como se você estivesse conjurando uma magia, para efeitos de iniciativa e concentração. Caso esteja distraído e falhar em uma rolagem de Concentração, você pode tentar novamente no turno seguinte. Magias e objetos encantados podem ser cancelados a qualquer distância, mas uma vez cancelados eles se vão para sempre – magias devem ser conjuradas novamente e objetos devem ser encantados mais uma vez para que os efeitos se restaurem. A principal desvantagem deste atrelamento é que quando você morrer, toda a sua magia vai se esvair; as magias deixarão de funcionar e os objetos encantados se esgotarão.
+
+>10 pontos
+
+## MAGIA CÍCLICA (POSITIVA)
+
 Sua magia está ligada a algum ciclo natural (solar, lunar ou sazonal, por exemplo), e fica mais poderosa em épocas ou momentos específicos. Quando o ciclo estiver presente, você recebe um bônus de +3 em todas as rolagens de magia. Este bônus também se aplica aos
 Totais de Laboratório caso o ciclo se estenda por toda a estação. O ciclo de sua magia deve ser regular e aprovado pelo narrador. Além disso, a duração do ciclo deve ser dividida igualmente entre momentos em que o bônus se aplica e momentos em que não se aplica.
 
-### MAGIA DIEDNE
+>20 pontos
+
+## MAGIA DIEDNE
+```diff
+--EITA LELÊ, PAREI AQUI 
 
 A sua tradição e linhagem mágica é oriunda dos druidas e da derrotada Casa Diedne. Isso faz com que você seja particularmente habilidoso com o uso de magia espontânea, e quando você faz magias espontâneas sem gastar fadiga, você pode escolher dividir o total por 5 ou por 2. Se escolher dividir por 2 você ainda tem que fazer uma rolagem crítica, podendo sofrer uma Falha Crítica. Caso decida gastar fadiga para conjurar uma magia espontânea, dobre a sua menor Arte aplicável antes de dividir o total por 2. Você deve fazer uma rolagem crítica e pode sofrer uma Falha  Crítica. Sua linhagem deve ser mantida em segredo da Ordem, lhe conferindo o Defeito Narrativo Grande Segredo Sombrio. Este Defeito não conta para o seu limite normal de Defeitos e não lhe dá nenhum ponto para comprar Virtudes.
 

@@ -4,6 +4,258 @@
 	"id": "912bf5b7-179b-4042-bb3a-3af98e3d3aa7",
 	"advantages": [
 		{
+			"type": "advantage_container",
+			"id": "2e08c092-ac0d-453c-9f11-ebd1e7459cb0",
+			"container_type": "alternative_abilities",
+			"name": "Arte",
+			"calc": {
+				"points": 28
+			},
+			"open": false,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "ef3d3f13-21a7-483b-9d56-d8a4ca78ed6e",
+					"name": "Animal",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "animal"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "7d7ed3bc-2593-44be-b41c-f2a94fca704e",
+					"name": "Aquam",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Aquam"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "df9b6e77-4200-47f3-ab4b-f1e7f9552c74",
+					"name": "Auram",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Auram"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "8b3b07d1-f0c9-4aaa-a890-66b8ed3053f3",
+					"name": "Corpus",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "Corpus"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "3734bc64-f09d-40d1-922c-579e2e741f40",
+					"name": "Herbam",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "herbam"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "b80c1009-b1b8-49b3-b064-20a3284afb3c",
+					"name": "Ignem",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "ignem"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "fa321791-95c2-4049-bb96-8e067516d11c",
+					"name": "Imaginem",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "imaginem"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d3eba777-d81d-4657-a568-bc7e0533aebd",
+					"name": "Mentem",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "mentem"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "d20d6d63-26e7-40f8-9b3d-04514c9970ee",
+					"name": "Terram",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "terram"
+							}
+						}
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "fa4f17d2-8fa8-4764-8eee-b0375e4cd02c",
+					"name": "Vim",
+					"supernatural": true,
+					"levels": "0",
+					"base_points": 10,
+					"points_per_level": 5,
+					"calc": {
+						"points": 10
+					},
+					"features": [
+						{
+							"type": "skill_bonus",
+							"amount": 1,
+							"per_level": true,
+							"selection_type": "skills_with_name",
+							"name": {
+								"compare": "is",
+								"qualifier": "vim"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
 			"type": "advantage",
 			"id": "f6ac985c-f1b8-4e67-9820-daa735463647",
 			"name": "Dom Desperto",
@@ -52,7 +304,7 @@
 			"calc": {
 				"points": 25
 			},
-			"open": false,
+			"open": true,
 			"children": [
 				{
 					"type": "advantage",
@@ -61,7 +313,7 @@
 					"physical": true,
 					"levels": "0",
 					"base_points": 5,
-					"points_per_level": 10,
+					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
 						"points": 5
@@ -74,7 +326,7 @@
 					"physical": true,
 					"levels": "0",
 					"base_points": 5,
-					"points_per_level": 10,
+					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
 						"points": 5
@@ -87,7 +339,7 @@
 					"physical": true,
 					"levels": "0",
 					"base_points": 5,
-					"points_per_level": 10,
+					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
 						"points": 5
@@ -100,7 +352,7 @@
 					"physical": true,
 					"levels": "0",
 					"base_points": 5,
-					"points_per_level": 5,
+					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
 						"points": 5
@@ -113,7 +365,7 @@
 					"physical": true,
 					"levels": "0",
 					"base_points": 5,
-					"points_per_level": 10,
+					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
 						"points": 5
@@ -126,14 +378,26 @@
 			"id": "bc15f8c1-d430-41a3-ace4-4bb4b96432a3",
 			"name": "Habilidades Ars Mágica",
 			"calc": {
-				"points": 100
+				"points": 160
 			},
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "advantage",
-					"id": "f90c9dc1-1b72-4ee3-9a06-24467ae40848",
-					"name": "Sentir a Natureza",
+					"id": "4d194da4-d74b-454c-b2db-4d1e7eb2ba0b",
+					"name": "Empatia Animal",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "ceb78954-c8e2-431b-93cb-6e97fe5e88aa",
+					"name": "Mesmerismo",
 					"physical": true,
 					"levels": "0",
 					"base_points": 20,
@@ -141,8 +405,8 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"id": "fb6106c9-cc77-4a7d-a835-94dc659bfd99",
-							"name": "aceita modificadores conversar com o mestre",
+							"id": "c0f2e16a-19a7-43b1-a783-b7d17ecf7b2a",
+							"name": "Aceitta modificadores, conversar com o mestre",
 							"cost_type": "percentage",
 							"cost": 0,
 							"affects": "total"
@@ -176,8 +440,20 @@
 				},
 				{
 					"type": "advantage",
-					"id": "ceb78954-c8e2-431b-93cb-6e97fe5e88aa",
-					"name": "Mesmerismo",
+					"id": "a88514d5-30e6-4aec-97c6-65a5a2b2c923",
+					"name": "Percepção Mística",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "aab7447a-74c2-422d-b9b4-afa901a6861a",
+					"name": "Sensitividade Mágica",
 					"physical": true,
 					"levels": "0",
 					"base_points": 20,
@@ -185,8 +461,52 @@
 					"modifiers": [
 						{
 							"type": "modifier",
-							"id": "c0f2e16a-19a7-43b1-a783-b7d17ecf7b2a",
-							"name": "Aceitta modificadores, conversar com o mestre",
+							"id": "c0e11ffb-f378-4dc9-b09f-f7cf255368b9",
+							"name": "Aceita modificadores",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "f90c9dc1-1b72-4ee3-9a06-24467ae40848",
+					"name": "Sentir a Natureza",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "fb6106c9-cc77-4a7d-a835-94dc659bfd99",
+							"name": "aceita modificadores conversar com o mestre",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "b558d310-4268-4f3b-a23c-29a934f22ba4",
+					"name": "Sentir o Sagrado e o Profano",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "ebd07ff4-05b0-4b04-b1eb-f8429f0c4815",
+							"name": "aceita modificadores",
 							"cost_type": "percentage",
 							"cost": 0,
 							"affects": "total"
@@ -225,17 +545,35 @@
 					"calc": {
 						"points": 20
 					}
-				},
+				}
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "5cd6dd19-a3e0-4fea-9648-e140180ade3b",
+			"name": "Magus Hermético",
+			"physical": true,
+			"calc": {
+				"points": 0
+			}
+		},
+		{
+			"type": "advantage",
+			"id": "03516b5c-ef98-4194-90da-b21cd7200c70",
+			"name": "Virtuoso: Aquam",
+			"physical": true,
+			"calc": {
+				"points": 0
+			},
+			"features": [
 				{
-					"type": "advantage",
-					"id": "4d194da4-d74b-454c-b2db-4d1e7eb2ba0b",
-					"name": "Empatia Animal",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"calc": {
-						"points": 20
+					"type": "skill_bonus",
+					"amount": 3,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Aquam"
 					}
 				}
 			]
@@ -337,85 +675,6 @@
 			]
 		},
 		{
-			"type": "skill_container",
-			"id": "86471049-e1f7-422d-9da3-e1644ee69eeb",
-			"name": "Substantivos",
-			"reference": "A",
-			"open": false,
-			"children": [
-				{
-					"type": "skill",
-					"id": "f93d38c7-f416-4363-8010-47741c158e92",
-					"name": "Animal",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "eb7cd839-cbc7-4aa4-a291-e1cf2c64ff99",
-					"name": "Aquam",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "d6d5de63-df22-4a7a-aaf4-b6355d0e2571",
-					"name": "Auram",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "acfe39d0-342f-4b6a-a43c-6bc95855fbf2",
-					"name": "Corpus",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "6acfb80d-46e1-4533-bc4c-18a070ea58da",
-					"name": "Herbam",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "77a82a20-3a9d-4da0-8e36-933855b64676",
-					"name": "Ignem",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "dec30340-d176-4ecd-bbc2-c8466e2765d9",
-					"name": "Imaginem ",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "d038ec38-b2e1-46ba-9314-10c1c9ffdd6c",
-					"name": "Mentem",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "ca9e1f2d-3106-4f67-8255-a9c99cf06200",
-					"name": "Terram",
-					"difficulty": "iq/vh",
-					"points": 1
-				},
-				{
-					"type": "skill",
-					"id": "23d56108-b364-4ecd-9402-6faa0917d297",
-					"name": "Vim",
-					"difficulty": "iq/vh",
-					"points": 1
-				}
-			]
-		},
-		{
 			"type": "skill",
 			"id": "4a687ae5-bf73-4fed-9cc4-c683d82a20c2",
 			"name": "Código de Hermes",
@@ -434,6 +693,148 @@
 			"categories": [
 				"Knowledge"
 			]
+		},
+		{
+			"type": "skill_container",
+			"id": "9253fa66-ad02-4d4b-94e7-752f3c6a987f",
+			"name": "Arte",
+			"open": true,
+			"children": [
+				{
+					"type": "skill",
+					"id": "1a742fe5-f3f5-4829-abf5-ec7d412c76a3",
+					"name": "Animal",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "4d03a0dc-fb72-47d7-b8e5-137951c8bdb1",
+					"name": "Aquam",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "4b39aeeb-95c5-4950-aa09-6de773a3cd1d",
+					"name": "Auram",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "7a402a40-d8da-43c6-8e7a-bb58f6f489de",
+					"name": "Corpus",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "6c71fbd2-8fb7-4bdd-b2f5-c2a5454a14c6",
+					"name": "Herbam",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "861e60a8-d0dd-458e-8370-9fcd04407c83",
+					"name": "Ignem",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "d036f8d3-3a80-4915-9ce8-6be18948e9c8",
+					"name": "Imaginem",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "fac3fa85-03cb-456f-ab72-e4a5ef005ae2",
+					"name": "Mentem",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "1a2eab05-bbb8-4eaa-bc8d-c5632a2c4d32",
+					"name": "Terram",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				},
+				{
+					"type": "skill",
+					"id": "ca3d8017-499b-4e34-ba3a-b31092ef7863",
+					"name": "Vim",
+					"difficulty": "10/e",
+					"points": 0,
+					"defaults": [
+						{
+							"type": "10"
+						}
+					]
+				}
+			]
+		}
+	],
+	"spells": [
+		{
+			"type": "spell",
+			"id": "a77d675f-3505-45ae-8ea7-c53de5538483",
+			"name": "Spell",
+			"difficulty": "iq/h",
+			"power_source": "Arcane",
+			"spell_class": "Regular",
+			"casting_cost": "1",
+			"casting_time": "1 sec",
+			"duration": "Instant",
+			"points": 1
 		}
 	]
 }

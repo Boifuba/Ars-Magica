@@ -5,26 +5,6 @@
 	"advantages": [
 		{
 			"type": "advantage",
-			"id": "c5162f56-0e43-4000-b1a9-3d1fec6f4c35",
-			"name": "Dom Gentil",
-			"supernatural": true,
-			"reference": "A",
-			"calc": {
-				"points": 0
-			},
-			"features": [
-				{
-					"type": "reaction_bonus",
-					"amount": -3,
-					"situation": "contra qualquer ser mundano"
-				}
-			],
-			"categories": [
-				"Advantage"
-			]
-		},
-		{
-			"type": "advantage",
 			"id": "f6ac985c-f1b8-4e67-9820-daa735463647",
 			"name": "Dom Desperto",
 			"mental": true,
@@ -38,6 +18,26 @@
 					"type": "reaction_bonus",
 					"amount": -6,
 					"situation": "contra todos os seres mundanos"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "c5162f56-0e43-4000-b1a9-3d1fec6f4c35",
+			"name": "Dom Gentil",
+			"supernatural": true,
+			"reference": "A",
+			"calc": {
+				"points": 0
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -3,
+					"situation": "contra qualquer ser mundano"
 				}
 			],
 			"categories": [
@@ -82,19 +82,6 @@
 				},
 				{
 					"type": "advantage",
-					"id": "fc6a55d0-8664-4993-8117-eeb61c9d7a54",
-					"name": "Rego",
-					"physical": true,
-					"levels": "0",
-					"base_points": 5,
-					"points_per_level": 10,
-					"reference": "A",
-					"calc": {
-						"points": 5
-					}
-				},
-				{
-					"type": "advantage",
 					"id": "70ebfb76-9c5f-4f75-a347-59e2f25ed0d5",
 					"name": "Muto",
 					"physical": true,
@@ -117,6 +104,138 @@
 					"reference": "A",
 					"calc": {
 						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "fc6a55d0-8664-4993-8117-eeb61c9d7a54",
+					"name": "Rego",
+					"physical": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 10,
+					"reference": "A",
+					"calc": {
+						"points": 5
+					}
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "bc15f8c1-d430-41a3-ace4-4bb4b96432a3",
+			"name": "Habilidades Ars Mágica",
+			"calc": {
+				"points": 100
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "f90c9dc1-1b72-4ee3-9a06-24467ae40848",
+					"name": "Sentir a Natureza",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "fb6106c9-cc77-4a7d-a835-94dc659bfd99",
+							"name": "aceita modificadores conversar com o mestre",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "6839f30a-3222-4b07-b62f-3f7db00ca054",
+					"name": "Musica Cativante",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "a630f95a-d91f-4410-bee0-3c9c62c46a4f",
+							"name": "Aceita modificadores, conversar com o mestre",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "ceb78954-c8e2-431b-93cb-6e97fe5e88aa",
+					"name": "Mesmerismo",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "c0f2e16a-19a7-43b1-a783-b7d17ecf7b2a",
+							"name": "Aceitta modificadores, conversar com o mestre",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "72fb5f41-e77f-46b0-903e-f6e1b9170f20",
+					"name": "Sentir o Sagrado e o Profano",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "85f94017-5a33-4cec-b3f0-b39bce1a894b",
+							"name": "Modifier",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a4ac457c-bc86-4a0c-9e76-a3bffbc19c8b",
+							"name": "aceita modificadores",
+							"cost_type": "percentage",
+							"cost": 0,
+							"affects": "total"
+						}
+					],
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "4d194da4-d74b-454c-b2db-4d1e7eb2ba0b",
+					"name": "Empatia Animal",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
 					}
 				}
 			]
@@ -180,40 +299,8 @@
 		},
 		{
 			"type": "skill",
-			"id": "d14f34a6-9bff-4eff-a327-04c9d21610c5",
-			"name": "Mesmerismo",
-			"reference": "A",
-			"difficulty": "iq/vh",
-			"points": 1
-		},
-		{
-			"type": "skill",
 			"id": "de89ba8a-8625-46f5-80a6-714acc4ba175",
 			"name": "Teoria Mágica",
-			"difficulty": "iq/vh",
-			"points": 1
-		},
-		{
-			"type": "skill",
-			"id": "f96f9b2a-751d-4fef-9caf-bad2d21652e9",
-			"name": "Música Cativante",
-			"reference": "A",
-			"difficulty": "iq/vh",
-			"points": 1
-		},
-		{
-			"type": "skill",
-			"id": "0746dbfe-16de-4a59-a77b-761d672772b9",
-			"name": "Sentir a Natureza",
-			"reference": "A",
-			"difficulty": "iq/vh",
-			"points": 1
-		},
-		{
-			"type": "skill",
-			"id": "0ada0274-8aaa-47de-93c1-8a68641c2566",
-			"name": "Sentir o Sagrado e o Profano",
-			"reference": "A",
 			"difficulty": "iq/vh",
 			"points": 1
 		},
@@ -338,13 +425,6 @@
 		},
 		{
 			"type": "skill",
-			"id": "9df61dbd-3f9f-491a-968c-4e4905cefe57",
-			"name": "Skill",
-			"difficulty": "dx/a",
-			"points": 1
-		},
-		{
-			"type": "skill",
 			"id": "249955c7-eef3-49bf-b5e4-5d24c036c9ac",
 			"name": "Hidden Lore",
 			"reference": "A",
@@ -354,14 +434,6 @@
 			"categories": [
 				"Knowledge"
 			]
-		},
-		{
-			"type": "skill",
-			"id": "61bcc23f-eea0-487d-8e1d-82a756aabae9",
-			"name": "Empatia com Animais",
-			"reference": "A",
-			"difficulty": "iq/vh",
-			"points": 1
 		}
 	]
 }

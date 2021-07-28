@@ -74,7 +74,12 @@ Seu método de estudo é extremamente versátil. Sempre que estudar uma das Téc
 A sua magia tem algum efeito incidental que é geralmente útil, embora ocasionalmente irritante. Alguns exemplos são uma presença de liderança, que se traduz em um bônus de +1, ou um estado de calma profunda que lhe confere um bônus em Concentração. A intensidade do efeito aumenta com o nível da magia e dura por um curto período após a conjuração de qualquer magia.
 
 >10 pontos 
+## EMPATIA COM ANIMAIS 
 
+Você pode se comunicar com os animais como se eles fossem humanos. Use o seu nível de Empatia com Animais como  Se fosse um idioma que o animal usa para determinar a qualidade da comunicação. Além disso, você pode usar Cuidar de Animais como substituta para qualquer Habilidade social relacionada a humanos. Esta Habilidade não afeta a atitude dos animais em relação a você ou a sua em relação a eles. As outras pessoas não entendem a
+sua comunicação com os animais. Especialidades: um tipo de animal específico, um tipo de comunicação  Específica. (Sobrenatural)
+
+>20 pontos +10/ponto
 ## ESTUDIOSO DO (REINO)
 
 Você foi treinado acerca dos aspectos místicos de um dos quatro Reinos de Poder (Divino, Feérico, Infernal ou Mágico) e recebe um bônus de +2 em todas as rolagens usando a Habilidade relacionada. Você pode escolher Habilidades Arcanas durante a criação de personagem. Esta Virtude pode ser escolhida múltiplas vezes, para cada um dos reinos. Você não pode escolher Estudioso do (Reino) e Virtuoso para a mesma Habilidade.
@@ -154,61 +159,84 @@ Totais de Laboratório caso o ciclo se estenda por toda a estação. O ciclo de 
 >20 pontos
 
 ## MAGIA DIEDNE
-```diff
---EITA LELÊ, PAREI AQUI 
 
+```diff
+! Aqui rola um problema, eu preciso entender melhor do que se trata a casa Diedne para montar isso aqui, por enquanto vai ficar em aberto
+```
 A sua tradição e linhagem mágica é oriunda dos druidas e da derrotada Casa Diedne. Isso faz com que você seja particularmente habilidoso com o uso de magia espontânea, e quando você faz magias espontâneas sem gastar fadiga, você pode escolher dividir o total por 5 ou por 2. Se escolher dividir por 2 você ainda tem que fazer uma rolagem crítica, podendo sofrer uma Falha Crítica. Caso decida gastar fadiga para conjurar uma magia espontânea, dobre a sua menor Arte aplicável antes de dividir o total por 2. Você deve fazer uma rolagem crítica e pode sofrer uma Falha  Crítica. Sua linhagem deve ser mantida em segredo da Ordem, lhe conferindo o Defeito Narrativo Grande Segredo Sombrio. Este Defeito não conta para o seu limite normal de Defeitos e não lhe dá nenhum ponto para comprar Virtudes.
 
-### MAGIA DURADOURA
+## MAGIA DURADOURA
+```diff
+!isso mão está elegante
+```
+Os efeitos de suas magias tendem a durar mais do que o normal (magias de Duração: Concentração, Momentânea e Círculo se mantêm iguais). Para cada sucesso aumente a duração em 1.3 . Em geral isto é positivo, mas nem sempre. Esta Virtude não afeta a duração de Rituais.
+>10 pontos
 
-Os efeitos de suas magias tendem a durar mais do que o normal (magias de Duração: Concentração, Momentânea e Círculo se mantêm iguais). O narrador faz uma rolagem simples secreta e multiplica a duração normal pelo valor do dado. Em geral isto é positivo, mas nem sempre. Esta Virtude não afeta a duração de Rituais.
+## MAGIA ELEMENTAL
+```diff
++ precisa de teste
+```
+Você foi treinado na habilidade de manipular as Formas elementais básicas (Ignem, Auram, Terram e Aquam) e as enxerga conectadas, como um todo, ao invés de quatro Artes distintas. Você pode aprender 2 formas no tempo que estuda uma. Além disso, as suas magias elementais são mais flexíveis do que as de outros magi – você não tem desvantagens por adicionar Formas elementais como requisitos em qualquer magia elemental. Se uma magia de Aquam, Auram, Ignem ou Terram tem algum outro elemento como requisito, você pode ignorar o requisito. Você deve usar a Arte primária, mesmo se o requisito for mais alto. 
 
+>25 pontos
 
-### MAGIA ELEMENTAL
+## MAGIA ESPONTÂNEA VITAL
 
-Você foi treinado na habilidade de manipular as Formas elementais básicas (Ignem, Auram, Terram e Aquam) e as enxerga conectadas, como um todo, ao invés de quatro Artes distintas. Sempre que estudar uma destas Artes (ou seja, receber pelo menos 1 ponto de experiência por estudo) você recebe 1 ponto de experiência adicional em cada uma das outras três. Além disso, as suas magias elementais são mais flexíveis do que as de outros magi – você não tem desvantagens por adicionar Formas elementais como requisitos em qualquer magia elemental. Se uma magia de Aquam, Auram, Ignem ou Terram tem algum outro elemento como requisito, você pode ignorar o requisito. Você deve usar a Arte primária, mesmo se o requisito for mais alto. 
+```diff
+!complicado, requer melhor definição de penetração e resistencia
+```
+Você consegue alcançar efeitos mais poderosos com a sua magia espontânea ao custo da sua própria energia vital. Quando você usar esta Virtude ao conjurar magias espontâneas, decida o nível do efeito antes da rolagem de conjuração. O nível declarado deve conter  qualquer Penetração Mágica que você queira imbuir na magia (página 118). Por exemplo, você pode decidir conjurar uma magia de nível 3 como nível 4 para ter uma Penetração Mágica de 10. Faça então a rolagem de conjuração da sua magia espontânea. Se o resultado for maior do que o nível declarado, você gasta um ponto de Fadiga, como sempre. Caso o resultado seja menor do que o nível declarado, você deve gastar um ponto de Fadiga adicional para cada 5 pontos de diferença (ou fração). Se você ficar sem pontos de Fadiga, você recebe uma quantidade de dano igual à quantidade de pontos restantes para chegar ao nível declarado – sem Absorção. É possível se matar com esta Virtude. Um magus com esta Virtude pode escolher conjurar magias espontâneas usando as regras normais.
 
-### MAGIA ESPONTÂNEA VITAL
+>x pontos 
 
-Você consegue alcançar efeitos mais poderosos com a sua magia espontânea ao custo da sua própria energia vital. Quando você usar esta Virtude ao conjurar magias espontâneas, decida o nível do efeito antes da rolagem de conjuração. O nível declarado deve conter  qualquer Penetração Mágica que você queira imbuir na magia (página 118). Por exemplo, você pode decidir conjurar uma magia de nível 10 como nível 20 para ter uma Penetração Mágica de 10. Faça então a rolagem de conjuração da sua magia espontânea. Se o resultado for maior do que o nível declarado, você gasta um ponto de Fadiga, como sempre. Caso o resultado seja menor do que o nível declarado, você deve gastar um ponto de Fadiga adicional para cada 5 pontos de diferença (ou fração). Se você ficar sem pontos de Fadiga, você recebe uma quantidade de dano igual à quantidade de pontos restantes para chegar ao nível declarado – sem Absorção. É possível se matar com esta Virtude. Um magus com esta Virtude pode escolher conjurar magias espontâneas usando as regras normais.
+## MAGIA FEÉRICA
 
+Você foi iniciado no Mistério Exterior de Magia Feérica (página 132) e é, portanto, um membro da Casa Merinita. Note que todos os magi Merinita recebem esta Virtude gratuitamente durante a criação de personagem. 
 
-### MAGIA FEÉRICA
+> 0 pontos
+## MAGIA FORMULAICA FLEXÍVEL 
 
-Você foi iniciado no Mistério Exterior de Magia Feérica (página 132) e é, portanto, um membro da Casa Merinita. Note que todos os magi Merinita recebem esta Virtude gratuitamente durante a criação de personagem. MAGIA FORMULAICA FLEXÍVEL Hermética Grande
 Você pode variar os parâmetros de suas Magias formulaicas, até certo ponto, e manter os benefícios de usar uma magia formulaica preparada. Você pode aumentar ou diminuir o nível da magia em 5 para aumentar ou diminuir um (e apenas um) dos parâmetros
 (Alcance, Duração e Alvo) em uma magnitude, contanto que não viole os limites normais de magias formulaicas. O sucesso da magia, a perda de Fadiga e a Penetração Mágica são calculados com base no nível efetivo. Rituais não podem ser alterados
 desta maneira.
 
-### MAGIA MERCURIANA
+>10 pontos
+
+## MAGIA MERCURIANA
 
 A sua linhagem e tradição mágicas se originam dos sacerdotes romanos de Mercúrio, que são anteriores à Ordem de Hermes, e por causa disso você é especialmente eficaz na realização de Magias Rituais e magia feita em conjunto com outros. Além das Magias formulaicas normais às quais você tem direito, você também conhece a Comunhão Mágica (MuVi Ger.) em nível igual ao maior Ritual que você conheça e, caso invente ou aprenda um Ritual de nível maior, você automaticamente inventa uma nova versão de Comunhão Mágica de nível igual, sem a necessidade de gastar mais tempo. Ao conjurar uma magia formulaica usando Comunhão Mágica, você pode adicionar o seu Aperfeiçoamento (página 124) com a magia em questão ao Total de conjuração e adicionar o Aperfeiçoamento em Comunhão Mágica (MuVi Ger.) ao nível efetivo Comunhão Mágica. Além disso, todos os Rituais realizados têm um custo efetivo de vis igual à metade do que o normal. Este benefício só se aplica a Rituais feitos em conjunto com Comunhão Mágica caso todos os participantes tenham Magia Mercuriana.
 Sua especialização em magia Ritual traz uma desvantagem, no entanto – você só consegue conjurar magias espontâneas usando as regras de Magia Cerimonial (página 121). 
 
+>1 ponto
+
 ### MAGIA RÁPIDA
 
-Você demora menos tempo para conjurar suas magias do que outros magi. Adicione +3 à sua Iniciativa quando for conjurar magias em combate.
+Você demora menos tempo para conjurar suas magias do que outros magi. Adicione +3 à sua Iniciativa quando for conjurar magias em combate. O bonus só vale para o primeiro turno de combate 
 
-### MAGIA SILENCIOSA
+>10 pontos
+
+## MAGIA SILENCIOSA
 
 Você pode conjurar magias usando uma voz suave sem penalidades e com uma penalidade de apenas -5 sem falar. Você não recebe nenhum benefício por usar sua voz no volume normal, mas recebe os benefícios normais pelo uso de uma voz alta. Note que o Alcance de Voz ainda é determinado pela distância que a sua voz alcança. Esta Virtude pode ser selecionada duas vezes para eliminar completamente a penalidade por conjurar magias sem falar.
 
-### MAGIA SUTIL
+> 5 por nível
+
+## MAGIA SUTIL
 
 Você consegue conjurar magias sem o uso de gestos, não sofrendo nenhuma penalidade por isso. Você não recebe nenhum benefício quando usa gestos normais, mas recebe os benefícios normais quando usa gestos exagerados.
 
+> 10 pontos
 
 ### MAGISTER IN ARTIBUS
 
-Você recebeu o título de Mestre das Artes em uma das universidades da Europa (Paris, Bolonha, Oxford, Cambridge, Montpellier, Arezzo ou Salamanca) e completou os dois anos obrigatórios de regência. Você tem o direito de ser chamado de Magister, está submetido apenas à Lei Canônica e pode lecionar em qualquer universidade na Europa. Você deve ter ao menos (25 – Int) anos de idade e ter passado oito anos estudando em uma universidade, recebendo 30 pontos de experiência por ano (além de seus pontos normais por
-idade). Você pode escolher Habilidades Acadêmicas durante a criação de personagens e os 240 pontos de experiência ganhos durante seus anos de estudo devem ser usados em Habilidades Acadêmicas ou Lecionar. Você deve ter nível 5 em Latim e Artes Liberales, no mínimo.
-Duas estações do ano devem ser devotadas ao seu trabalho como professor para manter o seu sustento e a sua reputação como um professor capaz. Estas duas estações são distribuídas entre setembro e junho, de modo que você só fica realmente livre
-durante o verão. Com o Defeito Pobreza você continua tendo o verão livre, mas não tem tempo livre durante o resto do ano para nenhuma outra atividade. A Virtude Riqueza lhe dá o direito de trabalhar apenas uma estação por ano para manter sua reputação.
-Esta Virtude só pode ser escolhida por homens e é compatível com as Classes Sociais Magus Hermético, Frade Mendicante e Padre.
+Você recebeu o título de Mestre das Artes em uma das universidades da Europa (Paris, Bolonha, Oxford, Cambridge, Montpellier, Arezzo ou Salamanca) e completou os dois anos obrigatórios de regência. Você tem o direito de ser chamado de Magister, está submetido apenas à Lei Canônica e pode lecionar em qualquer universidade na Europa. Você deve ter ao menos (13 + 10) anos de idade e ter passado oito anos estudando em uma universidade. Você deve ter nível 4 pontos gastos em Latim e Artes Liberales, no mínimo. Duas estações do ano devem ser devotadas ao seu trabalho como professor para manter o seu sustento e a sua reputação como um professor capaz. Estas duas estações são distribuídas entre setembro e junho, de modo que você só fica realmente livre durante o verão. Com o Defeito Pobreza você continua tendo o verão livre, mas não tem tempo livre durante o resto do ano para nenhuma outra atividade. A Virtude Riqueza lhe dá o direito de trabalhar apenas uma estação por ano para manter sua reputação. Esta Virtude só pode ser escolhida por homens e é compatível com as Classes Sociais Magus Hermético, Frade Mendicante e Padre.
 
+> 25 pontos
 
-### MAGUS CAUTELOSO
-
+## MAGUS CAUTELOSO
+```diff
+! não sei o quê é perder controle de magia 
+```
 Você é muito cauteloso com magia, e tem menos chances de perder o controle espetacularmente, caso cometa algum erro. Você rola três Dados de Falha a menos quando estiver conjurando magias (tanto espontâneas quanto magias formulaicas) e quando estiver trabalhando em seu laboratório. Esta Virtude não reduz o número de Dados de Falha rolados para menos do que um, mas é aplicada antes de quaisquer outros efeitos que reduzam os Dados de Falha, como Aperfeiçoamento (página 124), sendo possível que eles reduzam o número de Dados de
 Falha a zero. 
 
@@ -216,33 +244,57 @@ Falha a zero.
 
 Você é membro da Ordem de Hermes. Todos os magi devem escolher esta Classe Social e somente magi podem escolhê-la. 
 
-### MEMÓRIA MÁGICA
+>o pontos
+
+## MEMÓRIA MÁGICA
 
 A sua memória foi treinada para armazenar informações mágicas e não mundanas. Você não precisa dos textos de laboratório (página 145) de suas próprias criações para receber o benefício de usá-los ao reproduzir o mesmo efeito ou efeitos similares. Se você
 criar um efeito usando o texto de laboratório de outro magus, não precisa do mesmo texto no futuro caso queira recriar o efeito.
 
+>15 pontos
 
 ### MESMERISMO
 
-Você tem o poder de controlar os outros com o olhar e alguns comandos verbais. Ao escolher esta Virtude você recebe a Habilidade Mesmerismo 1.
+Você tem o poder de controlar outras pessoas com a sua força de vontade e olhar. Ao encarar fixamente uma pessoa, por alguns segundos – algo geralmente impossível durante um combate – você pode emitir comandos verbais que devem ser obedecidos. Faça uma rolagem de Mesmerismo contra uma rolagem de Força de Vontade do alvo. A pessoa que está sendo influenciada pode receber um bônus para resistir ao comando, a critério do narrador, de acordo com a tabela abaixo. Magi Herméticos mantêm sua Resistência Mágica a Mentem e têm o direito de fazer a rolagem de Força de Vontade caso ela seja penetrada. Pessoas cegas ou que estejam  com os olhos fechados são imunes. Veja a página 156 para mais detalhes sobre o estabelecimento de contato visual. Não é possível desviar o olhar quando um Mesmerismo está sendo realizado, a não ser que a rolagem de Força de Vontade seja vitoriosa.
+Comando Exemplo Bônus
+Inócuo Fale comigo +3
+Questionável Encontre-me à noite -2
+Perigoso Guarde suas armas +3
+Hediondo Mate seus colegas -6
+Suicida Pule de um penhasco -10
+Especializações: Um tipo específico de comando, um tipo de
+pessoa. (Sobrenatural)
+
+
+>20 pontos +10/ponto
 
 ### METAMORFOSE
 
-Você é capaz de se transformar em um ou mais animais. Ao escolher esta Virtude você recebe a Habilidade Metamorfose 1. 
+```diff
+NOTA IMPORTANTE: Aqui parecia ser uma escolha óbvia usar as regras do GURPS para essa habilidade, mas na avaliação custo efeito mostrou-se que não valeria à pena para esse cenário. Um mago pode de forma muito mais barata mudar sua forma como desejar.
+```
+Você é capaz de se transformar em um ou mais animais. Ao escolher esta Virtude você recebe a Habilidade Metamorfose. O jogador pode se transformar em qualquer animal que tiver conhecido através da visão e tenha relativa familiaridade com ele.
+ 
+ >20 pontos +10/ponto
 
 
-### MÚSICA CATIVANTE
+## MÚSICA CATIVANTE
 
-Quando você se concentra, você é capaz de induzir emoções e crenças nos outros através de sua música. Ao escolher esta Virtude você recebe a Habilidade Música Cativante 1.
+Quando você se concentra em sua música, você pode usá-la para influenciar as pessoas. Para efeitos específicos, você precisa cantar usando palavras que as pessoas consigam entender. Para emoções, como acalmar as pessoas lidando com a perda, por exemplo, podem ser feitos apenas com uma melodia; mas é preciso versos para convencer os camponeses a se levantar contra o lorde local. Efeitos gerais funcionam também em animais, mas efeitos específicos só funcionam com criaturas que conseguem compreender palavras. Quando você usar Música Cativante, faça uma rolagem, dependendo da situação, um sucesso poderia acalmar as emoções, por 3 poderia fazer alguém se sentir atraído por você, 5 poderia iniciar um tumulto e por 6 poderia recuperar uma alma das mãos do Príncipe das Trevas. Uma Falha Crítica causa o efeito contrário naqueles que ouvem a sua música. Resistência Mágica se aplica e é preciso Penetração Mágica suficiente para passar pela Resistência Mágica do alvo. Você deve fazer também uma rolagem para determinar a qualidade da sua apresentação musical, mas os efeitos mágicos são independentes, a não ser que haja falha ruim os efeitos podem mudar. Caso você obtenha uma Falha Crítica na rolagem de música, algo impediu que você tocasse ou completasse a música e a Habilidade Sobrenatural falha automaticamente. Especializações: alguma emoção específica, um tipo de pessoa. (Sobrenatural)
 
-### O DOM
-Especial
+>20 pontos +10/ponto
 
-### O DOM GENTIL
+
+## O DOM GENTIL
 
 Diferente de outros magi, cuja natureza mágica perturba as pessoas e animais mundanos, o seu Dom é sutil e contido. Você não sofre as penalidades normais quando interage com pessoas e animais.
 
-### O ENIGMA
+>10 pontos
+```diff
+! parei aqui 
+```
+
+## O ENIGMA
 
 Você foi iniciado no Mistério Exterior do Enigma (página 132) e é, portanto, um membro da Casa Criamon. Note que todos os magi Criamon recebem esta Virtude gratuitamente durante a criação de personagem.
 
@@ -352,19 +404,27 @@ Gestos: 20
 Sem Falas ou Gestos: 15
 Esta Virtude inclui um Pequeno Foco Mágico em algo relacionado ao ancestral lendário, assim como um Defeito de Personalidade Pequeno hereditário – eles não são considerados para o limite de pontos de Virtudes e Defeitos do personagem. Sangue Mítico não é incomum na Ordem de Hermes e, portanto, esta Virtude não confere nenhum tipo de Reputação.
 
-### SENSITIVIDADE DO SAGRADO E PROFANO
 
-Você é capaz de sentir a presença do bem e do mal. Em auras Divinas ou Infernais particularmente fortes você pode ficar confuso e desnorteado por causa da sua sensibilidade. Ao escolher esta Virtude você recebe a Habilidade Sensitividade do Sagrado
 
-### SENSITIVIDADE MÁGICA
+### SENTIR O SAGRADO E O PROFANO
 
-Você consegue frequentemente identificar objetos e lugares mágicos, mas esta sensitividade o deixa mais suscetível à magia em geral. Subtraia a sua Sensitividade Mágica de todas as rolagens para resistir à magia. Ao escolher esta Virtude você recebe a
-Habilidade Sensitividade Mágica 1.
+Você é capaz de sentir a presença do Bem e do Mal. Uma rolagem de Sentir o Sagrado e o Profano revela a presença de um ou outro ao seu redor, Uma rolagem com mais tempo pode revelar a presença do Bem ou do Mal em uma pessoa ou objeto. Como demônios normalmente escondem sua natureza infernal, você precisa penetrar a Resistência Mágica deles com a sua rolagem apra informações mais detalhadas– mas para esta Habilidade os demônios têm Resistência Mágica -3, devido às suas naturezas extremamente malignas. Os emissários do Divino raramente escondem sua natureza, mas caso o façam, o personagem deve penetrar a Resistência Mágica
+normal da criatura. Em auras especialmente Divinas ou Infernais, a sua sensitividade pode sobrecarregá-lo.
+Esta Habilidade é associada ao Reino Divino.
+
+>20 pontos + 10/ponto
+
+## SENSITIVIDADE MÁGICA
+Muitas vezes você identifica quando algum objeto ou região é mágico. Sua sensitividade o torna mais suscetível a efeitos mágicos e você deve subtrair o seu nível em Sensitividade de todas as suas rolagens de Resistência Mágica. Quando quiser determinar se um lugar ou objeto tem natureza mágica, o narrador define uma Dificuldade e o jogador faz uma rolagem simples de Sensitividade Mágica. A detecção de uma aura mágica toma um diâmetro de tempo enquanto descobrir mais informações como nível da aura, sobreposições de aura ou dados relevantes sobre ela ppode requerer mais tempo e testes. As criaturas mágicas podem ser detectadas assim como objetos encantados e magias ativas. Especializações: auras, criaturas mágicas, objetos encantados, (Sobrenatural)
+
+>20 pontos + 10/ponto
 
 ### SENTIR A NATUREZA
 
 
-Você tem uma sintonia mística com a natureza selvagem. Ao escolher esta Virtude você recebe a Habilidade Sentir a Natureza 1.
+Você tem uma conexão mística com a natureza. Uma rolagem Sentir a Natureza lhe revela o norte, o clima para as próximas horas ou a presença de ameaças ou recursos naturais. Cada rolagem revela uma única informação.
+
+>20 pontos +10/pontos
 
 ### TOQUE DE PUREZA INFERIOR
 

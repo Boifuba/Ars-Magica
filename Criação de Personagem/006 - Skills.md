@@ -30,47 +30,13 @@ sua comunicação com os animais. Especialidades: um tipo de animal específico,
 A arte de ensinar algo a outra pessoa, normalmente alguma Habilidade. Especializações: uma Habilidade específica, um tipo de aluno. (Geral)
 >IQ/A
 
-## MESMERISMO
-Você tem o poder de controlar outras pessoas com a sua força de vontade e olhar. Ao encarar fixamente uma pessoa, por alguns segundos – algo geralmente impossível durante um combate – você pode emitir comandos verbais que devem ser obedecidos. Faça uma rolagem de Mesmerismo contra uma rolagem de Força de Vontade do alvo. A pessoa que está sendo influenciada pode receber um bônus para resistir ao comando, a critério do narrador, de acordo com a tabela abaixo. Magi Herméticos mantêm sua Resistência Mágica a Mentem e têm o direito de fazer a rolagem de Força de Vontade caso ela seja penetrada. Pessoas cegas ou que estejam  com os olhos fechados são imunes. Veja a página 156 para mais detalhes sobre o estabelecimento de contato visual. Não é possível desviar o olhar quando um Mesmerismo está sendo realizado, a não ser que a rolagem de Força de Vontade seja vitoriosa.
-Comando Exemplo Bônus
-Inócuo Fale comigo +3
-Questionável Encontre-me à noite -2
-Perigoso Guarde suas armas +3
-Hediondo Mate seus colegas -6
-Suicida Pule de um penhasco -10
-Especializações: Um tipo específico de comando, um tipo de
-pessoa. (Sobrenatural)
 
-## MÚSICA CATIVANTE
-Quando você se concentra em sua música, você pode usá-la para influenciar as pessoas. Para efeitos específicos, você precisa cantar usando palavras que as pessoas consigam entender. Para emoções,
-como acalmar as pessoas lidando com a perda, por exemplo, podem ser feitos apenas com uma melodia; mas é preciso versos para convencer os camponeses a se levantar contra o lorde local. Efeitos gerais funcionam também em animais, mas efeitos específicos só funcionam com criaturas que conseguem compreender palavras. Quando você usar Música Cativante, faça uma rolagem, dependendo da situação, um sucesso poderia acalmar as emoções, por 3 poderia fazer alguém se sentir atraído por você, 5 poderia iniciar um tumulto e por 6 poderia recuperar uma alma das mãos do Príncipe das Trevas. Uma Falha Crítica causa o efeito contrário naqueles que ouvem a sua música. Resistência Mágica se aplica e é preciso Penetração Mágica suficiente para passar pela Resistência Mágica do alvo. Você deve fazer também uma rolagem para determinar a qualidade da sua apresentação musical, mas os efeitos mágicos são independentes, a não ser que haja falha ruim os efeitos podem mudar. Caso
-você obtenha uma Falha Crítica na rolagem de música, algo impediu que você tocasse ou completasse a música e a Habilidade Sobrenatural falha automaticamente. Especializações: alguma emoção específica, um tipo de pessoa. (Sobrenatural)
->IQ/VH
 
 ## PHILOSOPHIAE
 Há três vertentes de filosofia – filosofia natural, filosofia moral, e metafísica. Aristóteles é a autoridade em todas, com obras diferentes. A maior parte dos acadêmicos estuda as filosofias após as Artes Liberales, mas antes de iniciar em Direito, Teologia ou Medicina. Filosofia natural é o estudo do mundo sublunar. Grosso modo, é o equivalente à ciência atual. Os textos mais importantes são o Physica, De Meteorologia e De historia animalium. A filosofia moral é o estudo da maneira correta de viver como seres humanos. Ela estuda a ética, a política e a economia, com os livros Ethica, Politica, e Economica. A metafísica é a filosofia da
 natureza fundamental do mundo o texto principal é Metafísica. Especializações: filosofia natural, filosofia moral, metafísica, magia Ritual, magia Cerimonial. (Acadêmica)
 
-## SENSITIVIDADE MÁGICA
-Muitas vezes você identifica quando algum objeto ou região é mágico. Sua sensitividade o torna mais suscetível a efeitos mágicos e você deve subtrair o seu nível em Sensitividade de todas as suas rolagens de Resistência Mágica. Quando quiser determinar se um lugar ou objeto tem natureza mágica, o narrador define uma Dificuldade e o jogador faz uma rolagem simples de Sensitividade Mágica. A detecção de uma aura mágica toma um diâmetro de tempo enquanto descobrir mais informações como nível da aura, sobreposições de aura ou dados relevantes sobre ela ppode requerer mais tempo e testes. As criaturas mágicas podem ser detectadas assim como objetos encantados e magias ativas.
-Especializações: auras, criaturas mágicas, objetos encantados,
-(Sobrenatural)
 
-IQ/VH
-
-### SENTIR A NATUREZA
-
-Você tem uma conexão mística com a natureza. Uma rolagem Sentir a Natureza lhe revela o norte, o clima para as próximas horas ou a presença de ameaças ou recursos naturais. Cada rolagem revela uma única informação.
-
-IQ/VH 
-
-### SENTIR O SAGRADO E O PROFANO
-
-Você é capaz de sentir a presença do Bem e do Mal. Uma rolagem de Sentir o Sagrado e o Profano revela a presença de um ou outro ao seu redor, Uma rolagem com mais tempo pode revelar a presença do Bem ou do Mal em uma pessoa ou objeto. Como demônios normalmente escondem sua natureza infernal, você precisa penetrar a Resistência Mágica deles com a sua rolagem apra informações mais detalhadas– mas para esta Habilidade os demônios têm Resistência Mágica -3, devido às suas naturezas extremamente malignas. Os emissários do Divino raramente escondem sua natureza, mas caso o façam, o personagem deve penetrar a Resistência Mágica
-normal da criatura. Em auras especialmente Divinas ou Infernais, a sua sensitividade pode sobrecarregá-lo.
-Esta Habilidade é associada ao Reino Divino.
-
->IQ/VH
 
 ## TEORIA MÁGICA (Taumatologia)
 

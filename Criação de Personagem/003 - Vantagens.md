@@ -240,7 +240,7 @@ Você recebeu o título de Mestre das Artes em uma das universidades da Europa (
 Você é muito cauteloso com magia, e tem menos chances de perder o controle espetacularmente, caso cometa algum erro. Você rola três Dados de Falha a menos quando estiver conjurando magias (tanto espontâneas quanto magias formulaicas) e quando estiver trabalhando em seu laboratório. Esta Virtude não reduz o número de Dados de Falha rolados para menos do que um, mas é aplicada antes de quaisquer outros efeitos que reduzam os Dados de Falha, como Aperfeiçoamento (página 124), sendo possível que eles reduzam o número de Dados de
 Falha a zero. 
 
-### MAGUS HERMÉTICO
+## MAGUS HERMÉTICO
 
 Você é membro da Ordem de Hermes. Todos os magi devem escolher esta Classe Social e somente magi podem escolhê-la. 
 
@@ -253,7 +253,7 @@ criar um efeito usando o texto de laboratório de outro magus, não precisa do m
 
 >15 pontos
 
-### MESMERISMO
+## MESMERISMO
 
 Você tem o poder de controlar outras pessoas com a sua força de vontade e olhar. Ao encarar fixamente uma pessoa, por alguns segundos – algo geralmente impossível durante um combate – você pode emitir comandos verbais que devem ser obedecidos. Faça uma rolagem de Mesmerismo contra uma rolagem de Força de Vontade do alvo. A pessoa que está sendo influenciada pode receber um bônus para resistir ao comando, a critério do narrador, de acordo com a tabela abaixo. Magi Herméticos mantêm sua Resistência Mágica a Mentem e têm o direito de fazer a rolagem de Força de Vontade caso ela seja penetrada. Pessoas cegas ou que estejam  com os olhos fechados são imunes. Veja a página 156 para mais detalhes sobre o estabelecimento de contato visual. Não é possível desviar o olhar quando um Mesmerismo está sendo realizado, a não ser que a rolagem de Força de Vontade seja vitoriosa.
 Comando Exemplo Bônus
@@ -273,7 +273,8 @@ pessoa. (Sobrenatural)
 ```diff
 NOTA IMPORTANTE: Aqui parecia ser uma escolha óbvia usar as regras do GURPS para essa habilidade, mas na avaliação custo efeito mostrou-se que não valeria à pena para esse cenário. Um mago pode de forma muito mais barata mudar sua forma como desejar.
 ```
-Você é capaz de se transformar em um ou mais animais. Ao escolher esta Virtude você recebe a Habilidade Metamorfose. O jogador pode se transformar em qualquer animal que tiver conhecido através da visão e tenha relativa familiaridade com ele.
+Você pode se transformar em um animal mundano de tamanho entre um pardal e um urso . Para isso você deve se concentrar alguns segundos (um turno) de concentração, e uma rolagem de IQ + metamorfose . Voltar à forma humana exige a mesma concentração. Você domina uma quantidade de formas igual ao nível de Metamorfose e, cada vez que aumenta este nível, acrescenta um novo animal às formas conhecidas.
+Especializações: Uma das formas, situações específicas para ativar a transformação. (Sobrenatural)
  
  >20 pontos +10/ponto
 
@@ -298,26 +299,53 @@ Diferente de outros magi, cuja natureza mágica perturba as pessoas e animais mu
 
 Você foi iniciado no Mistério Exterior do Enigma (página 132) e é, portanto, um membro da Casa Criamon. Note que todos os magi Criamon recebem esta Virtude gratuitamente durante a criação de personagem.
 
-### OLHAR PENETRANTE
+>0 pontos
+
+## OLHAR PENETRANTE
 
 Você deixa as pessoas desconfortáveis com o olhar, como se você tivesse a capacidade de olhar dentro delas. Aqueles com a consciência pesada, motivos escusos ou que estão mentindo devem fazer uma rolagem de Personalidade (caso tenham alguma apropriada), Malícia
 ou qualquer outra coisa que o narrador determinar para se manterem calmos. Além disso, você recebe um bônus de +3 em rolagens de intimidação. Fadas e demônios não são afetados pelo seu olhar. 
 
-### PARENS HABILIDOSO
+>5 pontos
 
-Seu parens era mais poderoso e mais didático do que a média. Você recebe 60 pontos de experiência adicionais pelos seus 15 anos de aprendizado, e 30 níveis de Magias formulaicas. Esta Virtude não tem nenhum efeito após a Provação, mas é provável que seu relacionamento com seu parens, um magus poderoso, seja próxima.
+## PARENS HABILIDOSO
 
-### PELE DE CORDEIRO
+Seu parens era mais poderoso e mais didático do que a média. Você pode escolher especializações uma Técnica ou Forma pelos seus 15 anos de aprendizado, e mais 5 de Magias formulaicas. Esta Virtude não tem nenhum efeito após a Provação (Gountlet), mas é provável que seu relacionamento com seu parens, um magus poderoso, seja próxima.
+
+>25 pontos
+
+## PELE DE CORDEIRO
 
 Você possui uma capa, pele ou objeto similar feito de animais, que foi encantado para transformar você no animal representado pelo item. A transformação leva um turno para se completar, e você mantém a sua consciência e inteligência durante a transformação. Suas roupas e outras possessões não são transformadas (com exceção do objeto encantado) e você pode ser detectado como um humano transformado por magias de InAn, InCo e similares. Caso alguém roube o seu item, o novo dono possuirá uma Conexão Arcana com você, e você não poderá se transformar até reaver o item. Caso ele seja destruído, você pode criar um novo durante uma estação inteira (o método de criação depende da natureza do item). Você pode se transformar em qualquer animal mundano de tamanho -5 (tordo) a +2 (urso). O personagem usa as características físicas normais do animal quando transformado, com uma adição de +3 à Absorção do animal. 
 
-### PEQUENO FOCO MÁGICO
+>10 Pontos
+
+## PEQUENO FOCO MÁGICO
 
 A sua magia é muito mais poderosa quando relacionada a algum aspecto bastante limitado, como a autotransformação, aves de  rapina ou cura. Este aspecto deve ser menos abrangente do que uma combinação de Técnica e Forma, embora possa incluir partes de diversas combinações. Cura, por exemplo, envolve Creo Corpus, Creo Animal e possivelmente Creo Herbam. Você não pode escolher uma atividade de laboratório, como a criação de encantamentos, como seu foco mágico, mas os focos se aplicam às atividades de laboratório normalmente. Quando conjurar uma magia ou gerar um Total de Laboratório relacionado ao seu foco, dobre a menor Arte relevante, assim como em um Grande Foco Mágico (página 61). Um personagem só pode ter um Foco Mágico, Grande ou Pequeno, independentemente de como o conseguiu.
 
-### PERCEPÇÃO MÍSTICA
+>10 pontos
 
-Você consegue enxergar através de ilusões e invisibilidade e pode inclusive ver coisas que são naturalmente invisíveis, como espíritos ou as fronteiras de Regiones (página 265). Ao escolher esta Virtude você recebe a Habilidade Percepção Mística 1.
+## PERCEPÇÃO MÍSTICA
+
+Você consegue enxergar através de ilusões e alterações visuais místicas, inclusive invisibilidade – até das coisas que são naturalmente
+invisíveis, como espíritos e as bordas entre os diferentes níveis de um Regio. A Dificuldade para ver através de ilusões é IQ + Percepção Mística - a Potência da Criatura. De modo geral, esta Habilidade o permite enxergar através de efeitos Herméticos de Imaginem, mas não outros tipos de alterações na aparência de alguma coisa. A Resistência Mágica de uma criatura não afeta a sua Percepção Mística. Se algo está realmente transformado em outra coisa, como o alvo de uma magia de MuCo, por exemplo, você não consegue determinar a forma original. A Dificuldade para enxergar uma coisa naturalmente invisível é -3, e a Dificuldade para enxergar as bordas entre os níveis de um Regio é -5. Especializações: Regiones, coisas invisíveis, disfarces ilusórios, criaturas feéricas, espíritos.
+(Sobrenatural)
+
+>20 pontos + 10/ponto
+```diff
+
+- PAREI AQUI 
+- PAREI AQUI 
+- PAREI AQUI 
+- PAREI AQUI 
+- PAREI AQUI 
+- PAREI AQUI 
+- PAREI AQUI 
+- PAREI AQUI 
+- PAREI AQUI 
+
+```
 
 ### PERITO EM FORMA
 

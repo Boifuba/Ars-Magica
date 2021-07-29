@@ -1,5 +1,5 @@
-## Magia
-- [ ] Corrigir os Níveis de magia  :triangular_flag_on_post:
+## Magia :triangular_flag_on_post: :lock:
+- [ ] Corrigir os Níveis de magia  
 
 ## Tabelas 
 - [ ] Ajustar os níveis de Magia na tabela.
@@ -8,8 +8,8 @@
 HTML - Funciona no Foundry mas não tem como editar fora. 
 Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenha conhecimento de dar upload disso pro foundry.
 ```
-## Experiência
-- [ ] Definir sistema de experiência :triangular_flag_on_post: :lock:
+## Experiência  :triangular_flag_on_post: :lock:
+- [ ] Definir sistema de experiência
 
 ```diff
 ! Preciso disso para, Sanitizar Guias, Definir vantagens, Habilidades, Atividades de laboratório

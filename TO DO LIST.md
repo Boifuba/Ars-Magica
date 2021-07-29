@@ -4,10 +4,10 @@
 ## Tabelas 
 - [ ] Ajustar os níveis de Magia na tabela.
 - [ ] Criar tabela para alocar as magias dos jogadores.
-
-> HTML - Funciona no Foundry mas não tem como editar fora. 
-> Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenha conhecimento de dar upload disso pro foundry.
-
+```diff
+HTML - Funciona no Foundry mas não tem como editar fora. 
+Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenha conhecimento de dar upload disso pro foundry.
+```
 ## Experiência
 - [ ] Definir sistema de experiência :triangular_flag_on_post: :lock:
 

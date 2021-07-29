@@ -31,7 +31,7 @@ Só escolher o canal!
 
 # Direitos autorais
 
-O produto apresentado aqui é uma obra de adptação original feita por Cefas Sathler do Cenário de Ars Magica usando as a regras de [GURPS](ttp://www.sjgames.com/gurps/). Ars Magica é propriedade da [Atlas Games](www.atlasgames.com), usada sob permissão. Qualquer nome de magia e outro material adaptado do Ars magica pode ser usado com permissão.
+O produto apresentado aqui é uma obra de adptação original feita por Cefas Sathler do Cenário de Ars Magica usando as a regras de [GURPS](http://www.sjgames.com/gurps/). Ars Magica é propriedade da [Atlas Games](www.atlasgames.com), usada sob permissão. Qualquer nome de magia e outro material adaptado do Ars magica pode ser usado com permissão.
 Essa adaptação ou parte dela  é para uso pessoal e não pode ser comercializado ou distribuido sem autorização do criador e autorização direta dos proprietários da marca.
 
 

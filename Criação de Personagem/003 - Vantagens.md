@@ -333,43 +333,41 @@ invisíveis, como espíritos e as bordas entre os diferentes níveis de um Regio
 (Sobrenatural)
 
 >20 pontos + 10/ponto
-```diff
 
-- PAREI AQUI 
-- PAREI AQUI 
-- PAREI AQUI 
-- PAREI AQUI 
-- PAREI AQUI 
-- PAREI AQUI 
-- PAREI AQUI 
-- PAREI AQUI 
-- PAREI AQUI 
 
-```
-
-### PERITO EM FORMA
+## PERITO EM FORMA
 
 Você é particularmente habilidoso com o uso de uma das Formas Herméticas. Você não tem penalidades quando conjurar magias sem os gestos e cânticos padrões (página 121), inclusive quando não utilizar gestos ou cânticos por não estar em forma humana. As magias com Alcance de Voz ainda têm seu alcance determinado pelo volume da voz utilizada.
 
-### PREMONIÇÕES
+>5 pontos
 
-Você sente, intuitivamente, quando algo está errado ou está para acontecer. Ao escolher esta Virtude você recebe a Habilidade Premonições 1.
+## PREMONIÇÕES
+
+Você sente intuitivamente quando algo está errado ou quando está prestes a dar errado. Esta Habilidade pode ser usada, a critério do narrador, sempre que houver uma chance de evitar algum perigo. Faça uma rolagem de Percepção com os modificadores determinados de acordo com a situação. A Dificuldade começa em -3 para algum perigo mortal iminente – quanto mais tempo até o perigo e quanto menos grave ele é maior é a Dificuldade. Um perigo mortal uma semana no futuro teria um -10; um perigo casual iminente teria dificuldade de -15. Um resultado acima do NH confere também alguma informação sobre a natureza do perigo pressentido, com mais detalhes de acordo com a rolagem. O jogador pode se concentrar para tentar prever eventos futuros distantes e não imediatos(Sobrenatural)
+
+>10 pontos
 
 
-### PRESTÍGIO HERMÉTICO
+## PRESTÍGIO HERMÉTICO
 
 Você goza de certo prestígio entre os magi da Ordem de Hermes, por algum motivo. Mesmo que você não mereça a sua Reputação, ela o precede e altera o modo como os magi tratam você. Alguns o invejam, grande parte tem expectativas maiores em relação a você do que a outros magi de sua idade. Você tem uma Reputação de nível 3 dentro da Ordem de Hermes.
 
-### PROFECIA DE MORTE
+>15 pontos
+
+## PROFECIA DE MORTE
 
 Você foi abençoado ou amaldiçoado em relação ao seu destino. Alguém (um mago, feiticeiro, fada ou qualquer outra criatura sobrenatural) impôs alguma condição à sua morte e você não pode morrer até que esta condição seja realizada. Você ainda pode ser gravemente ferido, curando-se normalmente, mas não morrerá por causa de ferimentos ou velhice. No entanto, o destino geralmente faz com que a condição seja realizada das maneiras mais inusitadas. Se a profecia de morte disser que apenas um javali poderá matá-lo, por exemplo,
 é preciso tomar cuidado com homens carregando brasões de armas contendo javalis, ou estalagens com javali no nome, além do animal. O simbolismo não precisa ser tão óbvio: um homem conhecido como “o porco” em sua vila pode contar como um javali. O narrador deve manter em mente os detalhes da profecia e alertar o jogador para possíveis relações com a profecia. Esta Virtude é Grande porque o personagem sabe que não precisa se preocupar com a maioria dos riscos de vida normais, e trazer a profecia ao jogo de maneira furtiva não é justo com o jogador que a escolheu. Jogadores só podem escolher esta Virtude com a aprovação do narrador ou da trupe. 
 
-### PROTEÇÃO 
+>50 pontos
+
+## PROTEÇÃO 
+
 Você está sob a proteção de uma pessoa poderosa, talvez um nobre de alta estirpe ou um alto oficial da Igreja (outras opções são possíveis, com aprovação do narrador). Aqueles que sabem de seu status como protegido o tratam cautelosamente – aqueles que não sabem geralmente pagam por isso. Você tem uma Reputação (boa ou ruim, à sua escolha) de nível 3, que pode ser maior caso o seu protetor seja particularmente famoso ou importante.
 
+>15 pontos
 
-### RABDOMANCIA
+## RABDOMANCIA
 
 Você tem a habilidade de encontrar coisas próximas com o uso de uma forquilha ou pêndulo e a sua intuição. Ao escolher esta Virtude você recebe a Habilidade Rabdomancia 1.
 Animal: Aves de rapina, caninos, mustelídeos.
@@ -382,45 +380,52 @@ Mentem: Raiva, luxúria, apagar memórias, alterar memórias.
 Terram: Criar metais, destruir pedras.
 Cura: Aplicável em pessoas, animais e plantas.
 Autotransformação: Aplicável a Corpus e Mentem.
-Exemplos de Foco Mágico Menor
 
-### RACIONAL
+>5 pontos/arte
+
+## RACIONAL
 
 Você pensa de maneira lógica e racional, e recebe um bônus de +3 em todas as rolagens contra mentiras, confusão e outros tipos de subterfúgio – mágicos ou mundanos.
 
+>15 pontos
 
-### RELÍQUIA
+## RELÍQUIA
 
 Você possui uma relíquia sagrada, como um osso dos dedos de um santo, e este objeto possui um ponto de Fé. O objeto pode ser incorporado a outro item que você possua (como a bainha de sua espada, por exemplo).
 
+>25 pontos 
 
 ### RESERVA DE FORÇA
 
 Uma vez por dia, quando necessário, você é capaz de realizar um feito incrível de força. Pela duração da ação, adicione +3 à sua Força efetiva. Após o seu feito, no entanto, você deve fazer duas rolagens de Fadiga.
 
-
+```diff
+-PAREI AQUI
+-PAREI AQUI
+-PAREI AQUI
+```
 ### SÁBIO
 
 Você é membro de uma ampla classe que inclui místicos, videntes, curandeiros e outros. É provável que você use algum tipo de magia ou Habilidade Sobrenatural e é bem quisto em sua comunidade – embora a sua presença possa causar algum espanto, medo ou respeito (caso não tenha uma posição de destaque em sua comunidade, talvez seja melhor escolher a Classe Social Viajante ou Pária). Você pode escolher Habilidades Acadêmicas ou Arcanas (apenas um tipo) durante a criação de personagem. A Virtude Riqueza e o Defeito Pobreza se aplicam normalmente. Esta Virtude pode ser escolhida por homens e mulheres.
 
 
-### SANGUE FEÉRICO
+## SANGUE FEÉRICO
 
 Em algum lugar na sua ascendência há uma fada e você herdou deste ancestral um entendimento intuitivo das motivações e personalidades deste povo místico. As fadas se sentem mais confortáveis interagindo com você do que com outros humanos e, com o tempo, podem até vir a esquecer de que você tem sangue mortal em suas veias. Você não envelhece normalmente, e subtrai -1 de todos os seus Testes de Envelhecimento. Tipo de Sangue Feérico (escolha um ou crie um similar):
 
 
-Sangue de anão: Você é um descendente dos mestres artesãos das fadas, e recebe um bônus de +1 em todos os totais que envolvam algum Ofício.
-Sangue de goblin: Você descende dos escusos habitantes das sombras subterrâneas, e recebe um bônus de +1 em todos os totais que envolvam Furtividade.
-Sangue de sátiro: Os sátiros são notoriamente lascivos. Você recebe um bônus de +1 em Comunicação e Presença quando estiver lidando com personagens sexualmente compatíveis.
-Sangue de Sidhe: Você é descendente de um dos nobres feéricos que governam as terras do Verão e da Luz. Por causa das qualidades atraentes e exóticas da sua natureza, você soma +1 à sua Presença, exceto se isso elevar a sua presença acima de +3. Muitos mortais o consideram fascinante ou encantador.
-Sangue de ondina: As ondinas são fadas das águas, e você recebe um bônus de +2 em todas as ações realizadas embaixo d’água, que anula parcialmente qualquer penalidade aplicada. Personagens com Sangue Feérico podem comprar Reino Feérico durante a criação de personagem.
+> - Sangue de anão: Você é um descendente dos mestres artesãos das fadas, e recebe um bônus de +1 em todos os totais que envolvam algum Ofício.
+>- Sangue de goblin: Você descende dos escusos habitantes das sombras subterrâneas, e recebe um bônus de +1 em todos os totais que envolvam Furtividade.
+>- Sangue de sátiro: Os sátiros são notoriamente lascivos. Você recebe um bônus de +1 em Comunicação e Presença quando estiver lidando com personagens sexualmente compatíveis.
+>- Sangue de Sidhe: Você é descendente de um dos nobres feéricos que governam as terras do Verão e da Luz. Por causa das qualidades atraentes e exóticas da sua natureza, você soma +1 à sua Presença, exceto se isso elevar a sua presença acima de +3. Muitos mortais o consideram fascinante ou encantador.
+>- Sangue de ondina: As ondinas são fadas das águas, e você recebe um bônus de +2 em todas as ações realizadas embaixo d’água, que anula parcialmente qualquer penalidade aplicada. Personagens com Sangue Feérico podem comprar Reino Feérico durante a criação de personagem.
 
-### SANGUE FEÉRICO POTENTE
+## SANGUE FEÉRICO POTENTE
 
 O sangue feérico em você é particularmente poderoso. Talvez um de seus pais era, de fato, uma fada; ou talvez você tenha sido concebido ou tenha nascido em algum lugar de poder feérico impressionante. Seja o motivo qual for, esta ascendência lhe confere diversas habilidades.
 Em primeiro lugar, você é naturalmente longevo, e começa a fazer Testes de Envelhecimento aos 50, e não aos 35 anos de idade. Além disso, você recebe um bônus de -3 aos seus Testes de Envelhecimento, que é cumulativo com outros bônus. Em segundo lugar, você tem olhos de fada. Isto lhe dá a Virtude Percepção Mística gratuitamente e você consegue enxergar no escuro ou penumbra. Seus olhos parecem normais, mas têm cores particularmente vibrantes. Em terceiro lugar, você pode escolher a Habilidade Reino Feérico durante a criação de personagem. Ademais, você recebe os benefícios específicos de sua linhagem feérica, conforme descrito em Sangue Feérico, mas a sua herança é claramente visível. Escolha uma característica física (como pequenos chifres, sangue literalmente azul, ou olhos sem pupilas e íris) apropriada às fadas das quais você descende. Você não pode escolher a Virtude Sangue Feérico. Esta é uma Virtude Sobrenatural, e não pode ser perdida quando você for treinado para se tornar um magus (página 151). Se o seu mestre não é capaz de preservar esta habilidade, ele não consegue treiná-lo.
 
-### SANGUE MÍTICO
+## SANGUE MÍTICO
 
 Você é descendente de um mago lendário (talvez um dos Doze Fundadores, ou algum outro mago poderoso antigo) ou de uma criatura mágica (como um dragão). O seu Dom vigoroso significa que você não gasta Fadiga caso falhe por até 10 pontos na conjuração de uma Magia formulaica, mas perde fadiga normalmente caso a magia falhe completamente. Esta Virtude não afeta a conjuração de magias espontâneas. Além disso, você pode escolher um efeito mágico especial que pode ser invocado e suprimido à vontade. Ativar o efeito demora
 o mesmo que conjurar uma Magia formulaica Acelerada (página 125) e exige o mesmo nível de concentração. O efeito deve ser criado como uma magia formulaica, com nível e Penetração Mágica definidos pela tabela abaixo. A Penetração Mágica do efeito não
@@ -434,7 +439,7 @@ Esta Virtude inclui um Pequeno Foco Mágico em algo relacionado ao ancestral len
 
 
 
-### SENTIR O SAGRADO E O PROFANO
+## SENTIR O SAGRADO E O PROFANO
 
 Você é capaz de sentir a presença do Bem e do Mal. Uma rolagem de Sentir o Sagrado e o Profano revela a presença de um ou outro ao seu redor, Uma rolagem com mais tempo pode revelar a presença do Bem ou do Mal em uma pessoa ou objeto. Como demônios normalmente escondem sua natureza infernal, você precisa penetrar a Resistência Mágica deles com a sua rolagem apra informações mais detalhadas– mas para esta Habilidade os demônios têm Resistência Mágica -3, devido às suas naturezas extremamente malignas. Os emissários do Divino raramente escondem sua natureza, mas caso o façam, o personagem deve penetrar a Resistência Mágica
 normal da criatura. Em auras especialmente Divinas ou Infernais, a sua sensitividade pode sobrecarregá-lo.
@@ -447,27 +452,26 @@ Muitas vezes você identifica quando algum objeto ou região é mágico. Sua sen
 
 >20 pontos + 10/ponto
 
-### SENTIR A NATUREZA
+## SENTIR A NATUREZA
 
 
 Você tem uma conexão mística com a natureza. Uma rolagem Sentir a Natureza lhe revela o norte, o clima para as próximas horas ou a presença de ameaças ou recursos naturais. Cada rolagem revela uma única informação.
 
 >20 pontos +10/pontos
 
-### TOQUE DE PUREZA INFERIOR
+## TOQUE DE PUREZA INFERIOR
 
 Você é capaz de curar uma doença com um simples toque (e o gasto de um ponto de Fadiga). A doença deve ser algo que as pessoas frequentemente sobrevivem sem auxílio ou algo que não seja tão perigoso. Você deve escolher a doença que consegue curar quando escolhe esta Virtude, e não é capaz de curar nenhuma outra. Apenas doenças podem ser escolhidas, e nenhuma outra forma de dano ou infortúnio. Veja a página 253 para mais informações sobre doenças.
 
-### TOQUE DE PUREZA SUPERIOR
+## TOQUE DE PUREZA SUPERIOR
 
 Você é capaz de curar uma doença grave com um simples toque (e o gasto de um ponto de Fadiga). A doença deve ser potencialmente mortal ou incapacitante e deve ser uma doença da qual as pessoas normalmente não se recuperam sozinhas. Você deve escolher a doença que consegue curar quando escolhe esta Virtude, não sendo capaz de curar nenhuma outra. Apenas doenças podem ser escolhidas, nenhuma outra forma de dano ou infortúnio. Veja a página 253 para mais informações sobre doenças. 
 
-### VIRTUOSO (ARTE)
+## VIRTUOSO (ARTE)
 
 Você é especialmente habilidoso com uma Arte e soma 3 ao nível efetivo da Arte sempre que a usar. Isto significa que todos os Totais que envolvam esta Arte recebem este bônus, mas ele não se aplica a Totais de Estudo. Você pode escolher esta Virtude duas vezes, no máximo, para duas Artes diferentes. Caso uma magia tenha requisitos, o bônus de Virtuoso é considerado para determinar qual Arte é maior.
 
-### VIRTUOSO (HABILIDADE)
+## VIRTUOSO (HABILIDADE)
 
 Você é especialmente habilidoso com uma Habilidade, somando 2 ao nível efetivo da Habilidade sempre que a usar. Note que aprender, ensinar ou escrever sobre uma Habilidade não é o mesmo que usá-la. Esta Virtude pode ser escolhida múltiplas vezes, para Habilidades diferentes.
 
-<p align="right">[Index](#index)</p>

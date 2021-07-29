@@ -36,6 +36,6 @@
 
 ## ARS1
 
-- [ ] Definir livros
+- [ ] Definir quantos e quais livros
 - [ ] Hooks and Boons
 - [ ] Definir acesso à vis

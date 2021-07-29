@@ -46,3 +46,6 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 
 ## Foundry
 - [ ] Sanitizar e definir Módulos
+
+## Disclaimer :triangular_flag_on_post:
+- [ ] Colocar Disclaimer no README.MD

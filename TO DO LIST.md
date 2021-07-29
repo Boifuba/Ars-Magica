@@ -48,4 +48,4 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 - [ ] Sanitizar e definir Módulos
 
 ## Disclaimer :triangular_flag_on_post:
-- [ ] Colocar Disclaimer no README.MD
+- [x] Colocar Disclaimer no README.MD

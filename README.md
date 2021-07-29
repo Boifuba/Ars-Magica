@@ -29,3 +29,12 @@ Só escolher o canal!
 
 [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/gmail.png)](cefasheli@gmail.com)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/discordia.png)](https://discord.gg/73Bfq6K8)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/facebook.png)](https://www.facebook.com/CefasHeli/)      [![name](https://github.com/Boifuba/Ars-Magica/blob/main/Imagens/Outros/whatsapp.png)](https://api.whatsapp.com/send?phone=5521972365528)
 
+# Direitos autorais
+
+O produto apresentado aqui é uma obra de adptação original feita por Cefas Sathler do Cenário de Ars Magica usando as a regras de [GURPS](ttp://www.sjgames.com/gurps/). Ars Magica é propriedade da [Atlas Games](www.atlasgames.com), usada sob permissão. Qualquer nome de magia e outro material adaptado do Ars magica pode ser usado com permissão.
+Essa adaptação ou parte dela  é para uso pessoal e não pode ser comercializado ou distribuido sem autorização do criador e autorização direta dos proprietários da marca.
+
+
+
+
+

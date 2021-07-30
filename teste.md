@@ -1,9 +1,8 @@
 # A Mão da cura
-CreCor 3 Visão Indívduo Diâmetro Dano
+Tipo   | Nível | Custo | Alcance |    Alvo   |    Duração    | Dado
+:----: | :---: | :---: | :---:   | :------:  | :-----------: | :---:
+CreCor | 3     | 3     | Toque   | Indivíduo |  Momentâneo   |  1d-1
 
- Magia   | Nome da Magia :
-:---------: | :------:
-Nome | Descrição
-Exemplo 2 | R$ 8
-Exemplo 3 | R$ 7
-Exemplo 4 | R$ 8
+**Descrição:** |
+:-------------------------------------------------------------------|
+Essa magia é boa para um caramba e serve se orientação para que vc possa ser feliz na sua vida. Eu acho que eu estou exagerando nesse negócio e GitHub. |

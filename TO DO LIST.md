@@ -1,5 +1,9 @@
+# INDEX de problemas!
 - [Heading](#magia)
   * [Tabelas](#Tabelas)
+  * [Tabela de conversão](#Tabela de conversão)
+
+-[GCS](#GCS)
 
 
 # Magia :triangular_flag_on_post: :lock:
@@ -19,7 +23,7 @@ Ajustar os níveis de Magia na tabela.
 - [ ] Vim
 
 - [ ] Criar tabela para alocar as magias dos jogadores.
-
+## Tabela de conversão
 Range | Valor
 :----: | :------:
 0-2|	0

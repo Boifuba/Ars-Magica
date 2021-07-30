@@ -74,3 +74,6 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 
 ## Disclaimer :triangular_flag_on_post:
 - [x] Colocar Disclaimer no README.MD
+
+## Regras
+- [ ] Envelhecimento

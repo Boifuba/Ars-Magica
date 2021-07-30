@@ -1,4 +1,8 @@
-## Magia :triangular_flag_on_post: :lock:
+- [Heading](#magia)
+  * [Tabelas](#Tabelas)
+
+
+# Magia :triangular_flag_on_post: :lock:
 - [x] Corrigir os Níveis de magia  
 
 ## Tabelas 

@@ -2,8 +2,35 @@
 - [ ] Corrigir os Níveis de magia  
 
 ## Tabelas 
-- [ ] Ajustar os níveis de Magia na tabela.
+Ajustar os níveis de Magia na tabela.
+- [ ] Auram
+- [ ] Animal
+- [ ] Aquam
+- [ ] Corpus
+- [ ] Herbam
+- [ ] Ignem
+- [ ] Imaginem
+- [ ] Mentem
+- [ ] Terram
+- [ ] Vim
+
 - [ ] Criar tabela para alocar as magias dos jogadores.
+
+range | Valor:
+:---- | ------:
+0-2|	0
+3-5|	1
+6-10	|	2
+11-15	|	3
+16-20	|	4
+21-25	|	5
+26-30	|	6
+31-35	|	7
+36-40	|	8
+41-45	|	9
+46-50	|	10
+
+
 ```diff
 HTML - Funciona no Foundry mas não tem como editar fora. 
 Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenha conhecimento de dar upload disso pro foundry.

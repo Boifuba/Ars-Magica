@@ -1,9 +1,9 @@
 # INDEX de problemas!
-1. [Heading](#magia)
-  * [Tabelas](#Tabelas)
-  * [Tabela de conversão](#Tabela-de-conversão)
+1. ##[Heading](#magia)
+  * ### [Tabelas](#Tabelas)
+  * ### [Tabela de conversão](#Tabela-de-conversão)
 
-2. [GCS](#GCS)
+2. ## [GCS](#GCS)
 
 
 # Magia :triangular_flag_on_post: :lock:

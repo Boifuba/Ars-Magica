@@ -395,18 +395,17 @@ Você possui uma relíquia sagrada, como um osso dos dedos de um santo, e este o
 
 >25 pontos 
 
-### RESERVA DE FORÇA
+## RESERVA DE FORÇA
 
-Uma vez por dia, quando necessário, você é capaz de realizar um feito incrível de força. Pela duração da ação, adicione +3 à sua Força efetiva. Após o seu feito, no entanto, você deve fazer duas rolagens de Fadiga.
+Uma vez por dia, quando necessário, você é capaz de realizar um feito incrível de força. Pela duração da ação, adicione +3 à sua Força efetiva. Após o seu feito, no entanto, você perde 3 de fadigas.
 
-```diff
--PAREI AQUI
--PAREI AQUI
--PAREI AQUI
-```
-### SÁBIO
+>5 pontos
 
-Você é membro de uma ampla classe que inclui místicos, videntes, curandeiros e outros. É provável que você use algum tipo de magia ou Habilidade Sobrenatural e é bem quisto em sua comunidade – embora a sua presença possa causar algum espanto, medo ou respeito (caso não tenha uma posição de destaque em sua comunidade, talvez seja melhor escolher a Classe Social Viajante ou Pária). Você pode escolher Habilidades Acadêmicas ou Arcanas (apenas um tipo) durante a criação de personagem. A Virtude Riqueza e o Defeito Pobreza se aplicam normalmente. Esta Virtude pode ser escolhida por homens e mulheres.
+## SÁBIO
+
+Você é membro de uma ampla classe que inclui místicos, videntes, curandeiros e outros. É provável que você use algum tipo de magia ou Habilidade Sobrenatural e é bem quisto em sua comunidade – embora a sua presença possa causar algum espanto, medo ou respeito (caso não tenha uma posição de destaque em sua comunidade, talvez seja melhor escolher a Classe Social Viajante ou Pária). Você pode escolher Vantagems como Riqueza e o Defeito Pobreza se aplicam normalmente. Esta Virtude pode ser escolhida por homens e mulheres.
+
+>25 pontos
 
 
 ## SANGUE FEÉRICO
@@ -416,14 +415,18 @@ Em algum lugar na sua ascendência há uma fada e você herdou deste ancestral u
 
 > - Sangue de anão: Você é um descendente dos mestres artesãos das fadas, e recebe um bônus de +1 em todos os totais que envolvam algum Ofício.
 >- Sangue de goblin: Você descende dos escusos habitantes das sombras subterrâneas, e recebe um bônus de +1 em todos os totais que envolvam Furtividade.
->- Sangue de sátiro: Os sátiros são notoriamente lascivos. Você recebe um bônus de +1 em Comunicação e Presença quando estiver lidando com personagens sexualmente compatíveis.
->- Sangue de Sidhe: Você é descendente de um dos nobres feéricos que governam as terras do Verão e da Luz. Por causa das qualidades atraentes e exóticas da sua natureza, você soma +1 à sua Presença, exceto se isso elevar a sua presença acima de +3. Muitos mortais o consideram fascinante ou encantador.
+>- Sangue de sátiro: Os sátiros são notoriamente lascivos. Você recebe um bônus de +1 em Reação e testes quando estiver lidando com personagens sexualmente compatíveis.
+>- Sangue de Sidhe: Você é descendente de um dos nobres feéricos que governam as terras do Verão e da Luz. Por causa das qualidades atraentes e exóticas da sua natureza, você soma +1 à sua Reação, exceto se isso elevar a sua Reação acima de +3. Muitos mortais o consideram fascinante ou encantador.
 >- Sangue de ondina: As ondinas são fadas das águas, e você recebe um bônus de +2 em todas as ações realizadas embaixo d’água, que anula parcialmente qualquer penalidade aplicada. Personagens com Sangue Feérico podem comprar Reino Feérico durante a criação de personagem.
+
+>15 pontos
 
 ## SANGUE FEÉRICO POTENTE
 
 O sangue feérico em você é particularmente poderoso. Talvez um de seus pais era, de fato, uma fada; ou talvez você tenha sido concebido ou tenha nascido em algum lugar de poder feérico impressionante. Seja o motivo qual for, esta ascendência lhe confere diversas habilidades.
 Em primeiro lugar, você é naturalmente longevo, e começa a fazer Testes de Envelhecimento aos 50, e não aos 35 anos de idade. Além disso, você recebe um bônus de -3 aos seus Testes de Envelhecimento, que é cumulativo com outros bônus. Em segundo lugar, você tem olhos de fada. Isto lhe dá a Virtude Percepção Mística gratuitamente e você consegue enxergar no escuro ou penumbra. Seus olhos parecem normais, mas têm cores particularmente vibrantes. Em terceiro lugar, você pode escolher a Habilidade Reino Feérico durante a criação de personagem. Ademais, você recebe os benefícios específicos de sua linhagem feérica, conforme descrito em Sangue Feérico, mas a sua herança é claramente visível. Escolha uma característica física (como pequenos chifres, sangue literalmente azul, ou olhos sem pupilas e íris) apropriada às fadas das quais você descende. Você não pode escolher a Virtude Sangue Feérico. Esta é uma Virtude Sobrenatural, e não pode ser perdida quando você for treinado para se tornar um magus (página 151). Se o seu mestre não é capaz de preservar esta habilidade, ele não consegue treiná-lo.
+
+> 50 pontos
 
 ## SANGUE MÍTICO
 
@@ -437,7 +440,9 @@ Gestos: 20
 Sem Falas ou Gestos: 15
 Esta Virtude inclui um Pequeno Foco Mágico em algo relacionado ao ancestral lendário, assim como um Defeito de Personalidade Pequeno hereditário – eles não são considerados para o limite de pontos de Virtudes e Defeitos do personagem. Sangue Mítico não é incomum na Ordem de Hermes e, portanto, esta Virtude não confere nenhum tipo de Reputação.
 
-
+```diff
+- EU NÃO ENTENDI -
+```
 
 ## SENTIR O SAGRADO E O PROFANO
 
@@ -463,15 +468,22 @@ Você tem uma conexão mística com a natureza. Uma rolagem Sentir a Natureza lh
 
 Você é capaz de curar uma doença com um simples toque (e o gasto de um ponto de Fadiga). A doença deve ser algo que as pessoas frequentemente sobrevivem sem auxílio ou algo que não seja tão perigoso. Você deve escolher a doença que consegue curar quando escolhe esta Virtude, e não é capaz de curar nenhuma outra. Apenas doenças podem ser escolhidas, e nenhuma outra forma de dano ou infortúnio. Veja a página 253 para mais informações sobre doenças.
 
+>5 pontos
+
 ## TOQUE DE PUREZA SUPERIOR
 
 Você é capaz de curar uma doença grave com um simples toque (e o gasto de um ponto de Fadiga). A doença deve ser potencialmente mortal ou incapacitante e deve ser uma doença da qual as pessoas normalmente não se recuperam sozinhas. Você deve escolher a doença que consegue curar quando escolhe esta Virtude, não sendo capaz de curar nenhuma outra. Apenas doenças podem ser escolhidas, nenhuma outra forma de dano ou infortúnio. Veja a página 253 para mais informações sobre doenças. 
+
+>10 pontos
 
 ## VIRTUOSO (ARTE)
 
 Você é especialmente habilidoso com uma Arte e soma 3 ao nível efetivo da Arte sempre que a usar. Isto significa que todos os Totais que envolvam esta Arte recebem este bônus, mas ele não se aplica a Totais de Estudo. Você pode escolher esta Virtude duas vezes, no máximo, para duas Artes diferentes. Caso uma magia tenha requisitos, o bônus de Virtuoso é considerado para determinar qual Arte é maior.
 
+>15 pontos
+
 ## VIRTUOSO (HABILIDADE)
 
 Você é especialmente habilidoso com uma Habilidade, somando 2 ao nível efetivo da Habilidade sempre que a usar. Note que aprender, ensinar ou escrever sobre uma Habilidade não é o mesmo que usá-la. Esta Virtude pode ser escolhida múltiplas vezes, para Habilidades diferentes.
 
+>15 pontos

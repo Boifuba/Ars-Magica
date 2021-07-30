@@ -6,9 +6,9 @@ Ajustar os níveis de Magia na tabela.
 - [x] Auram
 - [x] Animal
 - [x] Aquam
-- [ ] Corpus
-- [ ] Herbam
-- [ ] Ignem
+- [x] Corpus
+- [x] Herbam
+- [x] Ignem
 - [ ] Imaginem
 - [ ] Mentem
 - [ ] Terram
@@ -43,9 +43,9 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 ## Skills
 - [x] Trocar Taumatologia por Artes Liberales
 - [ ] Checar NH's e ver se os jogadores estão com skills adequadas ao cenário
-- [ ] Adicionar outras técnicas em Ignem 
+- [x] Adicionar outras técnicas em Ignem 
 - [ ] Ajustar Creo Mentem
-- [ ] Vantagens do cenário
+- [x] Vantagens do cenário
 - [ ] Desvantagens do cenário :triangular_flag_on_post:
 
 ## GCS
@@ -75,5 +75,7 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 ## Disclaimer :triangular_flag_on_post:
 - [x] Colocar Disclaimer no README.MD
 
-## Regras
+## Ler Regras
 - [ ] Envelhecimento
+- [ ] Magia acelerada
+- [ ] Falhas em testes de magia

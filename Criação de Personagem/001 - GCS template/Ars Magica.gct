@@ -6,12 +6,11 @@
 		{
 			"type": "advantage_container",
 			"id": "2e08c092-ac0d-453c-9f11-ebd1e7459cb0",
-			"container_type": "alternative_abilities",
 			"name": "Arte",
 			"calc": {
-				"points": 28
+				"points": 100
 			},
-			"open": false,
+			"open": true,
 			"children": [
 				{
 					"type": "advantage",

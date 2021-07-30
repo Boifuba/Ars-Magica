@@ -35,12 +35,10 @@ Range | Valor
 HTML - Funciona no Foundry mas não tem como editar fora. 
 Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenha conhecimento de dar upload disso pro foundry.
 ```
-## Experiência  :triangular_flag_on_post: :lock:
-- [ ] Definir sistema de experiência
+## Experiência  😃
 
-```diff
-! Preciso disso para, Sanitizar Guias, Definir vantagens, Habilidades, Atividades de laboratório
-```
+- [x] Definir sistema de experiência
+
 
 ## Skills
 - [x] Trocar Taumatologia por Artes Liberales

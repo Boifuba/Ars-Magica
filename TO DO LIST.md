@@ -1,13 +1,3 @@
-# INDEX de problemas!
-1. ## [Heading](#magia)
-      ### [Tabelas](#Tabelas)
-      ### [Tabela de conversão](#Tabela-de-conversão)
-
-2. ## [GCS](#GCS)
-
-
-# Magia :triangular_flag_on_post: :lock:
-- [x] Corrigir os Níveis de magia  
 
 ## Tabelas 
 Ajustar os níveis de Magia na tabela.

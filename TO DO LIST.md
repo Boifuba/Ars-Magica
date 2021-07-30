@@ -1,7 +1,7 @@
 # INDEX de problemas!
 - [Heading](#magia)
   * [Tabelas](#Tabelas)
-  * [Tabela de conversão](#Tabela de conversão)
+  * [Tabela de conversão](#Tabela-de-conversão)
 
 -[GCS](#GCS)
 

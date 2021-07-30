@@ -16,8 +16,8 @@ Ajustar os níveis de Magia na tabela.
 
 - [ ] Criar tabela para alocar as magias dos jogadores.
 
-range | Valor:
-:---- | ------:
+Range | Valor
+:----: | :------:
 0-2|	0
 3-5|	1
 6-10	|	2

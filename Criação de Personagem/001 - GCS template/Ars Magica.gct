@@ -10,7 +10,7 @@
 			"calc": {
 				"points": 100
 			},
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "advantage",
@@ -303,7 +303,7 @@
 			"calc": {
 				"points": 25
 			},
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "advantage",
@@ -598,6 +598,46 @@
 		},
 		{
 			"type": "skill",
+			"id": "d3746715-57d1-40be-8b7c-c6d108e504a3",
+			"name": "Conhecimento do Reino ",
+			"specialization": "Divino",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "21b96f1c-fd14-47c2-be54-ceffdc362ecb",
+			"name": "Conhecimento do Reino ",
+			"specialization": "Profano",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "aaacb3e0-8c3a-4c1a-9de7-df2491e2d0bf",
+			"name": "Conhecimento do Reino ",
+			"specialization": "Feérico",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "9b87116f-f69c-4743-8de3-379a2517146b",
+			"name": "Conhecimento do Reino ",
+			"specialization": "Mágico",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "8e64221f-491e-4fb1-a593-db26dd998bf9",
+			"name": "Ordem de Hermes",
+			"specialization": "Mágico",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
 			"id": "7e2bc15b-b918-4657-a407-e0276c7ca44d",
 			"name": "Law",
 			"reference": "A",
@@ -697,7 +737,7 @@
 			"type": "skill_container",
 			"id": "9253fa66-ad02-4d4b-94e7-752f3c6a987f",
 			"name": "Arte",
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "skill",

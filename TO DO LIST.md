@@ -1,5 +1,5 @@
 ## Magia :triangular_flag_on_post: :lock:
-- [ ] Corrigir os Níveis de magia  
+- [x] Corrigir os Níveis de magia  
 
 ## Tabelas 
 Ajustar os níveis de Magia na tabela.
@@ -9,9 +9,9 @@ Ajustar os níveis de Magia na tabela.
 - [x] Corpus
 - [x] Herbam
 - [x] Ignem
-- [ ] Imaginem
-- [ ] Mentem
-- [ ] Terram
+- [x] Imaginem
+- [x] Mentem
+- [x] Terram
 - [ ] Vim
 
 - [ ] Criar tabela para alocar as magias dos jogadores.
@@ -44,7 +44,7 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 - [x] Trocar Taumatologia por Artes Liberales
 - [ ] Checar NH's e ver se os jogadores estão com skills adequadas ao cenário
 - [x] Adicionar outras técnicas em Ignem 
-- [ ] Ajustar Creo Mentem
+- [x] Ajustar Creo Mentem
 - [x] Vantagens do cenário
 - [ ] Desvantagens do cenário :triangular_flag_on_post:
 
@@ -79,3 +79,4 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 - [ ] Envelhecimento
 - [ ] Magia acelerada
 - [ ] Falhas em testes de magia
+- [ ] experimentação

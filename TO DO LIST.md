@@ -3,7 +3,7 @@
 
 ## Tabelas 
 Ajustar os níveis de Magia na tabela.
-- [ ] Auram
+- [x] Auram
 - [x] Animal
 - [x] Aquam
 - [ ] Corpus

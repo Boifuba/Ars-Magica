@@ -1,5 +1,5 @@
 # INDEX de problemas!
-1. ##[Heading](#magia)
+1. ## [Heading](#magia)
   * ### [Tabelas](#Tabelas)
   * ### [Tabela de conversão](#Tabela-de-conversão)
 

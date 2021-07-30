@@ -1,4 +1,5 @@
-## Experiência e Avanço de Personagens
+# Experiência e Avanço de Personagens
+
 Conforme o tempo avança, os personagens ficam mais habilidosos e experientes. Em Ars Magica, pontos de experiência são concedidos a cada estação (três meses), com base nas atividades do personagem durante a estação. Atribuição de estações para atividades é, em alguns casos, uma abstração. Um personagem normal deve trabalhar por duas estações e tem duas estações “livres”. No entanto, ele não pode largar seu trabalho por duas estações - o tempo livre é espalhado ao longo do ano. Assim, ele só pode realizar estudos concomitantemente ao seu trabalho. As duas estações gastas trabalhando geram experiência por Exposição. É possível que um personagem tenha estações genuinamente livres, mas isso depende da história de cada personagem. Atividades de laboratório Herméticas sempre levam uma estação inteira e os magi Herméticos têm quatro estações genuinamente livres por ano, que podem aplicar a estudos ou quaisquer outras atividades que desejem. Se um magus faz algo diferente de estudar ele recebe experiência por Exposição, como qualquer outra pessoa.
 
 ## LIMITES

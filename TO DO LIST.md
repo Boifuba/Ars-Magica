@@ -62,3 +62,4 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 - [ ] Magia acelerada
 - [ ] Falhas em testes de magia
 - [ ] experimentação
+- [ ] bonus de magia

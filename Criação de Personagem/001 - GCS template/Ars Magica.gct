@@ -6,7 +6,7 @@
 		{
 			"type": "advantage_container",
 			"id": "2e08c092-ac0d-453c-9f11-ebd1e7459cb0",
-			"name": "Arte",
+			"name": "Forma",
 			"calc": {
 				"points": 100
 			},
@@ -298,7 +298,7 @@
 		{
 			"type": "advantage_container",
 			"id": "33766bfc-c09a-4feb-9463-fac701d6746f",
-			"name": "Forma",
+			"name": "Técnica",
 			"reference": "A",
 			"calc": {
 				"points": 25
@@ -606,14 +606,6 @@
 		},
 		{
 			"type": "skill",
-			"id": "21b96f1c-fd14-47c2-be54-ceffdc362ecb",
-			"name": "Conhecimento do Reino ",
-			"specialization": "Profano",
-			"difficulty": "iq/vh",
-			"points": 1
-		},
-		{
-			"type": "skill",
 			"id": "aaacb3e0-8c3a-4c1a-9de7-df2491e2d0bf",
 			"name": "Conhecimento do Reino ",
 			"specialization": "Feérico",
@@ -630,88 +622,11 @@
 		},
 		{
 			"type": "skill",
-			"id": "8e64221f-491e-4fb1-a593-db26dd998bf9",
-			"name": "Ordem de Hermes",
-			"specialization": "Mágico",
+			"id": "21b96f1c-fd14-47c2-be54-ceffdc362ecb",
+			"name": "Conhecimento do Reino ",
+			"specialization": "Profano",
 			"difficulty": "iq/vh",
 			"points": 1
-		},
-		{
-			"type": "skill",
-			"id": "7e2bc15b-b918-4657-a407-e0276c7ca44d",
-			"name": "Law",
-			"reference": "A",
-			"specialization": "Peripheral Law",
-			"difficulty": "iq/h",
-			"points": 1,
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -6
-				}
-			],
-			"categories": [
-				"Business",
-				"Police",
-				"Social Sciences/Humanities"
-			]
-		},
-		{
-			"type": "skill",
-			"id": "29ff8d74-1e13-4e22-b1b3-3d8566ef97f7",
-			"name": "Teaching",
-			"reference": "B224",
-			"difficulty": "iq/a",
-			"points": 1,
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -5
-				}
-			],
-			"categories": [
-				"Scholarly",
-				"Social"
-			]
-		},
-		{
-			"type": "skill",
-			"id": "de89ba8a-8625-46f5-80a6-714acc4ba175",
-			"name": "Teoria Mágica",
-			"difficulty": "iq/vh",
-			"points": 1
-		},
-		{
-			"type": "skill",
-			"id": "374b32e0-b0b4-4550-92fe-147177b713ad",
-			"name": "Philosophiae",
-			"reference": "A",
-			"difficulty": "iq/vh",
-			"points": 1
-		},
-		{
-			"type": "skill",
-			"id": "6f504a16-7d3f-47a4-bc57-1d0ac1a7d56f",
-			"name": "Savoir-Faire",
-			"reference": "A",
-			"specialization": "Magi",
-			"difficulty": "iq/e",
-			"points": 1,
-			"defaults": [
-				{
-					"type": "iq",
-					"modifier": -4
-				},
-				{
-					"type": "skill",
-					"name": "Games",
-					"modifier": -3
-				}
-			],
-			"categories": [
-				"Knowledge",
-				"Social"
-			]
 		},
 		{
 			"type": "skill",
@@ -722,22 +637,10 @@
 			"points": 1
 		},
 		{
-			"type": "skill",
-			"id": "249955c7-eef3-49bf-b5e4-5d24c036c9ac",
-			"name": "Hidden Lore",
-			"reference": "A",
-			"specialization": "Ordem Hermética",
-			"difficulty": "iq/a",
-			"points": 1,
-			"categories": [
-				"Knowledge"
-			]
-		},
-		{
 			"type": "skill_container",
 			"id": "9253fa66-ad02-4d4b-94e7-752f3c6a987f",
-			"name": "Arte",
-			"open": false,
+			"name": "Forma",
+			"open": true,
 			"children": [
 				{
 					"type": "skill",
@@ -860,6 +763,103 @@
 					]
 				}
 			]
+		},
+		{
+			"type": "skill",
+			"id": "249955c7-eef3-49bf-b5e4-5d24c036c9ac",
+			"name": "Hidden Lore",
+			"reference": "A",
+			"specialization": "Ordem Hermética",
+			"difficulty": "iq/a",
+			"points": 1,
+			"categories": [
+				"Knowledge"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "7e2bc15b-b918-4657-a407-e0276c7ca44d",
+			"name": "Law",
+			"reference": "A",
+			"specialization": "Peripheral Law",
+			"difficulty": "iq/h",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -6
+				}
+			],
+			"categories": [
+				"Business",
+				"Police",
+				"Social Sciences/Humanities"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "8e64221f-491e-4fb1-a593-db26dd998bf9",
+			"name": "Ordem de Hermes",
+			"specialization": "Mágico",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "374b32e0-b0b4-4550-92fe-147177b713ad",
+			"name": "Philosophiae",
+			"reference": "A",
+			"difficulty": "iq/vh",
+			"points": 1
+		},
+		{
+			"type": "skill",
+			"id": "6f504a16-7d3f-47a4-bc57-1d0ac1a7d56f",
+			"name": "Savoir-Faire",
+			"reference": "A",
+			"specialization": "Magi",
+			"difficulty": "iq/e",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -4
+				},
+				{
+					"type": "skill",
+					"name": "Games",
+					"modifier": -3
+				}
+			],
+			"categories": [
+				"Knowledge",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "29ff8d74-1e13-4e22-b1b3-3d8566ef97f7",
+			"name": "Teaching",
+			"reference": "B224",
+			"difficulty": "iq/a",
+			"points": 1,
+			"defaults": [
+				{
+					"type": "iq",
+					"modifier": -5
+				}
+			],
+			"categories": [
+				"Scholarly",
+				"Social"
+			]
+		},
+		{
+			"type": "skill",
+			"id": "de89ba8a-8625-46f5-80a6-714acc4ba175",
+			"name": "Teoria Mágica",
+			"difficulty": "iq/vh",
+			"points": 1
 		}
 	],
 	"spells": [

@@ -20,27 +20,53 @@ Você tem dificuldade em aprender com outras pessoas e sofre uma penalidade de -
 >15 pontos
 
 
-AMIZADE FEÉRICA (Narrativo Pequeno): Você tem uom aliado entre as fadas. Fadas pequenas, com poucos poderes, podem acompanhá-lo no dia a dia e oferecer assistência sempre que necessário. Fadas mais poderosas têm outros assuntos a tratar e podem estar disponíveis apenas para auxiliá-lo com informação e conselhos, mas não para acompanhá-lo em aventuras. Seu aliado é plenamente consciente, tem poderes próprios e é capaz de se comunicar livremente, quando quer. Talvez seja interessante que outro jogador interprete o seu aliado feérico. Embora um companheiro feérico possa ser uma grande vantagem, também pode ser um problema enorme. Se a fada for cruel ou arteira, ela é capaz de trazer problemas para você em qualquer lugar onde estejam. Personagens com este Defeito podem escolher a Habilidade Reino Feérico durante a criação de personagem.
+## AMIZADE FEÉRICA
+Você tem uom aliado entre as fadas. Fadas pequenas, com poucos poderes, podem acompanhá-lo no dia a dia e oferecer assistência sempre que necessário. Fadas mais poderosas têm outros assuntos a tratar e podem estar disponíveis apenas para auxiliá-lo com informação e conselhos, mas não para acompanhá-lo em aventuras. Seu aliado é plenamente consciente, tem poderes próprios e é capaz de se comunicar livremente, quando quer. Talvez seja interessante que outro jogador interprete o seu aliado feérico. Embora um companheiro feérico possa ser uma grande vantagem, também pode ser um problema enorme. Se a fada for cruel ou arteira, ela é capaz de trazer problemas para você em qualquer lugar onde estejam. Personagens com este Defeito podem escolher a Habilidade Reino Feérico durante a criação de personagem.
 
-AMOR PERDIDO (De Personalidade Pequeno): Você encontrou o amor verdadeiro e o perdeu, seja por causa da distância, porque ele se casou com outra pessoa, ou porque faleceu. Você não vê graça nos pequenos prazeres da vida e desiste quando confrontado com qualquer dificuldade – a luta mais importante você já perdeu, qual o propósito das outras? Nas ocasiões em que se esquece de sua sina e acaba se divertindo, você invariavelmente se arrepende e é acometido de um sentimento enorme de remorso, pensando em como teria sido se o seu amor estivesse junto de você.
+>15 pontos
+
+## AMOR PERDIDO
+Você encontrou o amor verdadeiro e o perdeu, seja por causa da distância, porque ele se casou com outra pessoa, ou porque faleceu. Você não vê graça nos pequenos prazeres da vida e desiste quando confrontado com qualquer dificuldade – a luta mais importante você já perdeu, qual o propósito das outras? Nas ocasiões em que se esquece de sua sina e acaba se divertindo, você invariavelmente se arrepende e é acometido de um sentimento enorme de remorso, pensando em como teria sido se o seu amor estivesse junto de você.
 
 >5 pontos
 
-AMOR VERDADEIRO (Narrativo, Pequeno ou Grand): Você encontrou a sua alma gêmea e o laço entre vocês não pode ser quebrado. Sempre que estiver sofrendo, em perigo ou abatido, a lembrança de seu amor lhe dá forças para perseverar. Em casos de necessidade extrema, o seu amor pode vir resgatá-lo – mas é provável que seu amor necessite de seu auxílio com mais frequência. O poder e devoção de seu amor têm grandes chances de conseguir quebrar qualquer magia que tente separá-los ou impedir que fiquem juntos. Seu amor é maior do que a magia mortal e nenhum poder pode te fazer odiar seu amor ou fazer com que o traia verdadeiramente. Seu Amor Verdadeiro deve ser um personagem do narrador (NPC). Para que o personagem de outro jogador seja seu Amor Verdadeiro, veja a Virtude Amor Verdadeiro. Este Defeito Narrativo pode ser renomeado “Amigo Verdadeiro”, para representar relacionamentos igualmente próximos e íntimos, que não sejam românticos. Se o Amor Verdadeiro for consideravelmente mais fraco do que o personagem e não for capaz de oferecer assistência na maioria dos casos, este é um Grande Defeito Narrativo. Se o Amor Verdadeiro for igualmente ou mais competente do que o jogador, este é um Pequeno Defeito Narrativo. Embora o Amor Verdadeiro possa precisar ser resgatado, às vezes, é mais provável que envolva o personagem em seus planos.
+## AMOR VERDADEIRO
+Você encontrou a sua alma gêmea e o laço entre vocês não pode ser quebrado. Sempre que estiver sofrendo, em perigo ou abatido, a lembrança de seu amor lhe dá forças para perseverar. Em casos de necessidade extrema, o seu amor pode vir resgatá-lo – mas é provável que seu amor necessite de seu auxílio com mais frequência. O poder e devoção de seu amor têm grandes chances de conseguir quebrar qualquer magia que tente separá-los ou impedir que fiquem juntos. Seu amor é maior do que a magia mortal e nenhum poder pode te fazer odiar seu amor ou fazer com que o traia verdadeiramente. Seu Amor Verdadeiro deve ser um personagem do narrador (NPC). Para que o personagem de outro jogador seja seu Amor Verdadeiro, veja a Virtude Amor Verdadeiro. Este Defeito Narrativo pode ser renomeado “Amigo Verdadeiro”, para representar relacionamentos igualmente próximos e íntimos, que não sejam românticos. Se o Amor Verdadeiro for consideravelmente mais fraco do que o personagem e não for capaz de oferecer assistência na maioria dos casos, este é um Grande Defeito Narrativo. Se o Amor Verdadeiro for igualmente ou mais competente do que o jogador, este é um Pequeno Defeito Narrativo. Embora o Amor Verdadeiro possa precisar ser resgatado, às vezes, é mais provável que envolva o personagem em seus planos.
+
+>10 pontos
+
+## ARES MÁGICOS
+As pessoas e animais reagem a você como se você tivesse O Dom, mas, até onde você sabe, você não tem nenhuma habilidade mágica. Você não pode escolher este Defeito caso tenha O Dom – veja O Dom Manifesto para esse caso.
+
+>30 pontos 
+
+## ARTES INCOMPATÍVEIS
+Por algum motivo, duas combinações de Técnica e Forma (exceto Vim e Corpus) estão completamente além do seu alcance. Por exemplo, você pode ser incapaz de conjurar magias usando Intellego Herbam e Intellego Animal. Este Defeito pode ser escolhido múltiplas vezes, com diferentes combinações de Técnicas e Formas, mas não pode ser combinado com uma Deficiência.
+
+>5 pontos
+
+## ARTRITE
+Suas articulações são rígidas e muitas vezes lhe causam dores, dificultando qualquer tipo de movimentação prolongada. Você sofre uma penalidade de -3 em rolagens que envolvam movimento repetitivo e sustentado. Algumas vezes a dor é tão grande que você fica seriamente impedido de realizar ações com o membro afetado. Em uma Falha Crítica durante qualquer tipo de movimento ou combate, uma das suas articulações trava, e você sofre uma penalidade de -6 em todas as rolagens que envolvam o membro afetado, até que consiga descansar por um ou dois dias.
+>10 pontos 
+
+# ATORMENTADO POR ENTIDADE SOBRENATURAL
+Alguma criatura sobrenatural interfere na sua vida com certa frequência. Talvez ela tenha boas intenções, mas o resultado é que você acaba envolvido em tramas e conflitos por causa disso. Exemplos apropriados incluem um anjo tentando salvar a sua alma, um demônio tentando corrompê-la, um espírito ainda preso à sua vida anterior ou uma fada que o considera um joguete para ser usado em seus planos.
+>20 pontos
+
+## BAIXA PENETRAÇÃO MÁGICA
+A sua magia apresenta baixa Penetração Mágica, independente do que você faça. Corte pela metade o Total de Penetração para todas as suas magias; você também obtém metade do bônus normal quando adiciona Penetração Mágica a encantamentos. Note que você deve cortar o Total de Penetração após subtrair o nível da magia e aplicar qualquer modificador por Conexões Arcanas – você não corta o Total de conjuração pela metade para depois calcular a Penetração Mágica.
+```diff
+! testar isso
+```
 
 
-ARES MÁGICOS (Geral Grande): As pessoas e animais reagem a você como se você tivesse O Dom, mas, até onde você sabe, você não tem nenhuma habilidade mágica. Você não pode escolher este Defeito caso tenha O Dom – veja O Dom Manifesto para esse caso.
 
-ARTES INCOMPATÍVEIS (ARTES INCOMPATÍVEIS): Por algum motivo, duas combinações de Técnica e Forma (exceto Vim e Corpus) estão completamente além do seu alcance. Por exemplo, você pode ser incapaz de conjurar magias usando Intellego Herbam e Intellego Animal. Este Defeito pode ser escolhido múltiplas vezes, com diferentes combinações de Técnicas e Formas, mas não pode ser combinado com uma Deficiência.
+## BLOQUEIO CRIATIVO
+Você tem dificuldade em criar coisas novas no laboratório e sofre uma penalidade de -3 quando estiver inventando magias novas, encantando objetos ou fazendo poções, a não ser que esteja trabalhando a partir de um texto de laboratório. Caso experimente, role o dobro de dados na Tabela de Experimentação.
 
-ARTRITE (Geral Pequeno): Suas articulações são rígidas e muitas vezes lhe causam dores, dificultando qualquer tipo de movimentação prolongada. Você sofre uma penalidade de -3 em rolagens que envolvam movimento repetitivo e sustentado. Algumas vezes a dor é tão grande que você fica seriamente impedido de realizar ações com o membro afetado. Em uma Falha Crítica durante qualquer tipo de movimento ou combate, uma das suas articulações trava, e você sofre uma penalidade de -6 em todas as rolagens que envolvam o membro afetado, até que consiga descansar por um ou dois dias.
-
-ATORMENTADO POR ENTIDADE SOBRENATURAL (Narrativo Grande): Alguma criatura sobrenatural interfere na sua vida com certa frequência. Talvez ela tenha boas intenções, mas o resultado é que você acaba envolvido em tramas e conflitos por causa disso. Exemplos apropriados incluem um anjo tentando salvar a sua alma, um demônio tentando corrompê-la, um espírito ainda preso à sua vida anterior ou uma fada que o considera um joguete para ser usado em seus planos.
-
-
-BAIXA PENETRAÇÃO MÁGICA (Hermético Pequeno): A sua magia apresenta baixa Penetração Mágica, independente do que você faça. Corte pela metade o Total de Penetração para todas as suas magias; você também obtém metade do bônus normal quando adiciona Penetração Mágica a encantamentos. Note que você deve cortar o Total de Penetração após subtrair o nível da magia e aplicar qualquer modificador por Conexões Arcanas – você não corta o Total de conjuração pela metade para depois calcular a Penetração Mágica.
-
-BLOQUEIO CRIATIVO (Hermético Pequeno): Você tem dificuldade em criar coisas novas no laboratório e sofre uma penalidade de -3 quando estiver inventando magias novas, encantando objetos ou fazendo poções, a não ser que esteja trabalhando a partir de um texto de laboratório. Caso experimente, role o dobro de dados na Tabela de Experimentação.
+```diff
+! definir experimentação
+```
 
 BLOQUEIO DE HABILIDADES (Geral Pequeno): Você é simplesmente incapaz de aprender certa classe de Habilidade, por qualquer motivo. Este Defeito pode ser relacionado às Habilidades Marciais ou a uma lista de tamanho similar de outro tipo de Habilidades. Uma incapacidade profunda de desenvolver pensamento lógico pode ser traduzida como um bloqueio a Artes Liberales, Philosophiae, Medicina, Teologia e Direito (ambos), por exemplo. Ou o bloqueio pode ser relacionado a idiomas, impedindo o aprendizado de qualquer língua que não seja a nativa do personagem. É importante que o personagem possa escolher estas Habilidades, mesmo que não intencione fazê-lo, ou o Defeito não faz sentido. Este Defeito só pode ser escolhido uma vez.
 

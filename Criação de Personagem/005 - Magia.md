@@ -15,7 +15,7 @@ Para esse fim vamos usar a visão do Ars Magica sobre magia  e não as regras de
 &nbsp;
 
 ```diff
->Técnica + NH da Forma - nível da magia
+>10 + Técnica + Forma - nível da magia
 ```
 &nbsp;
 ### Casting
@@ -31,15 +31,22 @@ Para esse fim vamos usar a visão do Ars Magica sobre magia  e não as regras de
 &nbsp;
 
 ```diff
- Técnica + Forma - Nível da magia
+ 10 + Técnica + Forma - Nível da magia - 3 
  ```
 
 ### Casting
 >1 turno
-###Consumo de fadiga e acerto
+### Consumo de fadiga e acerto
 > - Se o mago passar na magia ele paga o custo de fadiga
 > - Se o mago falhar na magia por mais de 3, a magia falha e o mago paga o custo de fadiga
+### Críticos
 
+> Formulaica 17-18
+> Espontânea 15-78
+
+```diff
+! Decidir se vami manter o -3 para magias espontâneas
+```
 &nbsp;
 
 # Parma Magica
@@ -49,9 +56,11 @@ Uma proteção contra a magia. É um ritual especial (e não uma magia Ritual) q
 ## Resistência Mágica
 
 ```diff
-Parma Magica x 3 + Forma
+
+10 + Parma Magica + Forma
+
 ```
-> Quando o jogador não tiver a Forma para calcular a resistência Mágica ele usará o pré definido de IQ-6 para fins de cálculo
+
 
 ## Penetração Mágica
 
@@ -184,3 +193,4 @@ Exemplo: João quer criar uma magia formulaica de proteção contra a efeitos de
 - o contra é a falta de controle sobre magias muito poderosas ou de caráter duvidoso. 
 - [ ] Conversar sobre isso com os jogadores
 ```
+s

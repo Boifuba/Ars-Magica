@@ -12,31 +12,15 @@ Ajustar os níveis de Magia na tabela.
 - [x] Terram
 - [ ] Vim
 
+## Spell list
 - [ ] Criar tabela para alocar as magias dos jogadores.
-## Tabela de conversão
-Range | Valor
-:----: | :------:
-0-2|	0
-3-5|	1
-6-10	|	2
-11-15	|	3
-16-20	|	4
-21-25	|	5
-26-30	|	6
-31-35	|	7
-36-40	|	8
-41-45	|	9
-46-50	|	10
+
 
 
 ```diff
 HTML - Funciona no Foundry mas não tem como editar fora. 
 Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenha conhecimento de dar upload disso pro foundry.
 ```
-## Experiência  😃
-
-- [x] Definir sistema de experiência
-
 
 ## Skills
 - [x] Trocar Taumatologia por Artes Liberales
@@ -68,7 +52,7 @@ Excel - Fácil trocar de arquivos entre jogadores e consulta, talvez só eu tenh
 - [ ] Definir acesso à vis
 
 ## Foundry
-- [ ] Sanitizar e definir Módulos
+- [x] Sanitizar e definir Módulos
 
 ## Disclaimer :triangular_flag_on_post:
 - [x] Colocar Disclaimer no README.MD

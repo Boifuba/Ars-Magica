@@ -486,4 +486,4 @@ Você é especialmente habilidoso com uma Arte e soma 3 ao nível efetivo da Art
 
 Você é especialmente habilidoso com uma Habilidade, somando 2 ao nível efetivo da Habilidade sempre que a usar. Note que aprender, ensinar ou escrever sobre uma Habilidade não é o mesmo que usá-la. Esta Virtude pode ser escolhida múltiplas vezes, para Habilidades diferentes.
 
->15 pontos
+>12 pontos

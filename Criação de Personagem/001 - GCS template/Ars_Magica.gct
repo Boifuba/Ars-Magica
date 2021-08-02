@@ -301,9 +301,9 @@
 			"name": "Técnica",
 			"reference": "A",
 			"calc": {
-				"points": 25
+				"points": 0
 			},
-			"open": false,
+			"open": true,
 			"children": [
 				{
 					"type": "advantage",
@@ -311,11 +311,10 @@
 					"name": "Creo",
 					"physical": true,
 					"levels": "0",
-					"base_points": 5,
 					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
-						"points": 5
+						"points": 0
 					}
 				},
 				{
@@ -324,11 +323,10 @@
 					"name": "Intellego",
 					"physical": true,
 					"levels": "0",
-					"base_points": 5,
 					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
-						"points": 5
+						"points": 0
 					}
 				},
 				{
@@ -337,11 +335,10 @@
 					"name": "Muto",
 					"physical": true,
 					"levels": "0",
-					"base_points": 5,
 					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
-						"points": 5
+						"points": 0
 					}
 				},
 				{
@@ -350,11 +347,10 @@
 					"name": "Perdo",
 					"physical": true,
 					"levels": "0",
-					"base_points": 5,
 					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
-						"points": 5
+						"points": 0
 					}
 				},
 				{
@@ -363,186 +359,10 @@
 					"name": "Rego",
 					"physical": true,
 					"levels": "0",
-					"base_points": 5,
 					"points_per_level": 15,
 					"reference": "A",
 					"calc": {
-						"points": 5
-					}
-				}
-			]
-		},
-		{
-			"type": "advantage_container",
-			"id": "bc15f8c1-d430-41a3-ace4-4bb4b96432a3",
-			"name": "Habilidades Ars Mágica",
-			"calc": {
-				"points": 160
-			},
-			"open": false,
-			"children": [
-				{
-					"type": "advantage",
-					"id": "4d194da4-d74b-454c-b2db-4d1e7eb2ba0b",
-					"name": "Empatia Animal",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"type": "advantage",
-					"id": "ceb78954-c8e2-431b-93cb-6e97fe5e88aa",
-					"name": "Mesmerismo",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"modifiers": [
-						{
-							"type": "modifier",
-							"id": "c0f2e16a-19a7-43b1-a783-b7d17ecf7b2a",
-							"name": "Aceitta modificadores, conversar com o mestre",
-							"cost_type": "percentage",
-							"cost": 0,
-							"affects": "total"
-						}
-					],
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"type": "advantage",
-					"id": "6839f30a-3222-4b07-b62f-3f7db00ca054",
-					"name": "Musica Cativante",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"modifiers": [
-						{
-							"type": "modifier",
-							"id": "a630f95a-d91f-4410-bee0-3c9c62c46a4f",
-							"name": "Aceita modificadores, conversar com o mestre",
-							"cost_type": "percentage",
-							"cost": 0,
-							"affects": "total"
-						}
-					],
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"type": "advantage",
-					"id": "a88514d5-30e6-4aec-97c6-65a5a2b2c923",
-					"name": "Percepção Mística",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"type": "advantage",
-					"id": "aab7447a-74c2-422d-b9b4-afa901a6861a",
-					"name": "Sensitividade Mágica",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"modifiers": [
-						{
-							"type": "modifier",
-							"id": "c0e11ffb-f378-4dc9-b09f-f7cf255368b9",
-							"name": "Aceita modificadores",
-							"cost_type": "percentage",
-							"cost": 0,
-							"affects": "total"
-						}
-					],
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"type": "advantage",
-					"id": "f90c9dc1-1b72-4ee3-9a06-24467ae40848",
-					"name": "Sentir a Natureza",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"modifiers": [
-						{
-							"type": "modifier",
-							"id": "fb6106c9-cc77-4a7d-a835-94dc659bfd99",
-							"name": "aceita modificadores conversar com o mestre",
-							"cost_type": "percentage",
-							"cost": 0,
-							"affects": "total"
-						}
-					],
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"type": "advantage",
-					"id": "b558d310-4268-4f3b-a23c-29a934f22ba4",
-					"name": "Sentir o Sagrado e o Profano",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"modifiers": [
-						{
-							"type": "modifier",
-							"id": "ebd07ff4-05b0-4b04-b1eb-f8429f0c4815",
-							"name": "aceita modificadores",
-							"cost_type": "percentage",
-							"cost": 0,
-							"affects": "total"
-						}
-					],
-					"calc": {
-						"points": 20
-					}
-				},
-				{
-					"type": "advantage",
-					"id": "72fb5f41-e77f-46b0-903e-f6e1b9170f20",
-					"name": "Sentir o Sagrado e o Profano",
-					"physical": true,
-					"levels": "0",
-					"base_points": 20,
-					"points_per_level": 10,
-					"modifiers": [
-						{
-							"type": "modifier",
-							"id": "85f94017-5a33-4cec-b3f0-b39bce1a894b",
-							"name": "Modifier",
-							"cost_type": "percentage",
-							"cost": 0,
-							"affects": "total"
-						},
-						{
-							"type": "modifier",
-							"id": "a4ac457c-bc86-4a0c-9e76-a3bffbc19c8b",
-							"name": "aceita modificadores",
-							"cost_type": "percentage",
-							"cost": 0,
-							"affects": "total"
-						}
-					],
-					"calc": {
-						"points": 20
+						"points": 0
 					}
 				}
 			]
@@ -640,7 +460,7 @@
 			"type": "skill_container",
 			"id": "9253fa66-ad02-4d4b-94e7-752f3c6a987f",
 			"name": "Forma",
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "skill",

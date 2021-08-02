@@ -16,6 +16,16 @@ CrIg   |  1    |   3     |   4     |  Toque  | Indivíduo | Concentração  |  N
 **Descrição:** |
 :-------------------------------------------------------------------|
 Uma labareda pula na palma de sua mão, que deve ficar para cima enquanto a magia estiver ativa. A chama ilumina como uma tocha e pode acender objetos altamente inflamáveis. Este fogo não causa dano e não queima o magus.
+Magia descrita no Ars Magica 5ªed
+
+# Aura de Presença Majestosa
+Tipo   | Nível | Custo_F | Custo_E | Alcance |    Alvo   |    Duração    | Dano
+:----: | :---: | :---:   | :---:   | :---:   | :------:  | :-----------: | :---:
+MuIm   |  4    |   7     |   10    |  Toque  | Indivíduo |      Sol      |  NA 
+
+**Descrição:** |
+:-------------------------------------------------------------------|
+O alvo aparenta ser mais decisivo, poderoso e verdadeiro. Diversas mudanças sutis operam enquanto a magia está ativa, incluindo uma leve iluminação do rosto, uma postura mais ereta e uma voz mais clara e agradável. O personagem recebe um bônus de +3 em rolagens para influenciar, liderar ou convencer outras pessoas.
 Magia descrita no Ars Magica 5ªed|
 
 

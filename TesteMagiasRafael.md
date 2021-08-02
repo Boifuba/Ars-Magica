@@ -22,6 +22,7 @@ Magia descrita no Ars Magica 5ªed
 Tipo   | Nível | Custo_F | Custo_E | Alcance |    Alvo   |    Duração    | Dano
 :----: | :---: | :---:   | :---:   | :---:   | :------:  | :-----------: | :---:
 MuIm   |  4    |   7     |   10    |  Toque  | Indivíduo |      Sol      |  NA 
+MuIm   |  4    |   7     |   9     |  Toque  | Indivíduo |    Diâmetro   |  NA
 
 **Descrição:** |
 :-------------------------------------------------------------------|

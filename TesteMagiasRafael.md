@@ -1,7 +1,7 @@
 # Ventos Sussurrantes 
 Tipo   | Nível | Custo_F | Custo_E | Alcance |    Alvo   |    Duração    | Dano
 :----: | :---: | :---:   |   :---: | :---:   | :------:  | :-----------: | :---:
-InAu   | 3     |   6     |     9   | Indivíduo | Concentração  |  1d-1
+InAu   | 3     |   6     |     9   |  Visão  | Indivíduo | Concentração  |  NA 
 
 **Descrição:** |
 :-------------------------------------------------------------------|

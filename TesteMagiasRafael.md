@@ -30,13 +30,14 @@ O alvo aparenta ser mais decisivo, poderoso e verdadeiro. Diversas mudanças sut
 Magia descrita no Ars Magica 5ªed|
 
 # Coceira Insuportável
-Tipo   | Nível | Custo_F | Custo_E | Alcance |    Alvo   |    Duração    | Dano
-:----: | :---: | :---:   | :---:   | :---:   | :------:  | :-----------: | :---:
-PeCo   |  1    |   5     |   8     |  Visão  |   Grupo   |    Diâmetro   |  NA 
+Tipo   | Nível | Custo_F | Custo_E |  Alcance  |    Alvo   |    Duração    | Dano
+:----: | :---: | :---:   | :---:   |  :---:    | :------:  | :-----------: | :---:
+PeCo   |  1    |   5     |   8     |   Visão   |   Grupo   |    Diâmetro   |  NA 
+PeCo   |  1    |   3     |   5     |Toque/Olhar| Indivíduo |    Diâmetro   |  NA 
 
 **Descrição:** |
 :-------------------------------------------------------------------|
-O alvo passa a sofrer de uma coceira insuportável pelo corpo, que o impede de fazer qualquer coisa além de se coçar. Se estiver com roupas ou armaduras que o impeça de se coçar, pode chegar a retirá-las por causa da intensidade da coceira.|
+O alvo passa a sofrer de uma coceira insuportável por todo corpo, impedindo-o de fazer qualquer coisa além de se coçar. Se estiver com roupas apertadas ou armaduras pode chegar a retirá-las por causa da intensidade da coceira.|
 
 
 

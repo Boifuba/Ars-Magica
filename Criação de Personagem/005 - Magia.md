@@ -171,11 +171,9 @@ O mapa astral do alvo **3** | +2
 Uma representação simbólica do alvo **4** | +2
 1. Nomes de batismo não podem ser usados com magia simpática.
 2. O magus deve saber a localização atual do alvo, e ser bem-sucedido em uma rolagem de Inteligência +
-Artes Liberales (Astronomia) de Dificuldade 9. Os cálculos deste horóscopo levam uma hora.
-3. O magus deve saber a localização e hora de nascimento do alvo e ser bem-sucedido em uma rolagem de
-Inteligência + Artes Liberales (Astronomia) de Dificuldade 9. Os cálculos deste mapa astral levam um
-dia inteiro.
-4. Uma representação do alvo em duas ou três dimensões. Uma representação simples, de uso único, leva várias horas para ser criada e requer uma rolagem de Destreza + Ofício, de Dificuldade 9. Uma representação permanente exige um mês de trabalho e uma rolagem de Destreza + Ofício de Dificuldade 12+. A representação só pode ser usada por aquele que a criou.
+Artes Liberales (Astronomia) com 2+ sucessos. Os cálculos deste horóscopo levam uma hora.
+3. O magus deve saber a localização e hora de nascimento do alvo e ser bem-sucedido em uma rolagem de Inteligência + Artes Liberales (Astronomia) com mais de 2 sucessos. Os cálculos deste mapa astral levam um dia inteiro.
+4. Uma representação do alvo em duas ou três dimensões. Uma representação simples, de uso único, leva várias horas para ser criada e requer uma rolagem de habilidade. Uma representação permanente exige um mês de trabalho e uma rolagem de habilidade com pelo menos 5 sucessos. A representação só pode ser usada por aquele que a criou.
 
 
 ## Extração de Vis
@@ -197,23 +195,11 @@ A transferência de vis bruto de um objeto para outro é uma atividade de labora
 A quantidade máxima de vis que o mago pode manipular é Forma / 2
 
 ## Magias formulaicas
-```diff
-- **SOBRE APRENDER COISAS NO LABORATÓRIO PRECISA DE MAIS INFORMAÇÕES PARA DEFINIR DEIXAR ISSO EM ABERTO E IGNORAR DAQUI PRA BAIXO
-```
+
 Magias formulaicas são uma grande medida do poder de um magus, pois determinam os efeitos que podem ser realizados facilmente e com resultados  revisíveis. Há diversas maneiras de inventar novas magias formulaicas.
 
 ## Aprendendo Magias Formulaicas
 
 ```diff
-NH da Forma + Modificador do laboratório + Aura + Professor + Biblioteca = Valor Resultante dividido por 3
+Técnica + Forma + Modificador do laboratório + Aura + Professor + Biblioteca = Valor Resultante dividido por 3
 ```
-
-Exemplo: João quer criar uma magia formulaica de proteção contra a efeitos de água, o custo dessa magia seria 4. João tem NH 12 na Forma Aquam e seu laboratório tem bônus +1 e a aura auxilia bastante adicionando mais 1 ao processo e a tutoria de um mestre e sua ppequena biblioteca somam juntas +3 , o valor final seria 15 / 3 = 5. Logo João consegueria fazer essa magia durante uma estação facilmente com alguma sobra de tempo.
-
-```diff
-! Ignoramos o máximo que se pode aprender com um professor segundo a regra do ars magica para apenas adicionar bonus na criação de magia. 
-+ O pró é que o jogador pode criar qualquer magia que desejar 
-- o contra é a falta de controle sobre magias muito poderosas ou de caráter duvidoso. 
-- [ ] Conversar sobre isso com os jogadores
-```
-s

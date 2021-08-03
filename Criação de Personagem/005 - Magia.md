@@ -49,6 +49,13 @@ Para esse fim vamos usar a visão do Ars Magica sobre magia  e não as regras de
 ```
 &nbsp;
 
+# Rituais Mágicos
+Rituais mágicos demoram mais a ser conjurados do que Magias formulaicas e demandam o uso de vis. Há certas vantagens, no entanto:
+• Magias formulaicas e magia espontânea não podem ter Duração: Ano.
+• Magias formulaicas e magia espontânea não podem ter Alvo: Divisa. Elas podem ter Alvo: Visão, para magias que conferem sentidos mágicos.
+• Magias formulaicas e magia espontânea não podem ter nível maior do que 10.
+Rituais Mágicos sempre têm nível 20 ou maior, mesmo que os parâmetros resultem em um nível mais baixo.
+
 # Parma Magica
 
 Uma proteção contra a magia. É um ritual especial (e não uma magia Ritual) que demora cerca de dois minutos para ser realizado. Ele permite que você adicione 3 vezes o nível da Parma Magica à sua Resistência Mágica até o próximo nascer ou pôr do sol, o que vier primeiro. Você consegue suprimir a sua Parma Magica temporariamente ao se concentrar, de maneira semelhante à sua concentração na duração de magias (AM 118). A Parma Magica não exige concentração quando está ativa. Você também pode proteger uma pessoa adicional para cada nível de Parma Magica que tiver. Isso exige que você toque em cada pessoa que quer proteger, e a proteção dura enquanto um dos personagens consegue ver o outro. O magus pode cancelá-la quando quiser, a qualquer distância. Quando um magus protege outras pessoas, o seu nível efetivo na Habilidade é reduzido em 1 ponto para cada protegido, tanto para si mesmo quanto para aqueles sob sua proteção. O magus ainda pode somar a sua Resistência de Forma e um magus protegido pela Parma Magica de outro magus também pode somar a sua Resistência de Forma. Parma Magica só pode ser aprendida por personagens que possuam O Dom e eles a aprendem como uma Habilidade Arcana, não Sobrenatural. Esta Habilidade é conhecida apenas por membros da Ordem de Hermes e a Ordem defende fortemente a postura de “Jurar ou Morrer” em relação a magos não herméticos que a aprendam – assim como uma Marcha Hermética sobre o magus que a ensinou. A Parma Magica é a última coisa ensinada a um aprendiz, recebendo a chave final para o ritual quando jura o Código de Hermes. Especializações: proteção contra qualquer Forma. (Arcana)
@@ -127,13 +134,20 @@ Forma + Bônus de Penetração - Nível da Magia
 &nbsp;
 
 ## Atividades de laboratório
-```diff
-- ATIVIDADES DE LABORATÓRIO PRECISA SER TODO REFEITO, PORTANTO IGNORAR ESSAS REGRAS POR ENQUANTO
-```
->* Os jogadores deverão seguir a tabela [laboratório](https://github.com/cefasheli/Ars-Magica/tree/main/Tabelas/Laborat%C3%B3rio) disponibilizado aqui para saber o quanto investir e e receber os bônus desse investimento. 
+
 >* O laboratório demora 2 estações para estar em sua capacidade total, em sua primeira estação ele está pronto mais possui um modificador negativo de -3 que é retirado após a segunda estação.
 >* Efeitos adicionais podem ser inclusos nesses bônus como obter um ajudante, um familiar, algo muito específico para a criação.
 &nbsp;
+
+
+## Definindo o valor de laboratório
+
+O seu valor de laborátorio é:
+
+```diff
+Técnica + Forma + Teoria Mágica-10 + Bônus de Aura
+```
+
 
 ## Estudos Arcanos 
 &nbsp;
@@ -146,19 +160,32 @@ Os conhecimento de Taumatologia e das Artes mágicas são importantes para os ma
 
 Um magus que tenha em mãos uma Conexão Arcana ativa  pode fixá-la de maneira permanente, utilizando uma estação de trabalho em seu laboratório e um peão de Vim Vis. A conexão tem que estar ativa ao começo da estação, mas não precisa durar até o fim dela.
 
+Conexão Simpática | Bônus no Multiplicador
+| :----------- | :---------: |
+|O magus é parente do alvo  | +1 | 
+| A assinatura do alvo | +1
+O apelido ou o nome de nascença do alvo **1** | +1
+O nome que o alvo usa em rituais mágicos secretos|  +1
+O horóscopo de hoje para o alvo **2** | +1
+O mapa astral do alvo **3** | +2
+Uma representação simbólica do alvo **4** | +2
+1. Nomes de batismo não podem ser usados com magia simpática.
+2. O magus deve saber a localização atual do alvo, e ser bem-sucedido em uma rolagem de Inteligência +
+Artes Liberales (Astronomia) de Dificuldade 9. Os cálculos deste horóscopo levam uma hora.
+3. O magus deve saber a localização e hora de nascimento do alvo e ser bem-sucedido em uma rolagem de
+Inteligência + Artes Liberales (Astronomia) de Dificuldade 9. Os cálculos deste mapa astral levam um
+dia inteiro.
+4. Uma representação do alvo em duas ou três dimensões. Uma representação simples, de uso único, leva várias horas para ser criada e requer uma rolagem de Destreza + Ofício, de Dificuldade 9. Uma representação permanente exige um mês de trabalho e uma rolagem de Destreza + Ofício de Dificuldade 12+. A representação só pode ser usada por aquele que a criou.
 
-```diff
-- Definir como vai numericamente a conexão arcana, ler pág 121 AM.
-```
 
 ## Extração de Vis
 &nbsp;
 
-É possível extrair vis bruto de um ambiente mágico (qualquer lugar que tenha uma aura mágica), canalizando a energia mágica em um objeto físico. Para cada estação empenhada na extração de vis da aura, calcule seu Total de Laboratório Creo Vim e divida por 5, arredondando para cima para determinar a quantidade de peões de vis acumulados por estação do ano.
+É possível extrair vis bruto de um ambiente mágico (qualquer lugar que tenha uma aura mágica), canalizando a energia mágica em um objeto físico. Para cada estação empenhada na extração de vis da aura, calcule seu Total de Laboratório Creo Vim e divida por 3, arredondando para cima para determinar a quantidade de peões de vis acumulados por estação do ano.
 &nbsp;
 
 ```diff
-! Isso necessita de teste de comparativo
+! Vou começar com 3 para definir se esse valor é adequado.
 ```
 
 ## Transferência de Vis
@@ -168,10 +195,6 @@ A transferência de vis bruto de um objeto para outro é uma atividade de labora
 ## Uso de Vis
 
 A quantidade máxima de vis que o mago pode manipular é Forma / 2
-
-```diff
-! Jogadores dificilmente chegarão à esse limite mas ele precisa estar aí, fazer teste de comparação.
-```
 
 ## Magias formulaicas
 ```diff

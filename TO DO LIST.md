@@ -12,7 +12,7 @@ Ajustar os níveis de Magia na tabela.
       Criar tarefa para os jogadores, cada um talvez fazer uma letra.
 ## Github
 - [ ] Definir Glossário
-- [ ] Ensinar as pessoas a entenderem o GitHub
+- [x] Ensinar as pessoas a entenderem o GitHub
 ### Sanitizar a documentação
 - [ ] Regras
 - [ ] Vantagens 
@@ -20,7 +20,7 @@ Ajustar os níveis de Magia na tabela.
 ## ARS1
 - [ ] Lincoln não entregou as 3 fichas até hoje. 
 ## Foundry
-- [ ] deletar o cara que abandonou o jogo, usar os tokens de npc.
+- [x] deletar o cara que abandonou o jogo, usar os tokens de npc.
 ## Ler Regras
 - [ ] Envelhecimento
 - [ ] Magia acelerada

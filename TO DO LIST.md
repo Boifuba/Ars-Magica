@@ -3,12 +3,13 @@
 Ajustar os níveis de Magia na tabela.
 - [ ] Vim
 ## Spell list
-- [ ] Criar tabela para alocar as magias dos jogadores.
+- [x] Criar tabela para alocar as magias dos jogadores.
 ## Flaws
 - [ ] Desvantagens do cenário :triangular_flag_on_post:
 ## GCS
-- [ ] Acertar o GCS Template
+- [x] Acertar o GCS Template
 - [ ] Adicionar vantagens e desvantagens
+      Criar tarefa para os jogadores, cada um talvez fazer uma letra.
 ## Github
 - [ ] Definir Glossário
 - [ ] Ensinar as pessoas a entenderem o GitHub

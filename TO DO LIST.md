@@ -14,9 +14,10 @@ Ajustar os níveis de Magia na tabela.
 - [ ] Definir Glossário
 - [x] Ensinar as pessoas a entenderem o GitHub
 ### Sanitizar a documentação
-- [ ] Regras
+- [x] Regras
 - [ ] Vantagens 
 - [ ] Desvantagens
+- [ ] Colocar Index em Magias 005
 ## ARS1
 - [ ] Lincoln não entregou as 3 fichas até hoje. 
 ## Foundry

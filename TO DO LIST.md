@@ -8,14 +8,22 @@ Ajustar os níveis de Magia na tabela.
 - [ ] Desvantagens do cenário :triangular_flag_on_post:
 ## GCS
 - [x] Acertar o GCS Template
-- [ ] Adicionar vantagens e desvantagens
-      Criar tarefa para os jogadores, cada um talvez fazer uma letra.
+- [ ] Adicionar vantagens
+- [X] A-B-C
+- [ ] D-E-F-G
+- [ ] I-J-L
+- [ ] M
+- [ ] N-O-P
+- [ ] R-S-T-U-V-X-Z 
+     
+     > Criar tarefa para os jogadores, cada um talvez fazer uma letra.
 ## Github
 - [ ] Definir Glossário
 - [x] Ensinar as pessoas a entenderem o GitHub
 ### Sanitizar a documentação
 - [ ] Regras
 - [ ] Vantagens 
+- [ ] Corrigir Empatia com Animais 
 - [ ] Desvantagens
 ## ARS1
 - [ ] Lincoln não entregou as 3 fichas até hoje. 

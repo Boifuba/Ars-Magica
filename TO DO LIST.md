@@ -10,8 +10,8 @@ Ajustar os níveis de Magia na tabela.
 - [x] Acertar o GCS Template
 - [ ] Adicionar vantagens
 - [X] A-B-C
-- [ ] D-E-F-G
-- [ ] I-J-L
+- [x] D-E-F-G
+- [x] I-J-L
 - [ ] M
 - [ ] N-O-P
 - [ ] R-S-T-U-V-X-Z 
@@ -22,6 +22,7 @@ Ajustar os níveis de Magia na tabela.
 - [x] Ensinar as pessoas a entenderem o GitHub
 ### Sanitizar a documentação
 - [x] Regras
+- [ ] Muita Vantagem Zuada, corrigir
 - [ ] Vantagens 
 - [ ] Corrigir Empatia com Animais 
 - [ ] Desvantagens

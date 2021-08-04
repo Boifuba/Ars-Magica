@@ -4,6 +4,47 @@
 	"id": "912bf5b7-179b-4042-bb3a-3af98e3d3aa7",
 	"advantages": [
 		{
+			"type": "advantage",
+			"id": "f6ac985c-f1b8-4e67-9820-daa735463647",
+			"name": "Dom Desperto",
+			"mental": true,
+			"supernatural": true,
+			"reference": "A",
+			"calc": {
+				"points": 0
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -6,
+					"situation": "contra todos os seres mundanos"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "c5162f56-0e43-4000-b1a9-3d1fec6f4c35",
+			"name": "Dom Gentil",
+			"supernatural": true,
+			"reference": "A",
+			"calc": {
+				"points": 0
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": -3,
+					"situation": "contra qualquer ser mundano"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
 			"type": "advantage_container",
 			"id": "2e08c092-ac0d-453c-9f11-ebd1e7459cb0",
 			"name": "Forma",
@@ -256,44 +297,12 @@
 		},
 		{
 			"type": "advantage",
-			"id": "f6ac985c-f1b8-4e67-9820-daa735463647",
-			"name": "Dom Desperto",
-			"mental": true,
-			"supernatural": true,
-			"reference": "A",
+			"id": "5cd6dd19-a3e0-4fea-9648-e140180ade3b",
+			"name": "Magus Hermético",
+			"physical": true,
 			"calc": {
 				"points": 0
-			},
-			"features": [
-				{
-					"type": "reaction_bonus",
-					"amount": -6,
-					"situation": "contra todos os seres mundanos"
-				}
-			],
-			"categories": [
-				"Advantage"
-			]
-		},
-		{
-			"type": "advantage",
-			"id": "c5162f56-0e43-4000-b1a9-3d1fec6f4c35",
-			"name": "Dom Gentil",
-			"supernatural": true,
-			"reference": "A",
-			"calc": {
-				"points": 0
-			},
-			"features": [
-				{
-					"type": "reaction_bonus",
-					"amount": -3,
-					"situation": "contra qualquer ser mundano"
-				}
-			],
-			"categories": [
-				"Advantage"
-			]
+			}
 		},
 		{
 			"type": "advantage_container",
@@ -303,7 +312,7 @@
 			"calc": {
 				"points": 0
 			},
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "advantage",
@@ -368,13 +377,347 @@
 			]
 		},
 		{
-			"type": "advantage",
-			"id": "5cd6dd19-a3e0-4fea-9648-e140180ade3b",
-			"name": "Magus Hermético",
-			"physical": true,
+			"type": "advantage_container",
+			"id": "92352100-9a41-4b04-9487-5a239a91fee0",
+			"name": "Vantagens do Ars Magica",
 			"calc": {
-				"points": 0
-			}
+				"points": 386
+			},
+			"open": true,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "17ab341e-fbb9-4160-8a48-017377504803",
+					"name": "Adepto de Laboratório",
+					"physical": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "9fe9ba31-3dbf-4a15-91c0-0d3cb3f82224",
+					"name": "Advantage",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "0e79235d-f7b1-4741-8d46-10b82abeb3fe",
+					"name": "Advantage",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "92a6aebf-0df7-4a18-aa16-461d5d5d4246",
+					"name": "Afinidade com Arte",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "6c0c9711-594d-41f2-8f5e-56dcc1b4c41c",
+					"name": "Aprender (habilidades) com erros",
+					"physical": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "3504abe6-4624-4ad7-bfda-9c67a36c4b71",
+					"name": "Bom Aluno",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "821d0a3d-c2f5-472c-bbf5-b6e898676c0f",
+					"name": "Bom professor",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "c90a7435-ca89-4cba-8ae6-951379c2c7c6",
+					"name": "Bônus de Estudo",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "f943ebca-0f9d-4f99-8558-e5895a8b7ada",
+					"name": "Capuz Vermelho",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "c72adcc3-4698-4fb9-b658-66fc211d81e6",
+					"name": "Característica Impressionante",
+					"physical": true,
+					"calc": {
+						"points": 0
+					},
+					"notes": "Valor da caracterítica x 1.5"
+				},
+				{
+					"type": "advantage",
+					"id": "0ab1adb1-73c3-4de8-a6d4-98da5aa7f026",
+					"name": "Circunstâncias Especiais ",
+					"physical": true,
+					"levels": "1",
+					"points_per_level": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "00bf650f-28e8-41f2-a1c8-b73a2c279f45",
+					"name": "Compreensão Lateral",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "5c45e227-c405-437e-a532-6070d79d6a64",
+					"allow_half_levels": true,
+					"name": "Efeito Colateral",
+					"physical": true,
+					"levels": "0",
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "3ef36d70-38a9-4e35-86d8-a34fcc1f1345",
+					"name": "Empatia com Animais ",
+					"physical": true,
+					"base_points": 20,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "2657f323-f100-4053-947c-f968458a1f8c",
+					"name": "Estudioso do Reino @ reino @",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "a9728228-16bc-40a8-8e00-cd8e770dfdad",
+					"name": "Estudo Livre",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "a3ce11fb-fa8e-4394-a07f-8845ffbede08",
+					"name": "Fonte de Vis Pessoal",
+					"physical": true,
+					"base_points": 25,
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "3acfa412-2f12-467e-bb7c-b2e58a555063",
+					"name": "Fórmulas Aperfeiçoadas",
+					"physical": true,
+					"base_points": 20,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "65f92d25-b54b-4069-95c4-e5965e213ae8",
+					"name": "Fórmulas Metódicas",
+					"physical": true,
+					"base_points": 20,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "e0530a9c-9d5c-42d2-9081-e8f31c2dfe9d",
+					"name": "Fórmulas Perfeitas",
+					"physical": true,
+					"base_points": 35,
+					"calc": {
+						"points": 35
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "328fe67d-1629-4657-a1a9-38dd8d9b833b",
+					"name": "Grande Foco Mágico",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "f12e82e5-bc4c-4801-a954-9e66a5194188",
+					"name": "Gênio Inventivo",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "d09f7d44-ea57-4cda-9ae1-f164ef333d18",
+					"name": "Inofensivo para Animais",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "18978a04-2b49-4c03-9ad1-952fc7aa3fa6",
+					"name": "Leitor Atento",
+					"physical": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "4039ce70-e168-4ee3-a82a-75ad841b1ef3",
+					"name": "Magia Atrelada",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "7b04b0fc-5fbd-4db9-9254-7eb058519ff0",
+					"name": "Magia Cíclica",
+					"physical": true,
+					"base_points": 20,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "74b1a673-dc7c-4410-b868-fe0566010fa9",
+					"name": "Magia Duradoura",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "119b48ef-07c3-45bc-84c6-e1b0d40b8e7b",
+					"name": "Magia Elemental",
+					"physical": true,
+					"base_points": 25,
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "7b6dc92c-f827-4b38-95a1-438cdbe27f9c",
+					"name": "Magia Feérica ",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "ad803502-47bb-43e7-b744-f3ed717e0174",
+					"name": "Magia Formulaica Flexível",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "5372f912-71fe-4a4b-910d-09c1cd73d5a8",
+					"name": "Magia Mercuriana",
+					"physical": true,
+					"base_points": 1,
+					"calc": {
+						"points": 1
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "67f1fa42-a951-4524-b7fb-7043efa80aed",
+					"name": "Magia Rápida",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "06efc714-6770-44e3-a97d-153b46fd992a",
+					"name": "Magia Silenciosa",
+					"physical": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 5,
+					"calc": {
+						"points": 5
+					}
+				}
+			]
 		},
 		{
 			"type": "advantage",

@@ -381,10 +381,20 @@
 			"id": "92352100-9a41-4b04-9487-5a239a91fee0",
 			"name": "Vantagens do Ars Magica",
 			"calc": {
-				"points": 386
+				"points": 901
 			},
-			"open": true,
+			"open": false,
 			"children": [
+				{
+					"type": "advantage",
+					"id": "044db4d8-c5e1-4383-a993-3272ff799b22",
+					"name": " Perito em Forma @Qual@",
+					"physical": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
 				{
 					"type": "advantage",
 					"id": "17ab341e-fbb9-4160-8a48-017377504803",
@@ -407,6 +417,15 @@
 				{
 					"type": "advantage",
 					"id": "0e79235d-f7b1-4741-8d46-10b82abeb3fe",
+					"name": "Advantage",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "c5b49aa6-511c-4869-b2b8-5d78208275c6",
 					"name": "Advantage",
 					"physical": true,
 					"calc": {
@@ -668,6 +687,15 @@
 				},
 				{
 					"type": "advantage",
+					"id": "59bfa332-f07d-47de-a6ca-64b63a96ccbe",
+					"name": "Magia Espontânea Vital ",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
 					"id": "7b6dc92c-f827-4b38-95a1-438cdbe27f9c",
 					"name": "Magia Feérica ",
 					"physical": true,
@@ -716,26 +744,330 @@
 					"calc": {
 						"points": 5
 					}
-				}
-			]
-		},
-		{
-			"type": "advantage",
-			"id": "03516b5c-ef98-4194-90da-b21cd7200c70",
-			"name": "Virtuoso: Aquam",
-			"physical": true,
-			"calc": {
-				"points": 0
-			},
-			"features": [
+				},
 				{
-					"type": "skill_bonus",
-					"amount": 3,
-					"per_level": true,
-					"selection_type": "skills_with_name",
-					"name": {
-						"compare": "is",
-						"qualifier": "Aquam"
+					"type": "advantage",
+					"id": "b040fbb1-bb37-4fe2-aa8f-c8215202c322",
+					"name": "Magia Sutil",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "d2d94792-439d-4ff2-8660-f105fdbf454f",
+					"name": "Magister in Artibus",
+					"physical": true,
+					"base_points": 25,
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "6be7063b-14ea-4b25-86ed-2f3fb8402f76",
+					"name": "Magus Hermético",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "422a591b-e0f5-4ac3-b0e6-1126f49eed6e",
+					"name": "Mesmerismo",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "282fd6bf-836b-4fab-9e3d-ea6edd4a14f7",
+					"name": "Metamorfose",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "17da2dc1-a47f-483d-b712-7e5777a57ec2",
+					"allow_half_levels": true,
+					"name": "Música Cativante",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "2fe449e7-a9df-4cce-9eeb-9de3a3d4e6bb",
+					"name": "O Dom Gentil",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "fd31a68c-7d53-46ce-ac19-5af35eb4f2b1",
+					"name": "O Enigma",
+					"physical": true,
+					"calc": {
+						"points": 0
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "47287d9a-e1ed-4278-9a6b-c99bc7814824",
+					"name": "Olhar Penetrante",
+					"physical": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "8a158aae-fdb5-411b-b24f-a9bd00324fef",
+					"name": "Parens Habilidoso",
+					"physical": true,
+					"base_points": 25,
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "13f2a016-c1df-4c28-8bee-3722cff032ba",
+					"name": "Pele de Cordeiro",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "13eb581e-9067-4ea6-8af2-5cec2c76583e",
+					"name": "Pequeno Foco Mágico",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "e756cba9-84fb-4d4b-b4ae-2a83159d8a6a",
+					"name": "Percepção Mística",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "def56249-57a2-422a-8c87-6eb3543b436c",
+					"name": "Premonições",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "55186a00-d2e9-4af3-a69d-a6db18dda21c",
+					"name": "Prestígio Hermético",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "82ead014-5203-4f0a-9c68-a3a0a90b6795",
+					"name": "Profecia de Morte",
+					"physical": true,
+					"base_points": 50,
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "85c0c585-558e-4dba-9ccb-14e7233bceb9",
+					"name": "Proteção",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "0e3fa2dd-04f1-41da-8d6c-9c5f37c5c1a5",
+					"name": "Rabdomancia",
+					"physical": true,
+					"levels": "0",
+					"base_points": 5,
+					"points_per_level": 1,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "9fed80ac-43d5-439b-baa1-fc27bef48370",
+					"name": "Racional",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "c662e9f6-20a0-48d3-9867-61cc69ad0574",
+					"name": "Relíquia",
+					"physical": true,
+					"base_points": 25,
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "ee205068-cb0a-4eb9-af75-8f35afb6f337",
+					"name": "Reserva de força",
+					"physical": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "c193144f-500f-483d-ad34-693217f3b33f",
+					"name": "Sangue Feérico",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "88edf3cd-b6d2-48df-a8d4-c04d94bdc995",
+					"name": "Sangue Feérico Potente",
+					"physical": true,
+					"base_points": 50,
+					"calc": {
+						"points": 50
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "b0432f50-f9b7-43b6-9795-066d8740cee3",
+					"name": "Sensitividade Mágica",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "7217d50c-d8ad-471a-8a4a-9bccf0381026",
+					"name": "Sentir a Natureza",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "43f33fa2-1c9e-457f-bbd2-ad455a366d50",
+					"name": "Sentir o Sagrado e Profano",
+					"physical": true,
+					"levels": "0",
+					"base_points": 20,
+					"points_per_level": 10,
+					"calc": {
+						"points": 20
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "a7d646d7-12a1-48f4-9fcf-ff9d6d5781df",
+					"name": "Sábio",
+					"physical": true,
+					"base_points": 25,
+					"calc": {
+						"points": 25
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "7d32e2f6-487f-4be0-9024-d637d7a66fd5",
+					"name": "Toque de Pureza Inferior",
+					"physical": true,
+					"base_points": 5,
+					"calc": {
+						"points": 5
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "92a2c996-208d-451f-b3da-52841c34f678",
+					"name": "Toque de Pureza Superior",
+					"physical": true,
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "3b9915a0-75b4-4a6e-9316-b709d40504b2",
+					"name": "Virtuoso @ Arte @",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
+					}
+				},
+				{
+					"type": "advantage",
+					"id": "ba459bac-71cd-48b9-ab13-bc2f8ede1fdd",
+					"name": "Virtuoso @ Habilidade @",
+					"physical": true,
+					"base_points": 15,
+					"calc": {
+						"points": 15
 					}
 				}
 			]

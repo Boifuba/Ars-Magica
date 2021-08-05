@@ -120,33 +120,50 @@ Você tem algum vício que causa problemas a você. Exemplos incluem sexo, bebid
 
 ## CONSTITUIÇÃO FRÁGIL
 Sua saúde é débil e fraca: você sofre uma penalidade de -3 em todas as rolagens para se recuperar de ferimentos e doenças.
+> 20 pontos
 
-## CONTENDA
-Sua família está envolvida em uma rixa. A família rival (ou famílias) tem força equivalente à sua e é provável que você seja emboscado ou sofra ataques de seus rivais. Sua família também espera que você participe de ataques contra o inimigo.
+
 
 ## CORAÇÃO MOLE
 Você não consegue ver os outros sofrendo e isto tira o seu sono. Mesmo as mortes de seus inimigos lhe são dolorosas e você evita o perigo, tentando manter seus amigos longe dele também. Você considera a vida e a saúde tão importantes que prefere abrir mão de objetivos importantes a deixar alguém se arriscar em combate por eles. Você se comove facilmente com histórias e músicas.
 
-CORCUNDA
-Você tem um corpo deformado que lhe confere uma aparência grotesca e atrapalha seus movimentos, fazendo com que sofra uma penalidade de -3 em todas as rolagens que envolvam agilidade e equilíbrio. Rolagens de Comunicação que envolvam boa aparência sofrem a mesma penalidade.
+>10 pontos
+
+## CORCUNDA
+
+Você tem um corpo deformado que lhe confere uma aparência grotesca e atrapalha seus movimentos, fazendo com que sofra uma penalidade de -2 em todas as rolagens que envolvam uma perícia física. Rolagens de Comunicação que envolvam boa aparência sofrem a mesma penalidade.
+
+>15 pontos
 
 COXO
-Uma das suas pernas é mais curta ou atrofiada. Talvez você tenha nascido assim, ou talvez tenha ficado assim devido a um acidente. Sua velocidade de caminhada é apenas 1,5 quilômetros por hora, e qualquer pessoa consegue alcançá-lo ou correr mais rápido do que você. Você sofre uma penalidade de -6 em todas as rolagens que envolvam agilidade ou velocidade de movimento, além de -3 em Esquiva e -1 em todos os outros totais de combate.
+Uma das suas pernas é mais curta ou atrofiada. Talvez você tenha nascido assim, ou talvez tenha ficado assim devido a um acidente. Sua velocidade de caminhada é no máximo 3
 
-CRIAÇÃO CONCILIANA
+>15 pontos
+
+## CRIAÇÃO CONCILIANA
 Você cresceu em um grande e velho concílio com pouco contato com o mundo. É possível que você tenha crenças estranhas, de modo que as estruturas políticas e sociais medievais lhe soam esquisitas. Você pode escolher Latim e Conhecer a Ordem de Hermes durante a criação de personagem e, embora não possa escolher Latim como sua Língua Nativa, você pode escolher um dialeto parecido com Latim, falado apenas em seu concílio natal.
 
-CRIAÇÃO FEÉRICA
+>10 pontos
+
+## CRIAÇÃO FEÉRICA
 Talvez você tenha sido abandonado pelos seus pais e encontrado pelas fadas. Talvez sua família morasse em uma floresta feérica, e as fadas o raptaram quando era um bebê. Qualquer que seja o motivo, você cresceu entre fadas e agora está de volta à sociedade humana, apesar de se sentir mais à vontade no mundo feérico, cercado de fadas, magia e outras coisas estranhas. A sociedade humana, incluindo a religião, lhe é completamente bizarra e de difícil compreensão. Você pode escolher Reino Feérico durante a criação de personagem.
 
-CRIAÇÃO RECLUSA
-Você cresceu completamente isolado da sociedade, tendo contato apenas com seus pais ou com seu mentor. Você foi recentemente apresentado a um mundo maravilhoso de pessoas e coisas novas, estando sobrecarregado. Dependendo de sua personalidade, você pode reagir com desprezo, medo ou admiração. De qualquer maneira, você não sabe como reagir à maioria dos costumes mundanos e não consegue se encaixar perfeitamente em sociedade. Você não pode escolher Barganha, Charme, Empatia, Etiqueta, Intriga, Liderança ou Malícia como suas Habilidades iniciais, mas pode aprendê-las durante o desenvolvimento da saga.
+>10 pontos
+
+## CRIAÇÃO RECLUSA
+Você cresceu completamente isolado da sociedade, tendo contato apenas com seus pais ou com seu mentor. Você foi recentemente apresentado a um mundo maravilhoso de pessoas e coisas novas, estando sobrecarregado. Dependendo de sua personalidade, você pode reagir com desprezo, medo ou admiração. De qualquer maneira, você não sabe como reagir à maioria dos costumes mundanos e não consegue se encaixar perfeitamente em sociedade. Você é ruim na interação com os humanos e tem dificuldade em falar com eles. 
+
+>20 pontos
 
 CRIAÇÃO SELVAGEM
-Você cresceu em uma região selvagem, talvez sendo criado por animais ou aprendendo a sobreviver por conta própria. Por grande parte de sua vida você não sabia falar e não sabia nada sobre a sociedade e o modo de vida dos humanos. Agora que está de volta à sociedade humana (ou ao concílio), você aprendeu algumas frases curtas para se comunicar, mas a vida civilizada ainda é um mistério para você. Você só pode escolher Habilidades iniciais que possa ter aprendido sozinho e não pode começar com 5 níveis em Língua Nativa, recebendo 120 pontos de experiência a mais pela sua Primeira Infância, para serem distribuídos entre Atletismo, Briga, Caçar, Conhecer Região, Cuidar de Animais, Furtividade, Natação, Prontidão e Sobrevivência.
+Você cresceu em uma região selvagem, talvez sendo criado por animais ou aprendendo a sobreviver por conta própria. Por grande parte de sua vida você não sabia falar e não sabia nada sobre a sociedade e o modo de vida dos humanos. Agora que está de volta à sociedade humana (ou ao concílio), você aprendeu algumas frases curtas para se comunicar, mas a vida civilizada ainda é um mistério para você. Você só pode escolher Habilidades iniciais que possa ter aprendido sozinho e deve começar com a língua nativa broken
 
-CRIMINOSO MARCADO
-Uma marca foi queimada em sua bochecha como punição por algum crime de seu passado. Esta marca afeta negativamente a sua capacidade de viver em sociedade, e você não pode escolher a Virtude Riqueza – mas pode escolher Habilidades Marciais durante a criação de personagem. Você não precisa escolher Habilidades Marciais caso o seu crime não tenha sido violento.
+>20 pontos
+
+## CRIMINOSO MARCADO
+Uma marca foi queimada em sua bochecha como punição por algum crime de seu passado. Esta marca afeta negativamente a sua capacidade de viver em sociedade, e você não pode escolher a Virtude Riqueza
+
+> 10 pontos
 
 DELÍRIO
 Você acredita piamente em algo que simplesmente não é verdade. Talvez você acredite que é um magus (quando não é) ou que você é filho do Papa, ou ainda que seu amigo imaginário existe de verdade. Qualquer que seja o seu delírio, ele provavelmente causará algum tipo de problema para você e seus associados em algum momento.

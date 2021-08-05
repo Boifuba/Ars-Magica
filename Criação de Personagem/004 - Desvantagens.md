@@ -49,16 +49,17 @@ Por algum motivo, duas combinações de Técnica e Forma (exceto Vim e Corpus) e
 Suas articulações são rígidas e muitas vezes lhe causam dores, dificultando qualquer tipo de movimentação prolongada. Você sofre uma penalidade de -3 em rolagens que envolvam movimento repetitivo e sustentado. Algumas vezes a dor é tão grande que você fica seriamente impedido de realizar ações com o membro afetado. Em uma Falha Crítica durante qualquer tipo de movimento ou combate, uma das suas articulações trava, e você sofre uma penalidade de -6 em todas as rolagens que envolvam o membro afetado, até que consiga descansar por um ou dois dias.
 >10 pontos 
 
-# ATORMENTADO POR ENTIDADE SOBRENATURAL
+## ATORMENTADO POR ENTIDADE SOBRENATURAL
 Alguma criatura sobrenatural interfere na sua vida com certa frequência. Talvez ela tenha boas intenções, mas o resultado é que você acaba envolvido em tramas e conflitos por causa disso. Exemplos apropriados incluem um anjo tentando salvar a sua alma, um demônio tentando corrompê-la, um espírito ainda preso à sua vida anterior ou uma fada que o considera um joguete para ser usado em seus planos.
 >20 pontos
 
 ## BAIXA PENETRAÇÃO MÁGICA
-A sua magia apresenta baixa Penetração Mágica, independente do que você faça. Corte pela metade o Total de Penetração para todas as suas magias; você também obtém metade do bônus normal quando adiciona Penetração Mágica a encantamentos. Note que você deve cortar o Total de Penetração após subtrair o nível da magia e aplicar qualquer modificador por Conexões Arcanas – você não corta o Total de conjuração pela metade para depois calcular a Penetração Mágica.
+A sua magia apresenta baixa Penetração Mágica, independente do que você faça. Você também obtém metade do bônus normal quando adiciona Penetração Mágica a encantamentos. Você multiplica por 2 o nível da magia antes de subtrair.
 ```diff
 ! testar isso
 ```
 
+>50 pontos
 
 
 ## BLOQUEIO CRIATIVO
@@ -68,55 +69,93 @@ Você tem dificuldade em criar coisas novas no laboratório e sofre uma penalida
 ! definir experimentação
 ```
 
-BLOQUEIO DE HABILIDADES (Geral Pequeno): Você é simplesmente incapaz de aprender certa classe de Habilidade, por qualquer motivo. Este Defeito pode ser relacionado às Habilidades Marciais ou a uma lista de tamanho similar de outro tipo de Habilidades. Uma incapacidade profunda de desenvolver pensamento lógico pode ser traduzida como um bloqueio a Artes Liberales, Philosophiae, Medicina, Teologia e Direito (ambos), por exemplo. Ou o bloqueio pode ser relacionado a idiomas, impedindo o aprendizado de qualquer língua que não seja a nativa do personagem. É importante que o personagem possa escolher estas Habilidades, mesmo que não intencione fazê-lo, ou o Defeito não faz sentido. Este Defeito só pode ser escolhido uma vez.
+## BLOQUEIO DE HABILIDADES
+Você é simplesmente incapaz de aprender certa classe de Habilidade, por qualquer motivo. Este Defeito pode ser relacionado às Habilidades Marciais ou a uma lista de tamanho similar de outro tipo de Habilidades. Uma incapacidade profunda de desenvolver pensamento lógico pode ser traduzida como um bloqueio a Artes Liberales, Philosophiae, Medicina, Teologia e Direito (ambos), por exemplo. Ou o bloqueio pode ser relacionado a idiomas, impedindo o aprendizado de qualquer língua que não seja a nativa do personagem. É importante que o personagem possa escolher estas Habilidades, mesmo que não intencione fazê-lo, ou o Defeito não faz sentido. Este Defeito só pode ser escolhido uma vez.
+>5 pontos
 
 
-CARACTERÍSTICAS FRACAS (Geral Pequeno): Você tem 3 pontos a menos do que o normal para gastar em Características. Você pode escolher este Defeito duas vezes para ficar com apenas 1 ponto.
 
 
 
-CHANTAGEM (Narrativo Pequeno): Você possui informações que uma pessoa poderosa prefere que continuem escondidas. Você recebe pagamentos ou serviços em troca de seu silêncio e pode exigir favores especiais de vez em quando. Mas não abuse da sorte, a sua vítima pode decidir que não vale a pena continuar pagando a você ou ceder às suas demandas e decidir acabar com você de vez. Este acordo lhe rende aproximadamente 50 moedas de prata por ano, possivelmente mais, caso você pressione sua vítima. Defina com o narrador e anote os detalhes do seu acordo.
+## CHANTAGEM
+Você possui informações que uma pessoa poderosa prefere que continuem escondidas. Você recebe pagamentos ou serviços em troca de seu silêncio e pode exigir favores especiais de vez em quando. Mas não abuse da sorte, a sua vítima pode decidir que não vale a pena continuar pagando a você ou ceder às suas demandas e decidir acabar com você de vez. Este acordo lhe rende aproximadamente 50 moedas de prata por ano, possivelmente mais, caso você pressione sua vítima. Defina com o narrador e anote os detalhes do seu acordo.
+>20 pontos
+```diff
+! isso meio que não faz sentido como desvantagem
+```
 
-CIRCUNSTÂNCIAS DELETÉRIAS (Hermético Pequeno): Todos os totais de magia são cortados pela metade na presença de algumas circunstâncias incomuns. Talvez seja o seu estado (sentado ou molhado, por exemplo), o alvo da magia (animais selvagens, ou ferro, por exemplo), ou o lugar onde você se encontra (dentro de uma cidade, no alto de uma montanha etc.).
+
+## CIRCUNSTÂNCIAS DELETÉRIAS
+
+ Todos os totais de magia são cortados pela metade na presença de algumas circunstâncias incomuns. Talvez seja o seu estado (sentado ou molhado, por exemplo), o alvo da magia (animais selvagens, ou ferro, por exemplo), ou o lugar onde você se encontra (dentro de uma cidade, no alto de uma montanha etc.).
+
+>25 pontos
 
 
-COLÉRICO (De Personalidade, Pequeno ou Grande): Você tem tendência a se irritar pelas menores coisas e, quando se irrita por algo mais importante, a sua ira é algo temível de se ver.
+## COMPANHEIRO ANIMAL
+Você tem um companheiro animal que é inteligente (embora ainda mundano) e leal, e obedece a alguns comandos simples. O seu relacionamento é muito próximo, e, caso algo aconteça com o animal, você ficará bastante chateado.
 
-COMPANHEIRO ANIMAL (Narrativo Pequeno): Você tem um companheiro animal que é inteligente (embora ainda mundano) e leal, e obedece a alguns comandos simples. O seu relacionamento é muito próximo, e, caso algo aconteça com o animal, você ficará bastante chateado.
+>5 pontos
 
-COMPANHEIRO ANIMAL MÁGICO (Narrativo Pequeno): Você tem um companheiro animal mágico que é inteligente o suficiente para obedecer (ou ignorar) as suas ordens como achar melhor. Quanto menor e mais inofensivo o animal, mais inteligente ele é. Um furão ou um corvo serão tão inteligentes quanto humanos, um lobo seria bastante astuto, e um animal do tamanho de um cavalo é pouco mais inteligente do que um cavalo mundano. O animal tem um Nível de Potência Mágica igual a 10 – Tamanho.
+COMPANHEIRO ANIMAL MÁGICO
+Você tem um companheiro animal mágico que é inteligente o suficiente para obedecer (ou ignorar) as suas ordens como achar melhor. Quanto menor e mais inofensivo o animal, mais inteligente ele é. Um furão ou um corvo serão tão inteligentes quanto humanos, um lobo seria bastante astuto, e um animal do tamanho de um cavalo é pouco mais inteligente do que um cavalo mundano. O animal tem um Nível de Potência Mágica igual a 10 – Tamanho.
+```diff
+! ~~potência magica~~
+```
+>15 pontos
 
-COMPASSIVO (De Personalidade, Pequeno ou Grande): Você ajuda todos aqueles que estão feridos ou com problemas e não suporta ver o sofrimento dos outros – mas não se incomoda de sofrer ou exaurir a si mesmo.
+##COMPASSIVO
+Você ajuda todos aqueles que estão feridos ou com problemas e não suporta ver o sofrimento dos outros – mas não se incomoda de sofrer ou exaurir a si mesmo.
 
-COMPULSÃO (De Personalidade Pequeno): Você tem algum vício que causa problemas a você. Exemplos incluem sexo, bebida, perfeição, jogo ou contar vantagem.
+>10 pontos
 
-CONDIÇÃO NECESSÁRIA (Hermético Grande): Você tem que realizar algum tipo de ação extra para que a sua magia funcione. Esta ação pode ser algo simples, como cantarolar ou girar três vezes. Se você não conseguir realizar a ação necessária, você não consegue conjurar nenhuma magia.
+## COMPULSÃO 
+Você tem algum vício que causa problemas a você. Exemplos incluem sexo, bebida, perfeição, jogo ou contar vantagem.
+> 10 pontos 
 
-CONSTITUIÇÃO FRÁGIL (Geral Pequeno): Sua saúde é débil e fraca: você sofre uma penalidade de -3 em todas as rolagens para se recuperar de ferimentos e doenças.
+## CONDIÇÃO NECESSÁRIA 
+(Hermético Grande): Você tem que realizar algum tipo de ação extra para que a sua magia funcione. Esta ação pode ser algo simples, como cantarolar ou girar três vezes. Se você não conseguir realizar a ação necessária, você não consegue conjurar nenhuma magia.
 
-CONTENDA (Narrativo Grande): Sua família está envolvida em uma rixa. A família rival (ou famílias) tem força equivalente à sua e é provável que você seja emboscado ou sofra ataques de seus rivais. Sua família também espera que você participe de ataques contra o inimigo.
+> 15 pontos
 
-CORAÇÃO MOLE (De Personalidade Pequeno): Você não consegue ver os outros sofrendo e isto tira o seu sono. Mesmo as mortes de seus inimigos lhe são dolorosas e você evita o perigo, tentando manter seus amigos longe dele também. Você considera a vida e a saúde tão importantes que prefere abrir mão de objetivos importantes a deixar alguém se arriscar em combate por eles. Você se comove facilmente com histórias e músicas.
+## CONSTITUIÇÃO FRÁGIL
+Sua saúde é débil e fraca: você sofre uma penalidade de -3 em todas as rolagens para se recuperar de ferimentos e doenças.
 
-CORCUNDA (Geral Pequeno): Você tem um corpo deformado que lhe confere uma aparência grotesca e atrapalha seus movimentos, fazendo com que sofra uma penalidade de -3 em todas as rolagens que envolvam agilidade e equilíbrio. Rolagens de Comunicação que envolvam boa aparência sofrem a mesma penalidade.
+## CONTENDA
+Sua família está envolvida em uma rixa. A família rival (ou famílias) tem força equivalente à sua e é provável que você seja emboscado ou sofra ataques de seus rivais. Sua família também espera que você participe de ataques contra o inimigo.
 
-COXO (Geral Pequeno): Uma das suas pernas é mais curta ou atrofiada. Talvez você tenha nascido assim, ou talvez tenha ficado assim devido a um acidente. Sua velocidade de caminhada é apenas 1,5 quilômetros por hora, e qualquer pessoa consegue alcançá-lo ou correr mais rápido do que você. Você sofre uma penalidade de -6 em todas as rolagens que envolvam agilidade ou velocidade de movimento, além de -3 em Esquiva e -1 em todos os outros totais de combate.
+## CORAÇÃO MOLE
+Você não consegue ver os outros sofrendo e isto tira o seu sono. Mesmo as mortes de seus inimigos lhe são dolorosas e você evita o perigo, tentando manter seus amigos longe dele também. Você considera a vida e a saúde tão importantes que prefere abrir mão de objetivos importantes a deixar alguém se arriscar em combate por eles. Você se comove facilmente com histórias e músicas.
 
-CRIAÇÃO CONCILIANA (De Personalidade Pequeno): Você cresceu em um grande e velho concílio com pouco contato com o mundo. É possível que você tenha crenças estranhas, de modo que as estruturas políticas e sociais medievais lhe soam esquisitas. Você pode escolher Latim e Conhecer a Ordem de Hermes durante a criação de personagem e, embora não possa escolher Latim como sua Língua Nativa, você pode escolher um dialeto parecido com Latim, falado apenas em seu concílio natal.
+CORCUNDA
+Você tem um corpo deformado que lhe confere uma aparência grotesca e atrapalha seus movimentos, fazendo com que sofra uma penalidade de -3 em todas as rolagens que envolvam agilidade e equilíbrio. Rolagens de Comunicação que envolvam boa aparência sofrem a mesma penalidade.
 
-CRIAÇÃO FEÉRICA (De Personalidade Pequeno): Talvez você tenha sido abandonado pelos seus pais e encontrado pelas fadas. Talvez sua família morasse em uma floresta feérica, e as fadas o raptaram quando era um bebê. Qualquer que seja o motivo, você cresceu entre fadas e agora está de volta à sociedade humana, apesar de se sentir mais à vontade no mundo feérico, cercado de fadas, magia e outras coisas estranhas. A sociedade humana, incluindo a religião, lhe é completamente bizarra e de difícil compreensão. Você pode escolher Reino Feérico durante a criação de personagem.
+COXO
+Uma das suas pernas é mais curta ou atrofiada. Talvez você tenha nascido assim, ou talvez tenha ficado assim devido a um acidente. Sua velocidade de caminhada é apenas 1,5 quilômetros por hora, e qualquer pessoa consegue alcançá-lo ou correr mais rápido do que você. Você sofre uma penalidade de -6 em todas as rolagens que envolvam agilidade ou velocidade de movimento, além de -3 em Esquiva e -1 em todos os outros totais de combate.
 
-CRIAÇÃO RECLUSA (De Personalidade Pequeno): Você cresceu completamente isolado da sociedade, tendo contato apenas com seus pais ou com seu mentor. Você foi recentemente apresentado a um mundo maravilhoso de pessoas e coisas novas, estando sobrecarregado. Dependendo de sua personalidade, você pode reagir com desprezo, medo ou admiração. De qualquer maneira, você não sabe como reagir à maioria dos costumes mundanos e não consegue se encaixar perfeitamente em sociedade. Você não pode escolher Barganha, Charme, Empatia, Etiqueta, Intriga, Liderança ou Malícia como suas Habilidades iniciais, mas pode aprendê-las durante o desenvolvimento da saga.
+CRIAÇÃO CONCILIANA
+Você cresceu em um grande e velho concílio com pouco contato com o mundo. É possível que você tenha crenças estranhas, de modo que as estruturas políticas e sociais medievais lhe soam esquisitas. Você pode escolher Latim e Conhecer a Ordem de Hermes durante a criação de personagem e, embora não possa escolher Latim como sua Língua Nativa, você pode escolher um dialeto parecido com Latim, falado apenas em seu concílio natal.
 
-CRIAÇÃO SELVAGEM (Geral Pequeno): Você cresceu em uma região selvagem, talvez sendo criado por animais ou aprendendo a sobreviver por conta própria. Por grande parte de sua vida você não sabia falar e não sabia nada sobre a sociedade e o modo de vida dos humanos. Agora que está de volta à sociedade humana (ou ao concílio), você aprendeu algumas frases curtas para se comunicar, mas a vida civilizada ainda é um mistério para você. Você só pode escolher Habilidades iniciais que possa ter aprendido sozinho e não pode começar com 5 níveis em Língua Nativa, recebendo 120 pontos de experiência a mais pela sua Primeira Infância, para serem distribuídos entre Atletismo, Briga, Caçar, Conhecer Região, Cuidar de Animais, Furtividade, Natação, Prontidão e Sobrevivência.
+CRIAÇÃO FEÉRICA
+Talvez você tenha sido abandonado pelos seus pais e encontrado pelas fadas. Talvez sua família morasse em uma floresta feérica, e as fadas o raptaram quando era um bebê. Qualquer que seja o motivo, você cresceu entre fadas e agora está de volta à sociedade humana, apesar de se sentir mais à vontade no mundo feérico, cercado de fadas, magia e outras coisas estranhas. A sociedade humana, incluindo a religião, lhe é completamente bizarra e de difícil compreensão. Você pode escolher Reino Feérico durante a criação de personagem.
 
-CRIMINOSO MARCADO (Classe Social Pequena): Uma marca foi queimada em sua bochecha como punição por algum crime de seu passado. Esta marca afeta negativamente a sua capacidade de viver em sociedade, e você não pode escolher a Virtude Riqueza – mas pode escolher Habilidades Marciais durante a criação de personagem. Você não precisa escolher Habilidades Marciais caso o seu crime não tenha sido violento.
+CRIAÇÃO RECLUSA
+Você cresceu completamente isolado da sociedade, tendo contato apenas com seus pais ou com seu mentor. Você foi recentemente apresentado a um mundo maravilhoso de pessoas e coisas novas, estando sobrecarregado. Dependendo de sua personalidade, você pode reagir com desprezo, medo ou admiração. De qualquer maneira, você não sabe como reagir à maioria dos costumes mundanos e não consegue se encaixar perfeitamente em sociedade. Você não pode escolher Barganha, Charme, Empatia, Etiqueta, Intriga, Liderança ou Malícia como suas Habilidades iniciais, mas pode aprendê-las durante o desenvolvimento da saga.
 
-DELÍRIO (De Personalidade Pequeno): Você acredita piamente em algo que simplesmente não é verdade. Talvez você acredite que é um magus (quando não é) ou que você é filho do Papa, ou ainda que seu amigo imaginário existe de verdade. Qualquer que seja o seu delírio, ele provavelmente causará algum tipo de problema para você e seus associados em algum momento.
+CRIAÇÃO SELVAGEM
+Você cresceu em uma região selvagem, talvez sendo criado por animais ou aprendendo a sobreviver por conta própria. Por grande parte de sua vida você não sabia falar e não sabia nada sobre a sociedade e o modo de vida dos humanos. Agora que está de volta à sociedade humana (ou ao concílio), você aprendeu algumas frases curtas para se comunicar, mas a vida civilizada ainda é um mistério para você. Você só pode escolher Habilidades iniciais que possa ter aprendido sozinho e não pode começar com 5 níveis em Língua Nativa, recebendo 120 pontos de experiência a mais pela sua Primeira Infância, para serem distribuídos entre Atletismo, Briga, Caçar, Conhecer Região, Cuidar de Animais, Furtividade, Natação, Prontidão e Sobrevivência.
 
-DEPENDENTE (Narrativo Grande): Você se sente responsável por alguém e obrigado a ajudar caso esta pessoa esteja com problemas. Seu dependente pode ser um familiar ou um amigo, mas deve ser alguém relativamente fraco e um NPC (personagem não jogador). Caso seu Dependente não possa mais ser ajudado ou não precise mais de auxílio, você deve substituir o Defeito por outro Defeito Narrativo – talvez você possa assumir os filhos de seu antigo Dependente como novos Dependentes ou escolher os assassinos de seu antigo Dependente como Inimigos, ou ainda transformar o Dependente em um Amigo Verdadeiro.
+CRIMINOSO MARCADO
+Uma marca foi queimada em sua bochecha como punição por algum crime de seu passado. Esta marca afeta negativamente a sua capacidade de viver em sociedade, e você não pode escolher a Virtude Riqueza – mas pode escolher Habilidades Marciais durante a criação de personagem. Você não precisa escolher Habilidades Marciais caso o seu crime não tenha sido violento.
 
-DEPRESSÃO (De Personalidade Pequeno): Você tem uma visão sombria da vida, não vê propósito em nada e não sente prazer ou alegria com nada que acontece.
+DELÍRIO
+Você acredita piamente em algo que simplesmente não é verdade. Talvez você acredite que é um magus (quando não é) ou que você é filho do Papa, ou ainda que seu amigo imaginário existe de verdade. Qualquer que seja o seu delírio, ele provavelmente causará algum tipo de problema para você e seus associados em algum momento.
+
+DEPENDENTE
+Você se sente responsável por alguém e obrigado a ajudar caso esta pessoa esteja com problemas. Seu dependente pode ser um familiar ou um amigo, mas deve ser alguém relativamente fraco e um NPC (personagem não jogador). Caso seu Dependente não possa mais ser ajudado ou não precise mais de auxílio, você deve substituir o Defeito por outro Defeito Narrativo – talvez você possa assumir os filhos de seu antigo Dependente como novos Dependentes ou escolher os assassinos de seu antigo Dependente como Inimigos, ou ainda transformar o Dependente em um Amigo Verdadeiro.
+
+DEPRESSÃO
+Você tem uma visão sombria da vida, não vê propósito em nada e não sente prazer ou alegria com nada que acontece.
 
 DESASTRADO (Geral Pequeno): Você não é muito gracioso, tendendo a derrubar as coisas, sofrendo uma penalidade de -3 em rolagens relacionadas. Além disso, adicione um Dado de Falha em ações relacionadas à Destreza. Não se esqueça de representar seu Defeito.
 

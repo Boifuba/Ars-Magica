@@ -1,12 +1,12 @@
 Index
 
 1. [Penetração Mágica](#Penetração-Mágica)
-2. [Magias Formulaicas]Magias Formulaicas
-3. [Magias espontâneas]Magias espontâneas
-4. [Rituais Mágicos]
+2. [Magias Formulaicas](#Magias-Formulaicas)
+3. [Magias espontâneas](#Magias-espontâneas)
+4. [Rituais Mágicos](#Rituais-Mágicos)
 5. [Parma Magica](#Parma-Magica)
-6. [Resistência Mágica]
-7. [Penetração Mágica]
+6. [Resistência Mágica](#Resistência-Mágica)
+7. [Penetração Mágica](#Penetração-Mágica)
 8. [Atividades de laboratório](#Atividades-de-laboratório)
 9. [Estudos Arcanos](#Estudos-Arcanos)
 10. [Extração de Vis](#Extração-de-Vis)

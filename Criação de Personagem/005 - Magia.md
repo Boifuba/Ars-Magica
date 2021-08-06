@@ -1,3 +1,17 @@
+# **Index**
+
+1. [Penetração Mágica](#Penetração-Mágica)
+2. [Magias Formulaicas](#Magias-Formulaicas)
+3. [Magias espontâneas](#Magias-espontâneas)
+4. [Rituais Mágicos](#Rituais-Mágicos)
+5. [Parma Magica](#Parma-Magica)
+6. [Resistência Mágica](#Resistência-Mágica)
+7. [Penetração Mágica](#Penetração-Mágica)
+8. [Atividades de laboratório](#Atividades-de-laboratório)
+9. [Estudos Arcanos](#Estudos-Arcanos)
+10. [Extração de Vis](#Extração-de-Vis)
+11. [Aprendendo Magias Formulaicas](#Aprendendo-Magias-Formulaicas)
+
 # Como funciona a magia
 
 Para esse fim vamos usar a visão do Ars Magica sobre magia  e não as regras de GURPS então teremos: 
@@ -44,17 +58,15 @@ Para esse fim vamos usar a visão do Ars Magica sobre magia  e não as regras de
 > Formulaica 17-18
 > Espontânea 15-78
 
-```diff
-! Decidir se vami manter o -3 para magias espontâneas
-```
+
 &nbsp;
 
 # Rituais Mágicos
 Rituais mágicos demoram mais a ser conjurados do que Magias formulaicas e demandam o uso de vis. Há certas vantagens, no entanto:
-• Magias formulaicas e magia espontânea não podem ter Duração: Ano.
-• Magias formulaicas e magia espontânea não podem ter Alvo: Divisa. Elas podem ter Alvo: Visão, para magias que conferem sentidos mágicos.
-• Magias formulaicas e magia espontânea não podem ter nível maior do que 10.
-Rituais Mágicos sempre têm nível 20 ou maior, mesmo que os parâmetros resultem em um nível mais baixo.
+- Magias formulaicas e magia espontânea não podem ter Duração: Ano.
+- Magias formulaicas e magia espontânea não podem ter Alvo: Divisa. Elas podem ter Alvo: Visão, para magias que conferem sentidos mágicos.
+- Magias formulaicas e magia espontânea não podem ter nível maior do que 10.
+- Rituais Mágicos sempre têm nível 4 ou maior, mesmo que os parâmetros resultem em um nível mais baixo.
 
 # Parma Magica
 
@@ -72,7 +84,7 @@ Uma proteção contra a magia. É um ritual especial (e não uma magia Ritual) q
 ## Penetração Mágica
 
 ```diff
-Forma + Bônus de Penetração - Nível da Magia
+Técnica + Forma + Bônus de Penetração - Nível da Magia
 ```
 &nbsp;
 

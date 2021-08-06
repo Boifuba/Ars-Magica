@@ -1,3 +1,8 @@
+Index
+1 - [Como funciona a magia](#"Como funciona a magia")
+- [Parma Magica](#Parma Magica)
+
+
 # Como funciona a magia
 
 Para esse fim vamos usar a visão do Ars Magica sobre magia  e não as regras de GURPS então teremos: 
@@ -44,9 +49,7 @@ Para esse fim vamos usar a visão do Ars Magica sobre magia  e não as regras de
 > Formulaica 17-18
 > Espontânea 15-78
 
-```diff
-! Decidir se vami manter o -3 para magias espontâneas
-```
+
 &nbsp;
 
 # Rituais Mágicos
@@ -72,7 +75,7 @@ Uma proteção contra a magia. É um ritual especial (e não uma magia Ritual) q
 ## Penetração Mágica
 
 ```diff
-Forma + Bônus de Penetração - Nível da Magia
+Técnica + Forma + Bônus de Penetração - Nível da Magia
 ```
 &nbsp;
 

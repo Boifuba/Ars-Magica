@@ -39,6 +39,10 @@ PeCo   |  1    |   3     |   5     |Toque/Olhar| Indivíduo |    Diâmetro   |  
 :-------------------------------------------------------------------|
 O alvo passa a sofrer de uma coceira insuportável por todo corpo, impedindo-o de fazer qualquer coisa além de se coçar. Se estiver com roupas apertadas ou armaduras pode chegar a retirá-las por causa da intensidade da coceira.|
 
+```diff
+- Magias que controlam o alvo são da Técnica REGO e não PERDO
+```
+
 
 
 

@@ -1,4 +1,4 @@
-Index
+# **Index**
 
 1. [Penetração Mágica](#Penetração-Mágica)
 2. [Magias Formulaicas](#Magias-Formulaicas)

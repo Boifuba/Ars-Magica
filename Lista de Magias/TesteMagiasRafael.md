@@ -29,7 +29,7 @@ MuIm   |  4    |   7     |   9     |  Toque  | Indivíduo |    Diâmetro   |  NA
 O alvo aparenta ser mais decisivo, poderoso e verdadeiro. Diversas mudanças sutis operam enquanto a magia está ativa, incluindo uma leve iluminação do rosto, uma postura mais ereta e uma voz mais clara e agradável. O personagem recebe um bônus de +3 em rolagens para influenciar, liderar ou convencer outras pessoas.
 Magia descrita no Ars Magica 5ªed|
 
-# Coceira Insuportável
+# Coceira Insuportável 🚩
 Tipo   | Nível | Custo_F | Custo_E |  Alcance  |    Alvo   |    Duração    | Dano
 :----: | :---: | :---:   | :---:   |  :---:    | :------:  | :-----------: | :---:
 PeCo   |  1    |   5     |   8     |   Visão   |   Grupo   |    Diâmetro   |  NA 

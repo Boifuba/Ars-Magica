@@ -1,6 +1,6 @@
 Index
 1 - [Como funciona a magia](#"Como funciona a magia")
-- [Parma Magica](#Parma Magica)
+- [Parma Magica](#Parma%20Magica)
 
 
 # Como funciona a magia

@@ -51,10 +51,10 @@ Para esse fim vamos usar a visão do Ars Magica sobre magia  e não as regras de
 
 # Rituais Mágicos
 Rituais mágicos demoram mais a ser conjurados do que Magias formulaicas e demandam o uso de vis. Há certas vantagens, no entanto:
-• Magias formulaicas e magia espontânea não podem ter Duração: Ano.
-• Magias formulaicas e magia espontânea não podem ter Alvo: Divisa. Elas podem ter Alvo: Visão, para magias que conferem sentidos mágicos.
-• Magias formulaicas e magia espontânea não podem ter nível maior do que 10.
-Rituais Mágicos sempre têm nível 20 ou maior, mesmo que os parâmetros resultem em um nível mais baixo.
+- Magias formulaicas e magia espontânea não podem ter Duração: Ano.
+- Magias formulaicas e magia espontânea não podem ter Alvo: Divisa. Elas podem ter Alvo: Visão, para magias que conferem sentidos mágicos.
+- Magias formulaicas e magia espontânea não podem ter nível maior do que 10.
+- Rituais Mágicos sempre têm nível 4 ou maior, mesmo que os parâmetros resultem em um nível mais baixo.
 
 # Parma Magica
 

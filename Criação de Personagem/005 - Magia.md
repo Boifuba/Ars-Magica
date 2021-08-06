@@ -1,16 +1,16 @@
 Index
 
-1. [Penetração Mágica](##Penetração-Mágica)
+1. [Penetração Mágica](#Penetração-Mágica)
 2. [Magias Formulaicas]Magias Formulaicas
 3. [Magias espontâneas]Magias espontâneas
 4. [Rituais Mágicos]
 5. [Parma Magica](#Parma-Magica)
 6. [Resistência Mágica]
 7. [Penetração Mágica]
-8. [Atividades de laboratório](##Atividades-de-laboratório)
-9. [Estudos Arcanos](##Estudos-Arcanos)
-10. [Extração de Vis](##Extração-de-Vis)
-11. [Aprendendo Magias Formulaicas](##Aprendendo-Magias-Formulaicas)
+8. [Atividades de laboratório](#Atividades-de-laboratório)
+9. [Estudos Arcanos](#Estudos-Arcanos)
+10. [Extração de Vis](#Extração-de-Vis)
+11. [Aprendendo Magias Formulaicas](#Aprendendo-Magias-Formulaicas)
 
 # Como funciona a magia
 

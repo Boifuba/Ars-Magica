@@ -192,7 +192,7 @@ A transferência de vis bruto de um objeto para outro é uma atividade de labora
 
 ## Uso de Vis
 
-A quantidade máxima de vis que o mago pode manipular é Forma / 2
+A quantidade máxima de vis que o mago pode manipular é Teoria Mágica - 10
 
 ## Magias formulaicas
 

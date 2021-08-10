@@ -215,3 +215,6 @@ Magias formulaicas são uma grande medida do poder de um magus, pois determinam 
 ```diff
 Técnica + Forma + Modificador do laboratório + Aura + Professor + Biblioteca = Valor Resultante dividido por 3
 ```
+```diff
+- PÁGINA 135
+```

@@ -32,8 +32,8 @@ Magia descrita no Ars Magica 5ªed|
 # Coceira Insuportável 🚩
 Tipo   | Nível | Custo_F | Custo_E |  Alcance  |    Alvo   |    Duração    | Dano
 :----: | :---: | :---:   | :---:   |  :---:    | :------:  | :-----------: | :---:
-ReCo   |  0    |   4     |   6     |   Visão   |   Grupo   |    Diâmetro   |  NA 
-ReCo   |  0    |   3     |   4     |Toque/Olhar| Indivíduo |    Diâmetro   |  NA 
+PeCo   |  1    |   5     |   8     |   Visão   |   Grupo   |    Diâmetro   |  NA 
+PeCo   |  1    |   3     |   5     |Toque/Olhar| Indivíduo |    Diâmetro   |  NA 
 
 **Descrição:** |
 :-------------------------------------------------------------------|
@@ -42,9 +42,7 @@ O alvo passa a sofrer de uma coceira insuportável por todo corpo, impedindo-o d
 ```diff
 - Magias que controlam o alvo são da Técnica REGO e não PERDO
 ```
-```diff
-- Corrigido em 06/08/2021
-```
+
 
 
 

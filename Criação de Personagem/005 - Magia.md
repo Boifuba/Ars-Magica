@@ -145,76 +145,27 @@ Técnica + Forma + Bônus de Penetração - Nível da Magia
 > * Ano - A magia dura até o nascer do sol do quarto equinócio ou solstício a partir de sua conjuração. Apenas Rituais Mágicos podem ter Duração: Sol.
 &nbsp;
 
-## Atividades de laboratório
-
->* O laboratório demora 2 estações para estar em sua capacidade total, em sua primeira estação ele está pronto mais possui um modificador negativo de -3 que é retirado após a segunda estação.
->* Efeitos adicionais podem ser inclusos nesses bônus como obter um ajudante, um familiar, algo muito específico para a criação.
-&nbsp;
 
 
-## Definindo o valor de laboratório
 
-O seu valor de laborátorio é:
+# Aprendendo Magias Formulaicas
 
-```diff
-Técnica + Forma + Teoria Mágica-10 + Bônus de Aura
-```
+## Aprendendo Magias Formulaicas com o professor.
 
-
-## Estudos Arcanos 
-&nbsp;
-
-Os conhecimento de Taumatologia e das Artes mágicas são importantes para os magi – tão importantes, de fato, que muitos passam a vida toda enclausurados em seus laboratórios, estudando-os. É possível aumentar seu conhecimento das Artes mágicas de diversas maneiras, sendo o laboratório a principal delas.
-&nbsp;
-
-## Fixar conexões arcanas
-&nbsp;
-
-Um magus que tenha em mãos uma Conexão Arcana ativa  pode fixá-la de maneira permanente, utilizando uma estação de trabalho em seu laboratório e um peão de Vim Vis. A conexão tem que estar ativa ao começo da estação, mas não precisa durar até o fim dela.
-
-Conexão Simpática | Bônus no Multiplicador
-| :----------- | :---------: |
-|O magus é parente do alvo  | +1 | 
-| A assinatura do alvo | +1
-O apelido ou o nome de nascença do alvo **1** | +1
-O nome que o alvo usa em rituais mágicos secretos|  +1
-O horóscopo de hoje para o alvo **2** | +1
-O mapa astral do alvo **3** | +2
-Uma representação simbólica do alvo **4** | +2
-1. Nomes de batismo não podem ser usados com magia simpática.
-2. O magus deve saber a localização atual do alvo, e ser bem-sucedido em uma rolagem de Inteligência +
-Artes Liberales (Astronomia) com 2+ sucessos. Os cálculos deste horóscopo levam uma hora.
-3. O magus deve saber a localização e hora de nascimento do alvo e ser bem-sucedido em uma rolagem de Inteligência + Artes Liberales (Astronomia) com mais de 2 sucessos. Os cálculos deste mapa astral levam um dia inteiro.
-4. Uma representação do alvo em duas ou três dimensões. Uma representação simples, de uso único, leva várias horas para ser criada e requer uma rolagem de habilidade. Uma representação permanente exige um mês de trabalho e uma rolagem de habilidade com pelo menos 5 sucessos. A representação só pode ser usada por aquele que a criou.
+A quantidade máxima de magias formulaicas que podem ser aprendidas dessa maneira em uma estação é igual ao maior Total 
+de Laboratório aplicável do professor.
 
 
-## Extração de Vis
-&nbsp;
+> QUANTIDADE MÁXIMA DE NÍVEIS:
 
-É possível extrair vis bruto de um ambiente mágico (qualquer lugar que tenha uma aura mágica), canalizando a energia mágica em um objeto físico. Para cada estação empenhada na extração de vis da aura, calcule seu Total de Laboratório Creo Vim e divida por 3, arredondando para cima para determinar a quantidade de peões de vis acumulados por estação do ano.
-&nbsp;
+>Maior Total de Laboratório aplicável do professor
 
-```diff
-! Vou começar com 3 para definir se esse valor é adequado.
-```
 
-## Transferência de Vis
+# Inventando Magias Formulaicas
 
-A transferência de vis bruto de um objeto para outro é uma atividade de laboratório simples. O mago pode fazer isso em apenas um dia enquanto faz outras coisas.
+Uma vez determinado o nível da magia, é preciso checar se o seu magus consegue inventá-la e em quanto tempo. Um magus só consegue
+inventar uma magia formulaica se seu Total de Laboratório for maior do que o nível da magia. A cada magia similar ou variante, some 1/5
+(um quinto) do nível, arredondado para cima, ao Total de Laboratório. Qualquer requisito que a magia tenha deve ser considerado ao calcular o Total de Laboratório. Para cada ponto de diferença entre o Total de Laboratório e o nível da magia, um ponto é acumulado, e quando o magus acumular um número de pontos igual ao nível da magia, ela está pronta.
+Também é possível usar os Textos de Laboratório de outro mago para inventar uma magia formulaica. Esta opção é muito mais rápida e a maioria das magias formulaicas difundidas pela Ordem de Hermes foram inventadas dessa maneira.
 
-## Uso de Vis
-
-A quantidade máxima de vis que o mago pode manipular é Teoria Mágica - 10
-
-## Magias formulaicas
-
-Magias formulaicas são uma grande medida do poder de um magus, pois determinam os efeitos que podem ser realizados facilmente e com resultados  revisíveis. Há diversas maneiras de inventar novas magias formulaicas.
-
-## Aprendendo Magias Formulaicas
-
-```diff
-Técnica + Forma + Modificador do laboratório + Aura + Professor + Biblioteca = Valor Resultante dividido por 3
-```
-```diff
-- PÁGINA 135
-```
+Exemplo: Um Magus com nível de laboratório 3 em CreIgn quer fazer uma magia de nível 6, isso não seria possível pois o seu nível de laboratiorio não suportatia a criação. Sua segunda opção é criar uma magia de Intellego Mentem 4 e seu laboratório é 5, logo é possível criar essa magia em e demorario 4 estações para que ela fosse feita.

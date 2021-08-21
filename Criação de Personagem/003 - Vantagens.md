@@ -219,7 +219,7 @@ Você demora menos tempo para conjurar suas magias do que outros magi. Adicione 
 
 Você pode conjurar magias usando uma voz suave sem penalidades e com uma penalidade de apenas -5 sem falar. Você não recebe nenhum benefício por usar sua voz no volume normal, mas recebe os benefícios normais pelo uso de uma voz alta. Note que o Alcance de Voz ainda é determinado pela distância que a sua voz alcança. Esta Virtude pode ser selecionada duas vezes para eliminar completamente a penalidade por conjurar magias sem falar.
 
-> 5 por nível
+> 10 pontos
 
 ## MAGIA SUTIL
 

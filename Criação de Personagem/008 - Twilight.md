@@ -86,3 +86,4 @@ Pontos| Tempo
 | 10+ | Eternal: Final Twilight |
 
 
+PG 88 LER 167

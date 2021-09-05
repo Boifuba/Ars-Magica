@@ -62,4 +62,27 @@ O tempo para conter o Crepúsculo é de 1 diâmetro. Se falar o mago entra em Cr
 ```diff
 Inteligência + Enigmatic Wisdow - Pontos de distorção
 ```
+* Para cada 6 na rolagem de compreensão rolar críticos mova em 1 passo a tabela de tempo para cada 6 e ele sofre uma experiência ruim da experiência
+
+Isso depende dos pontos de distorção acumulados 
+
+#2 Tempo de dentro do Crepúsculo
+
+``` diff
+Inteligência - Pontos de distorção
+```
+
+Pontos| Tempo
+| --- | ---- | 
+| 1 | Diameter (2 minutes) |
+| 2 | Two Hours |
+| 3 | Sun |
+| 4 | Day (24 hours) |
+| 5 | Moon |
+| 6 | Season |
+| 7 | Year |
+| 8 | Seven Years |
+| 9 | Seven plus a 3d6 sem chance de crítico |
+| 10+ | Eternal: Final Twilight |
+
 

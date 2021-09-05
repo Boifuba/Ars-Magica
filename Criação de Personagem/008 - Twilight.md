@@ -55,3 +55,11 @@ Concentração + Vim Vis + Enigmatic Wisdow - Pontos de Distorção - Aura
 ```
 O tempo para conter o Crepúsculo é de 1 diâmetro. Se falar o mago entra em Crepúsculo e se falhar por crítico ele entra e não tem chances de entender a experiência. O jogador pode escolher entrar no Crepúsculo quando ele surge.
 
+# Saindo do Crepúsculo
+
+É necessário entender a experiência e só assim conseguir sair do evento causado. 
+
+```diff
+Inteligência + Enigmatic Wisdow - Pontos de distorção
+```
+

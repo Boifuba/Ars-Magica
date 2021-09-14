@@ -49,9 +49,9 @@
 			"id": "2e08c092-ac0d-453c-9f11-ebd1e7459cb0",
 			"name": "Forma",
 			"calc": {
-				"points": 100
+				"points": 0
 			},
-			"open": false,
+			"open": true,
 			"children": [
 				{
 					"type": "advantage",
@@ -59,10 +59,9 @@
 					"name": "Animal",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -83,10 +82,9 @@
 					"name": "Aquam",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -107,10 +105,9 @@
 					"name": "Auram",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -131,10 +128,9 @@
 					"name": "Corpus",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -155,10 +151,9 @@
 					"name": "Herbam",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -179,10 +174,9 @@
 					"name": "Ignem",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -203,10 +197,9 @@
 					"name": "Imaginem",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -227,10 +220,9 @@
 					"name": "Mentem",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -251,10 +243,9 @@
 					"name": "Terram",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -275,10 +266,9 @@
 					"name": "Vim",
 					"supernatural": true,
 					"levels": "0",
-					"base_points": 10,
 					"points_per_level": 5,
 					"calc": {
-						"points": 10
+						"points": 0
 					},
 					"features": [
 						{
@@ -296,15 +286,6 @@
 			]
 		},
 		{
-			"type": "advantage",
-			"id": "5cd6dd19-a3e0-4fea-9648-e140180ade3b",
-			"name": "Magus Hermético",
-			"physical": true,
-			"calc": {
-				"points": 0
-			}
-		},
-		{
 			"type": "advantage_container",
 			"id": "33766bfc-c09a-4feb-9463-fac701d6746f",
 			"name": "Técnica",
@@ -312,7 +293,7 @@
 			"calc": {
 				"points": 0
 			},
-			"open": false,
+			"open": true,
 			"children": [
 				{
 					"type": "advantage",
@@ -383,7 +364,7 @@
 			"calc": {
 				"points": 901
 			},
-			"open": false,
+			"open": true,
 			"children": [
 				{
 					"type": "advantage",
@@ -1132,134 +1113,6 @@
 			"points": 1
 		},
 		{
-			"type": "skill_container",
-			"id": "9253fa66-ad02-4d4b-94e7-752f3c6a987f",
-			"name": "Forma",
-			"open": false,
-			"children": [
-				{
-					"type": "skill",
-					"id": "1a742fe5-f3f5-4829-abf5-ec7d412c76a3",
-					"name": "Animal",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "4d03a0dc-fb72-47d7-b8e5-137951c8bdb1",
-					"name": "Aquam",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "4b39aeeb-95c5-4950-aa09-6de773a3cd1d",
-					"name": "Auram",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "7a402a40-d8da-43c6-8e7a-bb58f6f489de",
-					"name": "Corpus",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "6c71fbd2-8fb7-4bdd-b2f5-c2a5454a14c6",
-					"name": "Herbam",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "861e60a8-d0dd-458e-8370-9fcd04407c83",
-					"name": "Ignem",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "d036f8d3-3a80-4915-9ce8-6be18948e9c8",
-					"name": "Imaginem",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "fac3fa85-03cb-456f-ab72-e4a5ef005ae2",
-					"name": "Mentem",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "1a2eab05-bbb8-4eaa-bc8d-c5632a2c4d32",
-					"name": "Terram",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				},
-				{
-					"type": "skill",
-					"id": "ca3d8017-499b-4e34-ba3a-b31092ef7863",
-					"name": "Vim",
-					"difficulty": "10/e",
-					"points": 0,
-					"defaults": [
-						{
-							"type": "10"
-						}
-					]
-				}
-			]
-		},
-		{
 			"type": "skill",
 			"id": "249955c7-eef3-49bf-b5e4-5d24c036c9ac",
 			"name": "Hidden Lore",
@@ -1290,14 +1143,6 @@
 				"Police",
 				"Social Sciences/Humanities"
 			]
-		},
-		{
-			"type": "skill",
-			"id": "8e64221f-491e-4fb1-a593-db26dd998bf9",
-			"name": "Ordem de Hermes",
-			"specialization": "Mágico",
-			"difficulty": "iq/vh",
-			"points": 1
 		},
 		{
 			"type": "skill",

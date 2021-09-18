@@ -1,0 +1,2939 @@
+{
+	"type": "character",
+	"version": 2,
+	"id": "f4ef19f0-c099-4556-abcb-a4afcb4de440",
+	"settings": {
+		"default_length_units": "ft_in",
+		"default_weight_units": "lb",
+		"user_description_display": "tooltip",
+		"modifiers_display": "inline",
+		"notes_display": "inline",
+		"skill_level_adj_display": "tooltip",
+		"use_multiplicative_modifiers": false,
+		"use_modifying_dice_plus_adds": false,
+		"damage_progression": "basic_set",
+		"use_simple_metric_conversions": true,
+		"show_college_in_sheet_spells": false,
+		"show_difficulty": false,
+		"show_advantage_modifier_adj": false,
+		"show_equipment_modifier_adj": false,
+		"show_spell_adj": true,
+		"use_title_in_footer": false,
+		"page": {
+			"paper_size": "na-letter",
+			"top_margin": "0.25 in",
+			"left_margin": "0.25 in",
+			"bottom_margin": "0.25 in",
+			"right_margin": "0.25 in",
+			"orientation": "portrait"
+		},
+		"block_layout": [
+			"reactions conditional_modifiers",
+			"melee",
+			"ranged",
+			"advantages skills",
+			"spells",
+			"equipment",
+			"other_equipment",
+			"notes"
+		],
+		"attributes": [
+			{
+				"id": "st",
+				"type": "integer",
+				"name": "ST",
+				"full_name": "Strength",
+				"attribute_base": "10",
+				"cost_per_point": 10,
+				"cost_adj_percent_per_sm": 10
+			},
+			{
+				"id": "dx",
+				"type": "integer",
+				"name": "DX",
+				"full_name": "Dexterity",
+				"attribute_base": "10",
+				"cost_per_point": 20,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "iq",
+				"type": "integer",
+				"name": "IQ",
+				"full_name": "Intelligence",
+				"attribute_base": "10",
+				"cost_per_point": 20,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "ht",
+				"type": "integer",
+				"name": "HT",
+				"full_name": "Health",
+				"attribute_base": "10",
+				"cost_per_point": 10,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "will",
+				"type": "integer",
+				"name": "Will",
+				"full_name": "",
+				"attribute_base": "$iq",
+				"cost_per_point": 5,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "fright_check",
+				"type": "integer",
+				"name": "Fright Check",
+				"full_name": "",
+				"attribute_base": "$will",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "per",
+				"type": "integer",
+				"name": "Per",
+				"full_name": "Perception",
+				"attribute_base": "$iq",
+				"cost_per_point": 5,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "vision",
+				"type": "integer",
+				"name": "Vision",
+				"full_name": "",
+				"attribute_base": "$per",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "hearing",
+				"type": "integer",
+				"name": "Hearing",
+				"full_name": "",
+				"attribute_base": "$per",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "taste_smell",
+				"type": "integer",
+				"name": "Taste & Smell",
+				"full_name": "",
+				"attribute_base": "$per",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "touch",
+				"type": "integer",
+				"name": "Touch",
+				"full_name": "",
+				"attribute_base": "$per",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "basic_speed",
+				"type": "decimal",
+				"name": "Basic Speed",
+				"full_name": "",
+				"attribute_base": "($dx+$ht)/4",
+				"cost_per_point": 20,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "basic_move",
+				"type": "integer",
+				"name": "Basic Move",
+				"full_name": "",
+				"attribute_base": "floor($basic_speed)",
+				"cost_per_point": 5,
+				"cost_adj_percent_per_sm": 0
+			},
+			{
+				"id": "fp",
+				"type": "pool",
+				"name": "FP",
+				"full_name": "Fatigue Points",
+				"attribute_base": "$ht",
+				"cost_per_point": 3,
+				"cost_adj_percent_per_sm": 0,
+				"thresholds": [
+					{
+						"state": "Unconscious",
+						"explanation": "",
+						"multiplier": -1,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Collapse",
+						"explanation": "Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\nEach FP you lose below 0 also causes 1 HP of injury\nMove, Dodge and ST are halved (B426)",
+						"multiplier": 0,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tired",
+						"explanation": "Move, Dodge and ST are halved (B426)",
+						"multiplier": 1,
+						"divisor": 3,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge",
+							"halve_st"
+						]
+					},
+					{
+						"state": "Tiring",
+						"explanation": "",
+						"multiplier": 1,
+						"divisor": 1,
+						"addition": -1,
+						"ops": [
+
+						]
+					},
+					{
+						"state": "Rested",
+						"explanation": "",
+						"multiplier": 1,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+
+						]
+					}
+				]
+			},
+			{
+				"id": "hp",
+				"type": "pool",
+				"name": "HP",
+				"full_name": "Hit Points",
+				"attribute_base": "$st",
+				"cost_per_point": 2,
+				"cost_adj_percent_per_sm": 10,
+				"thresholds": [
+					{
+						"state": "Dead",
+						"explanation": "",
+						"multiplier": -5,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #4",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-4 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"multiplier": -4,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #3",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-3 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"multiplier": -3,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #2",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-2 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"multiplier": -2,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Dying #1",
+						"explanation": "Roll vs. HT to avoid death\nRoll vs. HT-1 every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"multiplier": -1,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Collapse",
+						"explanation": "Roll vs. HT every second to avoid falling unconscious\nMove and Dodge are halved (B419)",
+						"multiplier": 0,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Reeling",
+						"explanation": "Move and Dodge are halved (B419)",
+						"multiplier": 1,
+						"divisor": 3,
+						"addition": 0,
+						"ops": [
+							"halve_move",
+							"halve_dodge"
+						]
+					},
+					{
+						"state": "Wounded",
+						"explanation": "",
+						"multiplier": 1,
+						"divisor": 1,
+						"addition": -1,
+						"ops": [
+
+						]
+					},
+					{
+						"state": "Healthy",
+						"explanation": "",
+						"multiplier": 1,
+						"divisor": 1,
+						"addition": 0,
+						"ops": [
+
+						]
+					}
+				]
+			}
+		],
+		"hit_locations": {
+			"id": "humanoid",
+			"name": "Humanoid",
+			"roll": "3d",
+			"locations": [
+				{
+					"id": "eye",
+					"choice_name": "Eyes",
+					"table_name": "Eyes",
+					"slots": 0,
+					"hit_penalty": -9,
+					"dr_bonus": 0,
+					"description": "An attack that misses by 1 hits the torso instead. Only impaling (imp), piercing (pi-, pi, pi+, pi++), and tight-beam burning (burn) attacks can target the eye – and only from the front or sides. Injury over HP÷10 blinds the eye. Otherwise, treat as skull, but without the extra DR!",
+					"calc": {
+						"roll_range": "-",
+						"dr": 0
+					}
+				},
+				{
+					"id": "skull",
+					"choice_name": "Skull",
+					"table_name": "Skull",
+					"slots": 2,
+					"hit_penalty": -7,
+					"dr_bonus": 2,
+					"description": "An attack that misses by 1 hits the torso instead. Wounding modifier is x4. Knockdown rolls are at -10. Critical hits use the Critical Head Blow Table (B556). Exception: These special effects do not apply to toxic (tox) damage.",
+					"calc": {
+						"roll_range": "3-4",
+						"dr": 2
+					}
+				},
+				{
+					"id": "face",
+					"choice_name": "Face",
+					"table_name": "Face",
+					"slots": 1,
+					"hit_penalty": -5,
+					"dr_bonus": 0,
+					"description": "An attack that misses by 1 hits the torso instead. Jaw, cheeks, nose, ears, etc. If the target has an open-faced helmet, ignore its DR. Knockdown rolls are at -5. Critical hits use the Critical Head Blow Table (B556). Corrosion (cor) damage gets a x1½ wounding modifier, and if it inflicts a major wound, it also blinds one eye (both eyes on damage over full HP). Random attacks from behind hit the skull instead.",
+					"calc": {
+						"roll_range": "5",
+						"dr": 0
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "Leg",
+					"table_name": "Right Leg",
+					"slots": 2,
+					"hit_penalty": -2,
+					"dr_bonus": 0,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge piercing (pi++), and impaling (imp) damage to x1. Any major wound (loss of over ½ HP from one blow) cripples the limb. Damage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "6-7",
+						"dr": 0
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "Arm",
+					"table_name": "Right Arm",
+					"slots": 1,
+					"hit_penalty": -2,
+					"dr_bonus": 0,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge piercing (pi++), and impaling (imp) damage to x1. Any major wound (loss of over ½ HP from one blow) cripples the limb. Damage beyond that threshold is lost. If holding a shield, double the penalty to hit: -4 for shield arm instead of -2.",
+					"calc": {
+						"roll_range": "8",
+						"dr": 0
+					}
+				},
+				{
+					"id": "torso",
+					"choice_name": "Torso",
+					"table_name": "Torso",
+					"slots": 2,
+					"hit_penalty": 0,
+					"dr_bonus": 0,
+					"description": "",
+					"calc": {
+						"roll_range": "9-10",
+						"dr": 0
+					}
+				},
+				{
+					"id": "groin",
+					"choice_name": "Groin",
+					"table_name": "Groin",
+					"slots": 1,
+					"hit_penalty": -3,
+					"dr_bonus": 0,
+					"description": "An attack that misses by 1 hits the torso instead. Human males and the males of similar species suffer double shock from crushing (cr) damage, and get -5 to knockdown rolls. Otherwise, treat as a torso hit.",
+					"calc": {
+						"roll_range": "11",
+						"dr": 0
+					}
+				},
+				{
+					"id": "arm",
+					"choice_name": "Arm",
+					"table_name": "Left Arm",
+					"slots": 1,
+					"hit_penalty": -2,
+					"dr_bonus": 0,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge piercing (pi++), and impaling (imp) damage to x1. Any major wound (loss of over ½ HP from one blow) cripples the limb. Damage beyond that threshold is lost. If holding a shield, double the penalty to hit: -4 for shield arm instead of -2.",
+					"calc": {
+						"roll_range": "12",
+						"dr": 0
+					}
+				},
+				{
+					"id": "leg",
+					"choice_name": "Leg",
+					"table_name": "Left Leg",
+					"slots": 2,
+					"hit_penalty": -2,
+					"dr_bonus": 0,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge piercing (pi++), and impaling (imp) damage to x1. Any major wound (loss of over ½ HP from one blow) cripples the limb. Damage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "13-14",
+						"dr": 0
+					}
+				},
+				{
+					"id": "hand",
+					"choice_name": "Hand",
+					"table_name": "Hand",
+					"slots": 1,
+					"hit_penalty": -4,
+					"dr_bonus": 0,
+					"description": "If holding a shield, double the penalty to hit: -8 for shield hand instead of -4. Reduce the wounding multiplier of large piercing (pi+), huge piercing (pi++), and impaling (imp) damage to x1. Any major wound (loss of over ⅓ HP from one blow) cripples the extremity. Damage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "15",
+						"dr": 0
+					}
+				},
+				{
+					"id": "foot",
+					"choice_name": "Foot",
+					"table_name": "Foot",
+					"slots": 1,
+					"hit_penalty": -4,
+					"dr_bonus": 0,
+					"description": "Reduce the wounding multiplier of large piercing (pi+), huge piercing (pi++), and impaling (imp) damage to x1. Any major wound (loss of over ⅓ HP from one blow) cripples the extremity. Damage beyond that threshold is lost.",
+					"calc": {
+						"roll_range": "16",
+						"dr": 0
+					}
+				},
+				{
+					"id": "neck",
+					"choice_name": "Neck",
+					"table_name": "Neck",
+					"slots": 2,
+					"hit_penalty": -5,
+					"dr_bonus": 0,
+					"description": "An attack that misses by 1 hits the torso instead. Neck and throat. Increase the wounding multiplier of crushing (cr) and corrosion (cor) attacks to x1½, and that of cutting (cut) damage to x2. At the GM’s option, anyone killed by a cutting (cut) blow to the neck is decapitated!",
+					"calc": {
+						"roll_range": "17-18",
+						"dr": 0
+					}
+				},
+				{
+					"id": "vitals",
+					"choice_name": "Vitals",
+					"table_name": "Vitals",
+					"slots": 0,
+					"hit_penalty": -3,
+					"dr_bonus": 0,
+					"description": "An attack that misses by 1 hits the torso instead. Heart, lungs, kidneys, etc. Increase the wounding modifier for an impaling (imp) or any piercing (pi-, pi, pi+, pi++) attack to x3. Increase the wounding modifier for a tight-beam burning (burn) attack to x2. Other attacks cannot target the vitals.",
+					"calc": {
+						"roll_range": "-",
+						"dr": 0
+					}
+				}
+			]
+		}
+	},
+	"created_date": "Aug 18, 2021, 11:12 AM",
+	"modified_date": "Aug 25, 2021, 2:37 PM",
+	"profile": {
+		"player_name": "lucas",
+		"name": "Donatien Alphonsien Curval",
+		"age": "35",
+		"birthday": "Oct 12",
+		"eyes": "Brown",
+		"hair": "Black, Wavy, Short",
+		"skin": "Dark Brown",
+		"handedness": "Right",
+		"height": "5' 3\"",
+		"weight": "126 lb",
+		"gender": "Male",
+		"tech_level": "3"
+	},
+	"attributes": [
+		{
+			"attr_id": "st",
+			"adj": -1,
+			"calc": {
+				"value": 9,
+				"points": -10
+			}
+		},
+		{
+			"attr_id": "dx",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "iq",
+			"adj": 3,
+			"calc": {
+				"value": 13,
+				"points": 60
+			}
+		},
+		{
+			"attr_id": "ht",
+			"adj": 0,
+			"calc": {
+				"value": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "will",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fright_check",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "per",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "vision",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hearing",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "taste_smell",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "touch",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_speed",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "basic_move",
+			"adj": 0,
+			"calc": {
+				"value": 5,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "fp",
+			"adj": 0,
+			"damage": 0,
+			"calc": {
+				"value": 10,
+				"current": 10,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "hp",
+			"adj": 0,
+			"damage": 0,
+			"calc": {
+				"value": 9,
+				"current": 9,
+				"points": 0
+			}
+		}
+	],
+	"total_points": 65,
+	"advantages": [
+		{
+			"type": "advantage",
+			"id": "6f158a8f-c842-4beb-b243-6d680d415e37",
+			"name": "Clerical Investment",
+			"social": true,
+			"base_points": 5,
+			"reference": "B43",
+			"calc": {
+				"points": 5
+			},
+			"features": [
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"situation": "from members of your religion and those who respect your faith"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "7a4fabd1-8223-46f3-b32b-20eb4cbdb15a",
+			"name": "Voice",
+			"physical": true,
+			"base_points": 10,
+			"reference": "B97",
+			"calc": {
+				"points": 10
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "diplomacy"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fast-talk"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "mimicry"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "performance"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "politics"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "public speaking"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "sex appeal"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 2,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "singing"
+					}
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 2,
+					"situation": "from others who can hear your voice"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage",
+			"id": "d92aca18-8ebd-4f65-acb7-d7c75e90cbe2",
+			"name": "Charisma",
+			"mental": true,
+			"levels": "1",
+			"points_per_level": 5,
+			"reference": "B41",
+			"calc": {
+				"points": 5
+			},
+			"features": [
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "fortune-telling"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "leadership"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "panhandling"
+					}
+				},
+				{
+					"type": "skill_bonus",
+					"amount": 1,
+					"per_level": true,
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "public speaking"
+					}
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"per_level": true,
+					"situation": "from sapient being with whom you actively interact (converse, lecture, etc.)"
+				},
+				{
+					"type": "reaction_bonus",
+					"amount": 1,
+					"per_level": true,
+					"situation": "to Influence rolls"
+				}
+			],
+			"categories": [
+				"Advantage"
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "3ce5e18a-76f7-4446-93c5-718e91307d45",
+			"name": "Linguas",
+			"calc": {
+				"points": 0
+			},
+			"open": false,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "1c33cf8f-6986-4a0e-92a7-8168fef88b79",
+					"name": "Language: Provençal",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "92cb7981-1879-4d0e-9494-12d0c12e0186",
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a5358c67-04d6-4f6e-8612-397511e6e16b",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"id": "2cf7fa41-8a01-400f-9296-5732feafc1e8",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"id": "9f2ae857-a186-4c38-9889-433b3ffa4b3b",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"id": "73db6e3a-0b18-4323-9cae-09630916a846",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"id": "605b5eb0-552c-4ca1-a708-7403341fc062",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"id": "a3ba0bb7-876a-47b1-b4ca-1a2eddcda35a",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"id": "1b7fa7fa-1af2-4a3c-8464-d52972de1785",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"id": "ace22f69-8b73-4869-8180-13859f8278b2",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "5b1ce573-ca75-41db-b5fa-5b6523e96428",
+					"name": "Language: Inglês",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f8cfb074-dca8-4941-8594-e4a7cbcc3844",
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "a7918fc0-64f6-49e7-900e-6e4b95a4e47d",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"id": "c0c9bd2b-1cb3-42f0-9d8b-deea421e2e6a",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"id": "43943d23-c268-4ce5-b26a-0d1418600b9b",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"id": "fe1549d8-61ef-4e36-b6ff-a8360585d771",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"id": "8795be39-6974-492f-8408-5fe0e3e52493",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"id": "3a521ac6-7938-4855-b415-cba4bcc12e59",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"id": "735f6613-aada-4de2-a7c7-50eabdb51726",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"id": "d2a4ad10-813d-4f60-8707-8fafa6356a5c",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "69b718b0-fae8-4ddd-a1e3-6bd032e3a0e2",
+					"name": "Language: Hebraico",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "0256860e-f67a-4382-84a9-be9fd5911dc1",
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "61091031-6dd8-43a7-bc8c-4f3caa4a09f3",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"id": "9639168d-72e7-4392-a4c0-cfc2da268fba",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"id": "367ab869-8895-4b40-b71d-2c836895ccb9",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"id": "63957612-445f-4e45-98cb-39c13f0eec46",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"id": "7e842f1c-5b77-4be5-a428-9b586ee63173",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"id": "99f11583-d6a7-4c87-9153-0c0d58f37247",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"id": "456b0210-f68f-4953-936f-b716bdb3aa57",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"id": "200f6a30-6686-45e7-9ff6-75e7604b6e2a",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "bec8d5cb-a771-4795-9455-285b7c62a0fe",
+					"name": "Language: Latim",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "48c120db-f7a2-45bf-9e3c-36800cab0499",
+							"name": "Native",
+							"reference": "B23",
+							"cost_type": "points",
+							"cost": -6,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "769c092c-17c3-49d5-9dce-c54069f0a7f1",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"id": "c61c2d18-4a66-436f-9c7d-ca774ad860ba",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"id": "adc3b951-c634-4d70-a125-5d317aa65e2e",
+							"disabled": true,
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"id": "37d4f498-721a-4579-9fdb-85a87a7fa5f6",
+							"name": "Spoken",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						},
+						{
+							"type": "modifier",
+							"id": "a6a6a34a-37fb-4ab8-b78b-dadf8d49b38a",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 0,
+							"affects": "total",
+							"notes": "None"
+						},
+						{
+							"type": "modifier",
+							"id": "c170aa47-135e-45f7-879f-29574d18b9d2",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 1,
+							"affects": "total",
+							"notes": "Broken"
+						},
+						{
+							"type": "modifier",
+							"id": "1e029d64-f280-4be3-9e02-2aa0c7ee7ed9",
+							"disabled": true,
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 2,
+							"affects": "total",
+							"notes": "Accented"
+						},
+						{
+							"type": "modifier",
+							"id": "30c8db11-84c6-4671-95c4-a7ad7661dbfe",
+							"name": "Written",
+							"reference": "B24",
+							"cost_type": "points",
+							"cost": 3,
+							"affects": "total",
+							"notes": "Native"
+						}
+					],
+					"reference": "B24",
+					"calc": {
+						"points": 0
+					},
+					"categories": [
+						"Advantage",
+						"Language"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "fd522869-a9e4-4350-b6ea-fd9f6f8ce43c",
+			"name": "Desvantagens",
+			"calc": {
+				"points": -50
+			},
+			"open": false,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "785b4370-6739-49d1-8adc-60d317678736",
+					"name": "Sense of Duty",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "df95f018-34a3-4d6f-a966-b28030078fdc",
+							"disabled": true,
+							"name": "Friends and Companions",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e8fa77b6-1817-4d9f-b2d5-d6b852abed7f",
+							"name": "Gabrielle e Filhos",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "4d707aeb-46f4-438a-9521-c832a92e1e55",
+							"disabled": true,
+							"name": "@Individual@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "b02743ce-719c-4fc7-aaa5-8a38e4dfdd72",
+							"disabled": true,
+							"name": "@Large Group@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "57d26d64-ad55-44fa-9f4b-b560e019d0a3",
+							"disabled": true,
+							"name": "@Entire Race@",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -15,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "787a440a-d6bb-4640-823f-e070454cf1a0",
+							"disabled": true,
+							"name": "Every Living Being",
+							"reference": "B153",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						}
+					],
+					"reference": "B153",
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "46a5de0c-7708-496e-aadc-26d0338b59ae",
+					"name": "Guilt Complex",
+					"mental": true,
+					"base_points": -5,
+					"reference": "B137",
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "6822ba3c-aa5d-42f7-af54-f1ce30c59435",
+					"name": "Coitophobia (Sex)",
+					"mental": true,
+					"base_points": -10,
+					"cr": 12,
+					"cr_adj": "action_penalty",
+					"reference": "B150",
+					"calc": {
+						"points": -10
+					},
+					"notes": "You are terrified by the idea of sexual relations or the loss of your virginity.",
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "692111b1-0f59-445b-bf6f-dfcf03024c3c",
+					"name": "Intolerance (Semitas)",
+					"mental": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "bcc77d76-f999-4d83-8828-3bca5d39f4f7",
+							"name": "Scope: Common",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "06a91e2b-5f7d-4607-87d7-f1c19028dfcb",
+							"disabled": true,
+							"name": "Scope: Occasional",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -2,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "0a514251-43b4-49d1-aa97-ff95fe5feffa",
+							"disabled": true,
+							"name": "Scope: Rare",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -1,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "fda5d512-55ee-4e4d-8f05-3925b7adab60",
+							"disabled": true,
+							"name": "Scope: Anyone unlike you",
+							"reference": "B140",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						}
+					],
+					"reference": "B140",
+					"calc": {
+						"points": -5
+					},
+					"features": [
+						{
+							"type": "reaction_bonus",
+							"amount": -1,
+							"situation": "from victims of your intolerance (may be as much as -5, at GM's discretion)"
+						}
+					],
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "36b3f139-4959-4c0b-b250-df0690e227c8",
+					"name": "Secret (Semita)",
+					"social": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "f0214772-5550-423c-9a41-d7457f31f9b4",
+							"disabled": true,
+							"name": "Serious Embarrassment",
+							"reference": "B152",
+							"cost_type": "points",
+							"cost": -5,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "b1c062d3-17bc-4a9f-ab74-41e5b522ac30",
+							"disabled": true,
+							"name": "Utter Rejection",
+							"reference": "B152",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "2a6d5204-cdcd-4132-aa66-49a48783d44b",
+							"name": "Imprisonment",
+							"reference": "B152",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "2d9ee2d9-2054-4862-a418-5349fafa078f",
+							"disabled": true,
+							"name": "Possible Death",
+							"reference": "B152",
+							"cost_type": "points",
+							"cost": -30,
+							"affects": "total"
+						}
+					],
+					"reference": "B152",
+					"calc": {
+						"points": -20
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "75ffbc64-980a-4f66-94e3-1135022ee625",
+					"name": "Restricted Diet (Animais impuros)",
+					"physical": true,
+					"modifiers": [
+						{
+							"type": "modifier",
+							"id": "4e3bfaa4-7ca1-4a33-8553-3a81585f403e",
+							"name": "Substitution",
+							"reference": "B151",
+							"cost_type": "percentage",
+							"cost": -50,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "5665d11e-8913-48dd-ba22-66fb6ed7fc6a",
+							"name": "Very Common",
+							"reference": "B151",
+							"cost_type": "points",
+							"cost": -10,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "c92844ea-2567-4337-90b0-a8ee480f883f",
+							"disabled": true,
+							"name": "Common",
+							"reference": "B151",
+							"cost_type": "points",
+							"cost": -20,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "e7b5f554-7782-4dc9-ad15-b591b068dd28",
+							"disabled": true,
+							"name": "Occasional",
+							"reference": "B151",
+							"cost_type": "points",
+							"cost": -30,
+							"affects": "total"
+						},
+						{
+							"type": "modifier",
+							"id": "503ca9fa-541d-4d9f-bd35-f7fd56383716",
+							"disabled": true,
+							"name": "Rare",
+							"reference": "B151",
+							"cost_type": "points",
+							"cost": -40,
+							"affects": "total"
+						}
+					],
+					"reference": "B151",
+					"calc": {
+						"points": -5
+					},
+					"categories": [
+						"Disadvantage"
+					]
+				}
+			]
+		},
+		{
+			"type": "advantage_container",
+			"id": "fdcccacb-98c2-4e69-bcca-3febceb3c0bc",
+			"name": "Peculiaridades",
+			"calc": {
+				"points": -5
+			},
+			"open": false,
+			"children": [
+				{
+					"type": "advantage",
+					"id": "980a2b88-d98b-405b-8d16-0f6ae49f1419",
+					"name": "Cabelos muito oleosos",
+					"physical": true,
+					"base_points": -1,
+					"reference": "B164",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "52396d6c-0382-4886-be34-edac2ec260da",
+					"name": "Quando nervoso Murmura Preces em Hebraico",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B162",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "e955ba7b-9461-4579-897c-743eb714b128",
+					"name": "Maniaco por Limpeza",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B162",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "b61eb009-00b0-4bd8-83c8-caa601080a9b",
+					"name": "Sua voz sempre tem um tom professoral.",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B162",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				},
+				{
+					"type": "advantage",
+					"id": "a62e9fb8-d885-4559-909d-cde2d47c1001",
+					"name": "Presenciar cenas de sofrimento e dor lhe deixam confuso",
+					"mental": true,
+					"base_points": -1,
+					"reference": "B162",
+					"calc": {
+						"points": -1
+					},
+					"categories": [
+						"Quirk"
+					]
+				}
+			]
+		}
+	],
+	"skills": [
+		{
+			"type": "skill_container",
+			"id": "ed3b908c-a0f5-49ba-914b-2ffe7f020fb3",
+			"name": "Scientia et Ars",
+			"open": true,
+			"children": [
+				{
+					"type": "skill_container",
+					"id": "86b34cb5-58bb-4242-9462-213e3209d1d8",
+					"name": "Scientia Mundi",
+					"open": false,
+					"children": [
+						{
+							"type": "skill",
+							"id": "0d22f166-d293-48a1-a9ed-14aac2b8e4ec",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"specialization": "Britania",
+							"difficulty": "iq/e",
+							"points": 1,
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Geography",
+									"modifier": -3
+								}
+							],
+							"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+							"categories": [
+								"Everyman",
+								"Knowledge"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "941287bb-139e-4cfe-8db1-17f749b03758",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"specialization": "Normandia; Lived there",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -4,
+								"level": 9,
+								"adjusted_level": 9,
+								"points": -9
+							},
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Geography",
+									"modifier": -3
+								}
+							],
+							"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+							"categories": [
+								"Everyman",
+								"Knowledge"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "573f54e1-39de-47e1-a1bb-19a361c9ff4b",
+							"name": "Area Knowledge",
+							"reference": "B176",
+							"specialization": "Occitânia",
+							"difficulty": "iq/e",
+							"points": 1,
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Geography",
+									"modifier": -3
+								}
+							],
+							"notes": "General nature of its settlements and towns, political allegiances, leaders, and most citizens of Status 5+",
+							"categories": [
+								"Everyman",
+								"Knowledge"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "e3aa93a1-c934-4a33-8204-98dafe017716",
+					"name": "Scientia Natura",
+					"open": false,
+					"children": [
+						{
+							"type": "skill",
+							"id": "6aa20377-8954-4c93-840a-1e5c4942b9a6",
+							"name": "First Aid",
+							"reference": "B195",
+							"tech_level": "3",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaulted_from": {
+								"type": "skill",
+								"name": "Physician",
+								"level": 11,
+								"adjusted_level": 11,
+								"points": -11
+							},
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Esoteric Medicine"
+								},
+								{
+									"type": "skill",
+									"name": "Physician"
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Everyman",
+								"Medical"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "c23dd8d8-50f6-4af6-b762-0e1c4d0da4a2",
+							"name": "Physician",
+							"reference": "B213",
+							"tech_level": "3",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -7,
+								"level": 6,
+								"adjusted_level": 6,
+								"points": -6
+							},
+							"calc": {
+								"level": 11,
+								"rsl": "IQ-2"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -7
+								},
+								{
+									"type": "skill",
+									"name": "First Aid",
+									"modifier": -11
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Medical"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "deab80ef-8cd7-494b-a4ea-7b0f40010781",
+							"name": "Physiology",
+							"reference": "B213",
+							"specialization": "Humana",
+							"tech_level": "3",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 11,
+								"rsl": "IQ-2"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Diagnosis",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Physician",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Surgery",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Medical",
+								"Natural Science"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "7548edf9-4972-4d4c-b112-b6d7f20aaa83",
+							"name": "Surgery",
+							"reference": "B223",
+							"tech_level": "3",
+							"difficulty": "iq/vh",
+							"points": 1,
+							"defaulted_from": {
+								"type": "skill",
+								"name": "Physician",
+								"modifier": -5,
+								"level": 6,
+								"adjusted_level": 6,
+								"points": -6
+							},
+							"calc": {
+								"level": 10,
+								"rsl": "IQ-3"
+							},
+							"prereqs": {
+								"type": "prereq_list",
+								"all": false,
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "first aid"
+										}
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "physician"
+										}
+									}
+								]
+							},
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "First Aid",
+									"modifier": -12
+								},
+								{
+									"type": "skill",
+									"name": "Physician",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Physiology",
+									"modifier": -8
+								},
+								{
+									"type": "skill",
+									"name": "Veterinary",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Medical"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "6755bdaf-ffec-4364-a6ff-85e342ed5ab3",
+							"name": "Veterinary",
+							"reference": "B228",
+							"tech_level": "3",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaulted_from": {
+								"type": "skill",
+								"name": "Physician",
+								"modifier": -5,
+								"level": 6,
+								"adjusted_level": 6,
+								"points": -6
+							},
+							"calc": {
+								"level": 11,
+								"rsl": "IQ-2"
+							},
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Animal Handling",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Physician",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Surgery",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Animal",
+								"Medical"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "d51dc783-dac2-44e2-872f-f4c068132c41",
+							"name": "Biology",
+							"reference": "B180",
+							"specialization": "Zoology",
+							"tech_level": "3",
+							"difficulty": "iq/vh",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 10,
+								"rsl": "IQ-3"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -6
+								}
+							],
+							"categories": [
+								"Natural Science"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "ca1ba747-9179-42ac-a59f-e4fb76679839",
+							"name": "Biology",
+							"reference": "B180",
+							"specialization": "Botany",
+							"tech_level": "3",
+							"difficulty": "iq/vh",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 10,
+								"rsl": "IQ-3"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Naturalist",
+									"modifier": -6
+								}
+							],
+							"categories": [
+								"Natural Science",
+								"Plant"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "b886da0e-d576-4ef9-a55b-9523e194f171",
+							"name": "Gardening",
+							"reference": "B197",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -4,
+								"level": 9,
+								"adjusted_level": 9,
+								"points": -9
+							},
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Farming",
+									"modifier": -3
+								}
+							],
+							"categories": [
+								"Plant"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "9e02589a-3c08-45b6-84c2-d12181260628",
+							"name": "Farming",
+							"reference": "B194",
+							"tech_level": "3",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaulted_from": {
+								"type": "skill",
+								"name": "Gardening",
+								"modifier": -3,
+								"level": 10,
+								"adjusted_level": 10,
+								"points": -10
+							},
+							"calc": {
+								"level": 12,
+								"rsl": "IQ-1"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Biology",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Gardening",
+									"modifier": -3
+								}
+							],
+							"categories": [
+								"Plant"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "6336ea5a-f732-43e7-a83a-03e17dd14f2d",
+					"name": "Scientia Homine",
+					"open": false,
+					"children": [
+						{
+							"type": "skill",
+							"id": "bd5c3b89-7648-439b-ad1a-0c6c45706804",
+							"name": "Politics",
+							"reference": "B215",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -5,
+								"level": 8,
+								"adjusted_level": 8,
+								"points": -8
+							},
+							"calc": {
+								"level": 14,
+								"rsl": "IQ+1"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Diplomacy",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Business",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "2c5ccd8b-29b2-4529-a84c-7162404a6a91",
+							"name": "Administration",
+							"reference": "B174",
+							"difficulty": "iq/a",
+							"points": 2,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -5,
+								"level": 8,
+								"adjusted_level": 8,
+								"points": -8
+							},
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Merchant",
+									"modifier": -3
+								},
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Business",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "86cc2e97-83f4-4d8e-ab85-43fbc71c176e",
+							"name": "Theology",
+							"reference": "B226",
+							"specialization": "Muçulmana",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 11,
+								"rsl": "IQ-2"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Religious Ritual",
+									"specialization": "Muçulmana",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Social Sciences/Humanities"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "5b5b6821-bee2-43c2-8ea3-df753ccc728e",
+							"name": "Theology",
+							"reference": "B226",
+							"specialization": "Judaica",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 11,
+								"rsl": "IQ-2"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Religious Ritual",
+									"specialization": "Judaica",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Social Sciences/Humanities"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "da977983-5801-4d47-8d0a-b00e34b363d7",
+							"name": "Theology",
+							"reference": "B226",
+							"specialization": "Catolica",
+							"difficulty": "iq/h",
+							"points": 2,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 12,
+								"rsl": "IQ-1"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Religious Ritual",
+									"specialization": "Catolica",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Social Sciences/Humanities"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "c310136a-923d-4695-a981-4d03beb31e60",
+					"name": "Ars Homine",
+					"open": false,
+					"children": [
+						{
+							"type": "skill",
+							"id": "ad1162e1-b444-4b3d-88d6-274503c51afa",
+							"name": "Diplomacy",
+							"reference": "B187",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								},
+								{
+									"type": "skill",
+									"name": "Politics",
+									"modifier": -6
+								}
+							],
+							"categories": [
+								"Business",
+								"Police",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "0b769743-6455-447f-81b5-e4dbc73dbf30",
+							"name": "Persuade",
+							"reference": "B191",
+							"difficulty": "will/h",
+							"points": 1,
+							"calc": {
+								"level": 11,
+								"rsl": "Will-2"
+							},
+							"prereqs": {
+								"type": "prereq_list",
+								"all": true,
+								"prereqs": [
+									{
+										"type": "advantage_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "charisma"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 1
+										}
+									},
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "public speaking"
+										},
+										"level": {
+											"compare": "at_least",
+											"qualifier": 12
+										}
+									}
+								]
+							},
+							"categories": [
+								"Esoteric"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "09d58a16-1335-4a17-9d9c-dda8069c73c1",
+							"name": "Fast-Talk",
+							"reference": "B195",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -5,
+								"level": 8,
+								"adjusted_level": 8,
+								"points": -8
+							},
+							"calc": {
+								"level": 14,
+								"rsl": "IQ+1"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Acting",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Criminal/Street",
+								"Social",
+								"Spy"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "952d1e51-59ac-4dec-aabe-0404c42a412b",
+							"name": "Savoir-Faire",
+							"reference": "B218",
+							"specialization": "Clero",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -4,
+								"level": 9,
+								"adjusted_level": 9,
+								"points": -9
+							},
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Games",
+									"modifier": -3
+								}
+							],
+							"categories": [
+								"Knowledge",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "6dd568ad-c1e5-414b-bae6-37bc62fea36d",
+							"name": "Acting",
+							"reference": "B174",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaulted_from": {
+								"type": "skill",
+								"name": "Performance",
+								"modifier": -2,
+								"level": 10,
+								"adjusted_level": 10,
+								"points": -10
+							},
+							"calc": {
+								"level": 12,
+								"rsl": "IQ-1"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Performance",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Public Speaking",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Social",
+								"Spy"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "9b56f366-b346-4c31-b34a-cb7adb94ee28",
+					"name": "Ars Poetica",
+					"open": false,
+					"children": [
+						{
+							"type": "skill",
+							"id": "ba7e735f-8bf7-42d5-b375-5665c5d77c58",
+							"name": "Singing",
+							"reference": "B220",
+							"difficulty": "ht/e",
+							"points": 1,
+							"defaulted_from": {
+								"type": "ht",
+								"modifier": -4,
+								"level": 6,
+								"adjusted_level": 6,
+								"points": -6
+							},
+							"calc": {
+								"level": 12,
+								"rsl": "HT+2"
+							},
+							"defaults": [
+								{
+									"type": "ht",
+									"modifier": -4
+								}
+							],
+							"categories": [
+								"Arts/Entertainment"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "58830b7b-3435-4699-9140-c09ee13f6895",
+							"name": "Public Speaking",
+							"reference": "B216",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaulted_from": {
+								"type": "skill",
+								"name": "Performance",
+								"modifier": -2,
+								"level": 10,
+								"adjusted_level": 10,
+								"points": -10
+							},
+							"calc": {
+								"level": 15,
+								"rsl": "IQ+2"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Acting",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Performance",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Politics",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Business",
+								"Scholarly",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "422e9c2d-d975-447b-a60a-d68a48b78550",
+							"name": "Performance",
+							"reference": "B212",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -5,
+								"level": 8,
+								"adjusted_level": 8,
+								"points": -8
+							},
+							"calc": {
+								"level": 14,
+								"rsl": "IQ+1"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Acting",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Public Speaking",
+									"modifier": -2
+								}
+							],
+							"categories": [
+								"Arts/Entertainment"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "7981859f-7d66-4e8d-bd69-fb0e0c786d17",
+					"name": "Ars Corpori",
+					"open": false,
+					"children": [
+						{
+							"type": "skill",
+							"id": "0edf59de-b40d-4bab-99e2-4aee20655eee",
+							"name": "Staff",
+							"reference": "B208",
+							"difficulty": "dx/a",
+							"points": 2,
+							"defaulted_from": {
+								"type": "dx",
+								"modifier": -5,
+								"level": 5,
+								"adjusted_level": 5,
+								"points": -5
+							},
+							"calc": {
+								"level": 10,
+								"rsl": "DX+0"
+							},
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Polearm",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Spear",
+									"modifier": -2
+								}
+							],
+							"categories": [
+								"Combat/Weapon",
+								"Melee Combat"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "0074cf59-4ae7-4d1b-8a82-25e4eb61a5dd",
+							"name": "Riding",
+							"reference": "B217",
+							"specialization": "Equine",
+							"difficulty": "dx/a",
+							"points": 1,
+							"defaulted_from": {
+								"type": "dx",
+								"modifier": -5,
+								"level": 5,
+								"adjusted_level": 5,
+								"points": -5
+							},
+							"calc": {
+								"level": 9,
+								"rsl": "DX-1"
+							},
+							"defaults": [
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Animal Handling",
+									"specialization": "Equine",
+									"modifier": -3
+								}
+							],
+							"categories": [
+								"Animal"
+							]
+						}
+					]
+				},
+				{
+					"type": "skill_container",
+					"id": "9684e884-02ed-4988-8893-c634e4f3c12e",
+					"name": "Ars Magica",
+					"open": false,
+					"children": [
+						{
+							"type": "skill",
+							"id": "89c349f4-2c0e-43d6-824d-30b5f7417b12",
+							"name": "Artes Liberalis",
+							"reference": "A",
+							"difficulty": "iq/vh",
+							"points": 8,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"categories": [
+								"Occult/Magical"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "868898a1-1bf8-40c5-a5d8-04860060293e",
+							"name": "Philosophiae",
+							"reference": "A",
+							"difficulty": "iq/vh",
+							"points": 1,
+							"calc": {
+								"level": 10,
+								"rsl": "IQ-3"
+							}
+						},
+						{
+							"type": "skill",
+							"id": "d1345165-cc03-4232-b6e5-e53291f639a0",
+							"name": "Law",
+							"reference": "A",
+							"specialization": "Peripheral Law",
+							"difficulty": "iq/h",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -6,
+								"level": 7,
+								"adjusted_level": 7,
+								"points": -7
+							},
+							"calc": {
+								"level": 11,
+								"rsl": "IQ-2"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -6
+								}
+							],
+							"categories": [
+								"Business",
+								"Police",
+								"Social Sciences/Humanities"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "2692ffd9-f49b-4ac3-ba7a-f8f1d2fc52c1",
+							"name": "Savoir-Faire",
+							"reference": "A",
+							"specialization": "Magi",
+							"difficulty": "iq/e",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -4,
+								"level": 9,
+								"adjusted_level": 9,
+								"points": -9
+							},
+							"calc": {
+								"level": 13,
+								"rsl": "IQ+0"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Games",
+									"modifier": -3
+								}
+							],
+							"categories": [
+								"Knowledge",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "41293cec-9427-4813-b778-76cec62532e9",
+							"name": "Teaching",
+							"reference": "B224",
+							"difficulty": "iq/a",
+							"points": 1,
+							"defaulted_from": {
+								"type": "iq",
+								"modifier": -5,
+								"level": 8,
+								"adjusted_level": 8,
+								"points": -8
+							},
+							"calc": {
+								"level": 12,
+								"rsl": "IQ-1"
+							},
+							"defaults": [
+								{
+									"type": "iq",
+									"modifier": -5
+								}
+							],
+							"categories": [
+								"Scholarly",
+								"Social"
+							]
+						},
+						{
+							"type": "skill",
+							"id": "4843af0e-da34-4ab8-a1cf-d4095fff04b1",
+							"name": "Conhecimento do Reino ",
+							"specialization": "Profano",
+							"difficulty": "iq/vh",
+							"points": 2,
+							"calc": {
+								"level": 11,
+								"rsl": "IQ-2"
+							}
+						},
+						{
+							"type": "skill",
+							"id": "a91e361a-e7b1-4161-87b6-bcde4ceb8ac3",
+							"name": "Conhecimento do Reino ",
+							"specialization": "Divino",
+							"difficulty": "iq/vh",
+							"points": 4,
+							"calc": {
+								"level": 12,
+								"rsl": "IQ-1"
+							}
+						},
+						{
+							"type": "skill",
+							"id": "cd0e28de-ab2c-45b0-b406-fef92804b3b1",
+							"name": "Conhecimento do Reino ",
+							"specialization": "Mágico",
+							"difficulty": "iq/vh",
+							"points": 1,
+							"calc": {
+								"level": 10,
+								"rsl": "IQ-3"
+							}
+						},
+						{
+							"type": "skill",
+							"id": "e5f6fe44-2b67-42a1-a798-9bfad2868129",
+							"name": "Hidden Lore",
+							"reference": "A",
+							"specialization": "Ordem Hermética",
+							"difficulty": "iq/a",
+							"points": 1,
+							"calc": {
+								"level": 12,
+								"rsl": "IQ-1"
+							},
+							"categories": [
+								"Knowledge"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

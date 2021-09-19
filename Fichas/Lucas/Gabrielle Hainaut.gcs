@@ -509,7 +509,7 @@
 		}
 	},
 	"created_date": "Jul 29, 2021, 6:34 PM",
-	"modified_date": "Sep 15, 2021, 12:52 PM",
+	"modified_date": "Sep 18, 2021, 2:18 PM",
 	"profile": {
 		"player_name": "lucas",
 		"name": "Gabrielle Hainaut",
@@ -660,7 +660,7 @@
 			"calc": {
 				"points": 130
 			},
-			"open": true,
+			"open": false,
 			"children": [
 				{
 					"type": "advantage",
@@ -854,7 +854,7 @@
 					"calc": {
 						"points": 50
 					},
-					"open": false,
+					"open": true,
 					"children": [
 						{
 							"type": "advantage",
@@ -1993,7 +1993,7 @@
 			"calc": {
 				"points": 84
 			},
-			"open": false,
+			"open": true,
 			"children": [
 				{
 					"type": "advantage",
@@ -4400,7 +4400,7 @@
 					"type": "skill_container",
 					"id": "1b2e899e-91ba-4fb3-ba0b-fc98e3aa789b",
 					"name": "Ars Magica",
-					"open": false,
+					"open": true,
 					"children": [
 						{
 							"type": "skill",
@@ -5562,7 +5562,7 @@
 					"type": "skill_container",
 					"id": "88ef3cc9-660d-45dd-89f7-fd53927a9c16",
 					"name": "Scientia Homine",
-					"open": false,
+					"open": true,
 					"children": [
 						{
 							"type": "skill",
@@ -5855,7 +5855,7 @@
 					"type": "skill_container",
 					"id": "f8fcc2dc-abae-4ab2-8c18-76142b54d35e",
 					"name": "Scientia Mundi",
-					"open": false,
+					"open": true,
 					"children": [
 						{
 							"type": "skill",
@@ -6162,7 +6162,7 @@
 					"type": "skill_container",
 					"id": "f3986619-4a6d-415e-a56a-452c1cf23b08",
 					"name": "Scientia Natura",
-					"open": false,
+					"open": true,
 					"children": [
 						{
 							"type": "skill",

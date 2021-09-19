@@ -67,11 +67,23 @@ Rituais mágicos demoram mais a ser conjurados do que Magias formulaicas e deman
 - Magias formulaicas e magia espontânea não podem ter Alvo: Divisa. Elas podem ter Alvo: Visão, para magias que conferem sentidos mágicos.
 - Magias formulaicas e magia espontânea não podem ter nível maior do que 10.
 - Rituais Mágicos sempre têm nível 4 ou maior, mesmo que os parâmetros resultem em um nível mais baixo.
+- Magias Rituais gastam 1 peão de vis por magnitude
+
+> Artes + Artes Liberalis + Philosophie
 
 # Parma Magica
 
 Uma proteção contra a magia. É um ritual especial (e não uma magia Ritual) que demora cerca de dois minutos para ser realizado. Ele permite que você adicione 3 vezes o nível da Parma Magica à sua Resistência Mágica até o próximo nascer ou pôr do sol, o que vier primeiro. Você consegue suprimir a sua Parma Magica temporariamente ao se concentrar, de maneira semelhante à sua concentração na duração de magias (AM 118). A Parma Magica não exige concentração quando está ativa. Você também pode proteger uma pessoa adicional para cada nível de Parma Magica que tiver. Isso exige que você toque em cada pessoa que quer proteger, e a proteção dura enquanto um dos personagens consegue ver o outro. O magus pode cancelá-la quando quiser, a qualquer distância. Quando um magus protege outras pessoas, o seu nível efetivo na Habilidade é reduzido em 1 ponto para cada protegido, tanto para si mesmo quanto para aqueles sob sua proteção. O magus ainda pode somar a sua Resistência de Forma e um magus protegido pela Parma Magica de outro magus também pode somar a sua Resistência de Forma. Parma Magica só pode ser aprendida por personagens que possuam O Dom e eles a aprendem como uma Habilidade Arcana, não Sobrenatural. Esta Habilidade é conhecida apenas por membros da Ordem de Hermes e a Ordem defende fortemente a postura de “Jurar ou Morrer” em relação a magos não herméticos que a aprendam – assim como uma Marcha Hermética sobre o magus que a ensinou. A Parma Magica é a última coisa ensinada a um aprendiz, recebendo a chave final para o ritual quando jura o Código de Hermes. Especializações: proteção contra qualquer Forma. (Arcana)
 
+
+
+# Gasto de Fadiga 
+## Formulaica
+| ------- | ------- | ------- |
+  | Casting Total | Spell Cast? | Fatiga |
+ | 0 ou mais  | SIm  | 0 |
+  |-1 à  -3 | Sim | 1 |
+ | -4 + | Não | 1 |
 ## Resistência Mágica
 
 ```diff

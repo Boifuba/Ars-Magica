@@ -79,11 +79,20 @@ Uma proteção contra a magia. É um ritual especial (e não uma magia Ritual) q
 
 # Gasto de Fadiga 
 ## Formulaica
-| ------- | ------- | ------- |
-  | Casting Total | Spell Cast? | Fatiga |
+  | Casting Total - Nível da Magia | Spell Cast? | Fatiga |
+  | ------- | ------- | ------- |
  | 0 ou mais  | SIm  | 0 |
   |-1 à  -3 | Sim | 1 |
  | -4 + | Não | 1 |
+
+ ## Ritual Magic
+ ! Casting Total - Nível da Magia | Spell Cast? | Fatigue |
+  | ------- | ------- | ------- |
+ 0 à -1 | Sim | 1
+-2 à -3 | Sim | 2
+-3 à -4 | Não | 3
+|> -5 | Não |4
+
 ## Resistência Mágica
 
 ```diff
